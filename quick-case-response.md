@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-02-11"
+lastupdated: "2020-03-02"
 
 keywords: escalate, support case, case, ticket, case severity, severity, support case severity
 
@@ -51,9 +51,6 @@ The following table lists some common examples of support issues, suggested seve
 {: caption="Table 1. Severity definition and initial response time" caption-side="top"}
 
 If your support inquiry requires a more immediate response, consider upgrading to the premium or advanced support plan so that you can open severity 1-4 support cases. To upgrade your support plan, contact your [IBM sales representative](https://www.ibm.com/contact/us/en/?lnk=flg-cont-usen){: external}.
-
-The updated SLO for premium support initial response time objectives effective 1 October 2018. The updates are applicable to support cases that are created on or after 1 October 2018. The premium support initial response time objectives before 1 October 2018 are within 1 hour for severity 1 and within 90 minutes for severity 2. Initial response SLOs don't apply to any sales-related inquiries or cases.
-{: note}
 
 
 
