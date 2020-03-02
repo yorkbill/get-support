@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-02-19"
+lastupdated: "2020-03-02"
 
 keywords: service support, type of service
 
@@ -38,7 +38,7 @@ Support is provided for problems that are determined to be a defect for services
 
 {{site.data.keyword.IBM_notm}} releases services or container images that are classified as beta releases. These services are in a trial stage of development and they aren't production-ready. A beta release helps {{site.data.keyword.IBM_notm}} development and marketing teams to assess the value of the service in the market. This assessment enables teams to make changes before it's released as a GA service or container image.
 
-If the root cause analysis determines the issue is a defect in the beta service or container image,  {{site.data.keyword.IBM_notm}} isn't required to provide a fix. Additionally, the case is assigned the appropriate 3 or 4 severity level.
+If the root cause analysis determines the issue is a defect in the beta service or container image, {{site.data.keyword.IBM_notm}} isn't required to provide a fix. Additionally, the case is assigned the appropriate 3 or 4 severity level.
 
 
 ## {{site.data.keyword.IBM_notm}} experimental service
