@@ -4,9 +4,9 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-02-21"
+lastupdated: "2020-03-02"
 
-keywords: basic support, advanced support, premium support, support plans, free technical support, response time, SLO 
+keywords: basic support, advanced support, premium support, support plans, free technical support, response time
 
 subcollection: get-support
 
@@ -40,9 +40,6 @@ If you have FREE support, you're provided technical support through the [{{site.
 {:caption="Table 1. Support plans" caption-side="top"}
 
 For more information about how the severity of cases is assigned, see [Case severity and response times](/docs/get-support?topic=get-support-support-case-severity#support-case-severity).
-
-The updated SLO for Premium Support initial response time objectives effective 1 October 2018. The updates are applicable to support cases that are created on or after 1 October 2018. The Premium Support initial response time objectives before 1 October 2018 are within 1 hour for severity 1 and within 90 minutes for severity 2. Initial response SLO's don't apply to sales-related inquiries or cases.
-{: important}
 
 
 ## Premium Support
