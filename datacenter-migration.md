@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2020
 
-lastupdated: "2020-03-02"
+lastupdated: "2020-03-03"
 
 keywords: data centers, data center support, Dallas, Seattle, Melbourne, Houston, D2, D6, DAL07, SEA01, H2, MEL01, datacenter
 
@@ -22,7 +22,7 @@ subcollection: get-support
 {: #dc-migrate}
 
 <!--Go live for this doc in production is currently March 3, 2020-->
-As part of the data center modernization strategy, older data centers in Dallas, Melbourne, and Seattle (DAL07, MEL01, SEA01) are closing on 31 August 2020. In addition, legacy Planet data centers in Dallas and Houston (D2, D6, D7, H2) are also closing on 31 August 2020.  You should receive notifications if you have {{site.data.keyword.BluVirtServers_full}} or {{site.data.keyword.baremetal_long}} in the data centers that are closing.
+As part of the data center modernization strategy, older data centers in Dallas, Melbourne, and Seattle (DAL07, MEL01, SEA01) are closing on 31 August 2020. In addition, legacy Planet data centers in Dallas and Houston (D2, D6, D7, H2) are also closing on 31 August 2020. You should receive notifications if you have {{site.data.keyword.BluVirtServers_full}} or {{site.data.keyword.baremetal_long}} in the data centers that are closing.
 {:shortdesc}
 
 {{site.data.keyword.cloud_notm}} has invested significantly in data center infrastructure in recent years. These investments include rolling out newer data centers and Multizone Regions (MZRs) designed to deliver a more resilient architecture with higher levels of network throughput and redundancy. For more information, see [How do I ensure zero downtime?](/docs/overview?topic=overview-zero-downtime) 
@@ -74,7 +74,7 @@ The following table describes important dates that you need to be aware of if yo
 | March 2020     | Data center closure communicated to affected clients by email.                                                                                                   |
 | Coming soon!   | Business Partner available to help clients migrate to a new data center.                                                                                         |
 | 31 May 2020    | Red Hat Enterprise Linux operating system update infrastructure for patches and OS updates is no longer supported for legacy Planet data centers D2, D6, D7, H2. |
-| 31 August 2020 | Data centers closed. DAL07, MEL01, SEA01 are no longer available or supported. Legacy Planet data centers D2, D6, D7, H2  or no longer available or supported.   |
+| 31 August 2020 | Data centers closed. DAL07, MEL01, SEA01 are no longer available or supported. Legacy Planet data centers D2, D6, D7, H2 or no longer available or supported.   |
 {: caption="Table 2. Timeline for data center migration" caption-side="top"}
 
 ### Special offers for migration
@@ -182,7 +182,7 @@ If you have a workload that is processor-bound, meaning that the performance is 
 ### How do I choose my new operating system?
 {: #operating-system}
 
-Compatability and functionality are two main influencers when choosing a new operating system. Older versions of operating systems can present challenges with migration. Installation media might not be compatible and the server hardware might not be supported by the older operating system. The best course of action is to compare specs and ensure that the operating system is compatible. Functionality is important becuase if you have the source code for the application, ensure the necessary development tools and supporting operating system or middleware functions are available on the new platform. In general, Linux type systems are better at supporting older applications on newer versions of the operating system than Windows.
+Compatability and functionality are two of the main influencers when you choose a new operating system. Older versions of operating systems can present challenges with migration. Installation media might not be compatible and the server hardware might not be supported by the older operating system. The best course of action is to compare specs and ensure that the operating system is compatible. Functionality is important because if you have the source code for the application, ensure the necessary development tools and supporting operating system or middleware functions are available on the new platform. In general, Linux type systems are better at supporting older applications on newer versions of the operating system than Windows.
 <!--this FAQ doesn't give much information. it should direct the user to do something or link them to a doc that is useful-->
 
 ### What bandwidth do I get with my new configuration and is it at the same rate I currently have?
