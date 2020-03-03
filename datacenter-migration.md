@@ -21,7 +21,6 @@ subcollection: get-support
 # Withdrawal of support for some data centers 
 {: #dc-migrate}
 
-<!--Go live for this doc in production is currently March 3, 2020-->
 As part of the data center modernization strategy, older data centers in Dallas, Melbourne, and Seattle (DAL07, MEL01, SEA01) are closing on 31 August 2020. In addition, legacy Planet data centers in Dallas and Houston (D2, D6, D7, H2) are also closing on 31 August 2020. You should receive notifications if you have {{site.data.keyword.BluVirtServers_full}} or {{site.data.keyword.baremetal_long}} in the data centers that are closing.
 {:shortdesc}
 
