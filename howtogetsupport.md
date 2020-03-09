@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020 
 
-lastupdated: "2020-02-25"
+lastupdated: "2020-03-09"
 
 keywords: support, support case, premium support, advanced support, basic support, support page, help
 
@@ -70,43 +70,22 @@ If your account is either {{site.data.keyword.Bluemix_dedicated_notm}} or {{site
 [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external} help page. Mention that your account is either **{{site.data.keyword.Bluemix_dedicated_notm}}** or **{{site.data.keyword.Bluemix_local_notm}}** in the Subject and Description of the support case. 
 * If you don't have an {{site.data.keyword.ibmid}}, contact someone in your organization that does, or work with your {{site.data.keyword.IBM_notm}} representative.
 
-<!--A list of potential user contacts in your org for support cases can be displayed on the Support page in the {{site.data.keyword.Bluemix_notm}} console in your Dedicated or Local environment.
-{:tip}-->
-
 
 ## Requesting support for resources in the European Union
 {: #eusupported}
 
-European Union (EU) support is provided, 24 hours a day and 7 days a week, by engineers who are located in Europe for customers who choose the EU supported option. Global teams provide support only at the discretion and under the direction of the EU support team. Global teams might be contacted, for example, when issues are not resolved by the Advanced Customer Support (ACS) team in the EU, and more expertise is needed.
+European Union (EU) support is available to customers who choose to enable the EU supported setting. EU Support is provided 24 hours a day and 7 days a week by engineers that are located in Europe. Global teams provide support at the discretion of the EU support team. Global teams might be contacted, for example, when issues are not resolved by the Advanced Customer Support (ACS) team in the EU, and more expertise is needed.
 
-You can specify that you want support for your account from the support team that is physically located in Europe if the following criteria are true:
+You can specify that you want EU support for your account if the following criteria are true:
 
-* Your master user or account owner set the EU Supported option for your account
-* Your resources are in the appropriate European data center
-* You select the **EU supported** case level when you open the case
+* The EU Supported setting is enabled for your account by the master user or account owner. For more information, see [Enabling the EU Supported setting](/docs/account?topic=account-eu-hipaa-supported#bill_eusupported).
+* Your resources are in the appropriate European data center. For more information, see [Data centers](/docs/overview?topic=overview-locations#data-centers).
+* You select the EU supported case level when you open the case.
 
-For {{site.data.keyword.Bluemix_notm}} platform, only services that are hosted in the Germany region can be supported by a team that is physically located in Europe.  
+{{site.data.keyword.Bluemix_notm}} platform services that are hosted in the Frankfurt location must be supported by a team that is physically located in Europe. 
+{: note}  
 
-Setting the **EU Supported** option for your account applies to all future cases that you open for issues on any service or data center that is hosted in the EU region. Any cases that are opened before you set this option aren't affected. If you add resources outside of an EU data center or Germany region, issues for those resources are not necessarily handled by a support team in Europe.
-
-You can set the **EU Supported** option from your account settings in the {{site.data.keyword.Bluemix_notm}} console. For more information, see [Enabling the EU Supported setting](/docs/account?topic=account-eu-hipaa-supported#bill_eusupported).
-
-### EU Supported services
-{: #eusupportedservices}
-
-After you set the **EU Supported** option, you can also take advantage of extra controls to support and operate {{site.data.keyword.Bluemix_notm}} services from the European Union. You can filter your search for platform services with the supported plans in the {{site.data.keyword.Bluemix_notm}} catalog. To see the EU-supported plans for a platform service, complete the following steps:
-1. Open the [{{site.data.keyword.Bluemix_notm}} catalog](https://{DomainName}/catalog/){: external}.
-1. Click **Filter**.
-1. Select **EU supported** from the drop-down list. With the EU Supported filter set, you see only the services in the **Infrastructure** and **Platform** categories that have EU-supported plans.
-1. Select the service that you want. You can see some regions and plans for the service are EU-supported.
-1. To see the EU-supported plans for the service, select the correct region from the **Choose a region/location to deploy in** list. For example, to see the EU-supported plans for a platform service, select Germany as the region. Then, you can see the pricing plans for the services that are labeled **EU Supported**.
-
-All plans, except lite plans, for the following categories of {{site.data.keyword.Bluemix_notm}} infrastructure services are hosted in Europe and available as EU supported:
-
-* Compute
-* Storage
-* Network
-* Containers
+Enabling the EU Support setting for your account applies to all future cases that you open for issues on any service or data center that is hosted in the EU region. However, if you add resources outside of an EU data center or Frankfurt location, issues for those resources are not necessarily handled by a support team in Europe. Any cases that are opened before you enable the EU Supported setting aren't affected. 
 
 
 ## Reporting a potential security vulnerability
