@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-02-04"
+lastupdated: "2020-03-17"
 
 keywords: error messages, errors, platform errors, message ID
 
@@ -304,7 +304,7 @@ The following browsers are supported. Ensure that you use the latest version for
 * Internet Explorer
 * Safari
 
-For details, see the [Prerequisites](/docs/overview?topic=overview-prereqs-platform#prereqs){: external}.
+For details, see [What are the IBM Cloud prerequisites?](/docs/overview?topic=overview-prereqs-platform)
 
 
 ## BXNUI0065E
@@ -995,7 +995,7 @@ Contact the system administrator for assistance in fixing the datastore componen
 
 While Cloud Foundry was being contacted to create the resource, an error occurred. Cloud Foundry message: "{0}."
 
-For instructions to fix this problem, see the [Org's services limit is exceeded](/docs/apps/tutorials?topic=creating-apps-managingapps#ts_servicelimit){: external} troubleshooting topic.
+For instructions to fix this problem, see the [Freeing up used storage](/docs/services/Registry?topic=registry-registry_quota#registry_quota_freeup) troubleshooting topic.
 
 ## BXNUI2033E
  **Message**: The {1} resource wasn't modified. While Cloud Foundry was being contacted to modify the resource, an error occurred. Cloud Foundry message: "{0}."
