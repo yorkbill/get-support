@@ -40,9 +40,9 @@
    "ts_service_broker": [
     "looks like you don't have access to create cases for this account",
     "don't have access to create cases",
-    "can't create a case",
-    "unable to create a case",
-    "can't create tickets",
+    "no access to create a case",
+    "unable to create a case due to access",
+    "do not have the access to create tickets",
     "cant edit a support case",
     "unable to access cases"
      ],   
@@ -54,5 +54,31 @@
     "my cases been archived",
     "where are archived cases",
     "can't locate all the cases"
+     ],
+  "ts_viewcasedetails": [
+     "can't I view all tickets in the account",
+     "unable to see all my account tickets",
+     "cant I see all the cases attached to this account",
+     "unable to view the support ticket",
+     "problem with managing tickets with Cloud infrastructure"
+     ],
+  "ts_tech-support-case": [
+    "can't create a technical support case",
+    "can't create a support ticket",
+    "unable to create a ticket for a service",
+    "can't create a technical case",
+    "can't create a case",
+    "unable to create a case",
+    "can't create tickets for my service",
+    "unable to create a technical support case",
+    "can't create tickets for technical support",
+    "only create a case for account and billing"
+    ],
+  "supportcenter-service": [  
+    "can't find help information in the Support Center for my services",
+    "unable to find anything helpful in Support Center for my service",
+    "cant find the answer to my question in support center",
+    "can't find helpful information in the Support Center",
+    "cant find an answer to my issue in support center"
      ]
 }
