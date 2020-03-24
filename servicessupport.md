@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-03-02"
+lastupdated: "2020-03-24"
 
 keywords: service support, type of service
 
@@ -55,11 +55,6 @@ You can get community assistance for technical issues for experimental services 
 Third-party services are provided by vendors outside of {{site.data.keyword.IBM_notm}}. These services are provided by individual software entities, {{site.data.keyword.IBM_notm}} Business Partners, or independent software vendors (ISV).
 
 Support for third-party services is provided by the service provider. If the root cause analysis determines that the issue is a defect in a third-party service, {{site.data.keyword.IBM_notm}} isn't required to provide a fix. However, {{site.data.keyword.IBM_notm}} shares analysis with the third-party service provider, if needed, and can work through Marketplace with the third-party service to help solve the issue.
-
-### Bitnami helm charts
-{: #s-bitnami}
-
-Offerings that are provided by Bitnami are available in the {{site.data.keyword.cloud_notm}} catalog, and you manage the deployment and configuration on your own compute. Support for this third-party service is provided by Bitnami. {{site.data.keyword.IBM_notm}} isn't required to provide a fix for defects in a third-party service. Any issues that require a support case are opened in the [Bitnami charts GitHub repo](https://github.com/bitnami/charts/issues){: external}. To view all available Bitnami offerings, go to the catalog, and then select the **Bitnami** provider filter. 
 
 
 ## Open source or community service
