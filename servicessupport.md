@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-03-02"
+lastupdated: "2020-03-25"
 
 keywords: service support, type of service
 
@@ -59,7 +59,9 @@ Support for third-party services is provided by the service provider. If the roo
 ### Bitnami helm charts
 {: #s-bitnami}
 
-Offerings that are provided by Bitnami are available in the {{site.data.keyword.cloud_notm}} catalog, and you manage the deployment and configuration on your own compute. Support for this third-party service is provided by Bitnami. {{site.data.keyword.IBM_notm}} isn't required to provide a fix for defects in a third-party service. Any issues that require a support case are opened in the [Bitnami charts GitHub repo](https://github.com/bitnami/charts/issues){: external}. To view all available Bitnami offerings, go to the catalog, and then select the **Bitnami** provider filter. 
+Offerings that are provided by Bitnami are available in the {{site.data.keyword.cloud_notm}} catalog, and you manage the deployment and configuration on your own compute. Support for this third-party service is provided by Bitnami. {{site.data.keyword.IBM_notm}} isn't required to provide a fix for defects in a third-party service. Any issues that require a support case are opened in the [Bitnami charts GitHub repo](https://github.com/bitnami/charts/issues){: external}. 
+
+To view all available Bitnami offerings, go to the catalog, and then select the **Third party** provider filter. 
 
 
 ## Open source or community service
