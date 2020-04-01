@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2020
 
-lastupdated: "2020-03-05"
+lastupdated: "2020-03-31"
 
 keywords: data centers, data center support, Dallas, Seattle, Melbourne, Houston, D2, D6, DAL07, SEA01, H2, MEL01, datacenter
 
@@ -27,7 +27,7 @@ As part of the data center modernization strategy for {{site.data.keyword.cloud}
 
 {{site.data.keyword.cloud_notm}} invests significantly in data center infrastructure. These investments include rolling out newer data centers and multizone regions (MZRs) designed to deliver a more resilient architecture with higher levels of network throughput and redundancy. For more information, see [Locations for resource deployment](/docs/overview?topic=overview-locations).
 
-Part of this modernization strategy is to close older data centers that are unsuitable for upgrading. As this transition approaches, help is available to assist you in your migration to modern data centers. For more information, see [Migrating resources to a different data center](/docs/resources?topic=resources-migrate-data-center).
+Part of this modernization strategy is to close older data centers that are unsuitable for upgrading. As this transition approaches, help is available to assist you in your migration to modern data centers. For more information, see [Migrating resources to a different data center](/docs/resources?topic=resources-migrate-data-center) or [FAQs for migrating resources to a different data center](/docs/resources?topic=resources-faqs-dc-closure).
 
 The following table shows the locations with the associated data centers that are set to close on 31 August 2020, and the recommended data centers to which you can migrate.  
 
