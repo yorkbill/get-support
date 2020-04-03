@@ -26,6 +26,10 @@ Getting support
     {: .navgroup id="reference"}
     bxnui.md
     customer-incident-report.md
+
+    {: .topicgroup}
+    API reference
+        [Case management](https://{DomainName}/apidocs/case-management){: new_window}
     {: .navgroup-end}
 
     {: .navgroup id="help"}
@@ -36,6 +40,5 @@ Getting support
     Known issues
         datacenter-migration.md
     
-    [Developer Answers](https://developer.ibm.com/answers/topics/ibm-cloud/)
     [Stack Overflow](http://stackoverflow.com/questions/tagged/ibm-bluemix)
     {: .navgroup-end}

@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2020
 
-lastupdated: "2020-03-02"
+lastupdated: "2020-04-03"
 
 keywords: frequently asked question, faq, support cases, email preferences, access for cases, support faq 
 
@@ -70,7 +70,7 @@ Before you open a support case, explore these resources to see whether your issu
 - Review the [Featured FAQs](https://cloud.ibm.com/unifiedsupport/supportcenter) on the Support Center. 
 - Go to the [FAQ library](https://cloud.ibm.com/docs/faqs). 
 - Go to [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} to ask technical questions about developing apps with the {{site.data.keyword.Bluemix_notm}} platform and services.
-- Go to [{{site.data.keyword.IBM_notm}} Developer Answers](https://developer.ibm.com/answers/topics/ibm-cloud/){: external} to ask general questions about the {{site.data.keyword.Bluemix_notm}} offering and about getting started instructions.
+<!--- Go to [{{site.data.keyword.IBM_notm}} Developer Answers](https://developer.ibm.com/answers/topics/ibm-cloud/){: external} to ask general questions about the {{site.data.keyword.Bluemix_notm}} offering and about getting started instructions.-->
 
 
 ## How am I charged for support? 

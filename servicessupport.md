@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-03-25"
+lastupdated: "2020-04-03"
 
 keywords: service support, type of service
 
@@ -46,7 +46,7 @@ If the root cause analysis determines the issue is a defect in the beta service 
 
 {{site.data.keyword.IBM_notm}} releases services or container images that are classified as experimental, which you can try out. To view all available experimental offerings, log in to the {{site.data.keyword.Bluemix_notm}} console. Then, click **Catalog**, scroll to the end of the catalog, and click **{{site.data.keyword.Bluemix_notm}} Experimental Services**. These services might be unstable, change frequently in ways that aren't compatible with earlier versions, and might be discontinued with a short notice. These services aren't recommended for use in production environments.
 
-You can get community assistance for technical issues for experimental services through [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud?tab=Newest){: external} and other issues through [Developer Answers](https://developer.ibm.com/answers/topics/ibm-cloud.html){: external}. If a problem is a defect in an experimental service, {{site.data.keyword.IBM_notm}} isn't required to provide a fix.
+You can get community assistance for technical issues for experimental services through [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud?tab=Newest){: external}. If a problem is a defect in an experimental service, {{site.data.keyword.IBM_notm}} isn't required to provide a fix.
 
 
 ## Third-party service
@@ -69,4 +69,4 @@ To view all available Bitnami offerings, go to the catalog, and then select the 
 
 Open source or community services are provided by open source communities outside of IBM.
 
-If the root cause analysis determines that the issue is a defect in an open source or community service, {{site.data.keyword.IBM_notm}} isn't required to provide a fix. {{site.data.keyword.IBM_notm}} closes the case and refers you to the community or forum for assistance. You can get community assistance for technical issues through [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} and other issues through [Developer Answers](https://developer.ibm.com/answers/topics/ibm-cloud/){: external}.
+If the root cause analysis determines that the issue is a defect in an open source or community service, {{site.data.keyword.IBM_notm}} isn't required to provide a fix. {{site.data.keyword.IBM_notm}} closes the case and refers you to the community or forum for assistance. You can get community assistance for technical issues through [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external}.

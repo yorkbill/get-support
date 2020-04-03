@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020 
 
-lastupdated: "2020-03-09"
+lastupdated: "2020-04-03"
 
 keywords: support, support case, premium support, advanced support, basic support, support page, help
 
@@ -53,12 +53,14 @@ As a classic infrastructure user, you might be familiar with support tickets. Ti
 ### Asking a question
 {: #asking-a-question}
 
-The Stack Overflow forum, for technical questions, and the {{site.data.keyword.IBM_notm}} Developer Answers forum, for general questions, both provide a wide variety of searchable answers to your {{site.data.keyword.Bluemix_notm}} questions. If you don't find an existing answer, ask a new question. You can access Stack Overflow and {{site.data.keyword.IBM_notm}} Developer Answers from the Support Center, or use the following links:
+The Stack Overflow forum provides a wide variety of searchable answers for your {{site.data.keyword.Bluemix_notm}} questions. If you don't find an existing answer, ask a new question. Go to [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} to ask technical questions about developing apps with the {{site.data.keyword.Bluemix_notm}} platform and services. 
+
+<!--You can access Stack Overflow and {{site.data.keyword.IBM_notm}} Developer Answers from the Support Center, or use the following links:
 
 * Go to [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} to ask technical questions about developing apps with the {{site.data.keyword.Bluemix_notm}} platform and services.
-* Go to [{{site.data.keyword.IBM_notm}} Developer Answers](https://developer.ibm.com/answers/topics/ibm-cloud/){: external} to ask general questions about the {{site.data.keyword.Bluemix_notm}} offering and about getting started instructions.
+* Go to [{{site.data.keyword.IBM_notm}} Developer Answers](https://developer.ibm.com/answers/topics/ibm-cloud/){: external} to ask general questions about the {{site.data.keyword.Bluemix_notm}} offering and about getting started instructions.-->
 
-{{site.data.keyword.Bluemix_notm}} development and support teams actively monitor Stack Overflow and {{site.data.keyword.IBM_notm}} Developer Answers, and follow the questions that are tagged with **ibm-cloud**. When you create a question in either forum, add the **ibm-cloud** tag to your question to ensure that it's seen by the {{site.data.keyword.Bluemix_notm}} development and support teams.
+{{site.data.keyword.Bluemix_notm}} development and support teams actively monitor Stack Overflow and follow the questions that are tagged with **ibm-cloud**. When you create a question, add the **ibm-cloud** tag to your question to ensure that it's seen by the {{site.data.keyword.Bluemix_notm}} development and support teams.
 
 
 ## Contacting support for {{site.data.keyword.Bluemix_dedicated_notm}} or {{site.data.keyword.Bluemix_local_notm}}
