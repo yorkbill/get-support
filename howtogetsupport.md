@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020 
 
-lastupdated: "2020-04-03"
+lastupdated: "2020-04-06"
 
 keywords: support, support case, premium support, advanced support, basic support, support page, help
 
@@ -43,9 +43,7 @@ To access the Support Center, log in to the {{site.data.keyword.Bluemix_notm}} c
 
 Review your offering topics to get a quick overview of {{site.data.keyword.Bluemix_notm}} documentation. These topics offer common tasks based on what is provisioned on your account. You can search to view topics based on specific offerings. You can also view and search through Featured FAQs. If you experience problems with {{site.data.keyword.Bluemix}}, create and manage support cases from the Support Center. If you have technical questions, you can find a link to Stack Overflow by going to the Contact support section. You can also filter to view all offerings. 
 
-If you have a basic, advanced, or premium [support plan](/docs/get-support?topic=get-support-support-plans#support-plans), you can find contact numbers to get help. Premium and advanced support can chat with a support agent for additional help. 
-
-The Support Center is the preferred method for getting support, but if you can't log in to {{site.data.keyword.Bluemix_notm}}, you can use the [Create a case](https://{DomainName}/unifiedsupport/cases/add) page to submit a case.
+If you have a basic, advanced, or premium [support plan](/docs/get-support?topic=get-support-support-plans#support-plans), you can find contact numbers to get help. Premium and advanced support can chat with a support agent for additional help. You can also use the [Create a case](https://{DomainName}/unifiedsupport/cases/add) page to submit a case.
 
 As a classic infrastructure user, you might be familiar with support tickets. Tickets are now called cases in {{site.data.keyword.Bluemix_notm}}. 
 {: note} 
