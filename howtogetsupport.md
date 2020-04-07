@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020 
 
-lastupdated: "2020-04-06"
+lastupdated: "2020-04-07"
 
 keywords: support, support case, premium support, advanced support, basic support, support page, help
 
@@ -43,7 +43,7 @@ To access the Support Center, log in to the {{site.data.keyword.Bluemix_notm}} c
 
 Review your offering topics to get a quick overview of {{site.data.keyword.Bluemix_notm}} documentation. These topics offer common tasks based on what is provisioned on your account. You can search to view topics based on specific offerings. You can also view and search through Featured FAQs. If you experience problems with {{site.data.keyword.Bluemix}}, create and manage support cases from the Support Center. If you have technical questions, you can find a link to Stack Overflow by going to the Contact support section. You can also filter to view all offerings. 
 
-If you have a basic, advanced, or premium [support plan](/docs/get-support?topic=get-support-support-plans#support-plans), you can find contact numbers to get help. Premium and advanced support can chat with a support agent for additional help. You can also use the [Create a case](https://{DomainName}/unifiedsupport/cases/add) page to submit a case.
+If you have a basic, advanced, or premium [support plan](/docs/get-support?topic=get-support-support-plans#support-plans), you can find contact numbers to get help. Premium and advanced support can chat with a support agent for additional help. You can also use the [Create a case](https://{DomainName}/unifiedsupport/cases/add) page to submit a case. If you can't log in to your {{site.data.keyword.Bluemix_notm}} account, contact support by phone: +1-866-403-7638.
 
 As a classic infrastructure user, you might be familiar with support tickets. Tickets are now called cases in {{site.data.keyword.Bluemix_notm}}. 
 {: note} 
@@ -52,11 +52,6 @@ As a classic infrastructure user, you might be familiar with support tickets. Ti
 {: #asking-a-question}
 
 The Stack Overflow forum provides a wide variety of searchable answers for your {{site.data.keyword.Bluemix_notm}} questions. If you don't find an existing answer, ask a new question. Go to [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} to ask technical questions about developing apps with the {{site.data.keyword.Bluemix_notm}} platform and services. 
-
-<!--You can access Stack Overflow and {{site.data.keyword.IBM_notm}} Developer Answers from the Support Center, or use the following links:
-
-* Go to [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} to ask technical questions about developing apps with the {{site.data.keyword.Bluemix_notm}} platform and services.
-* Go to [{{site.data.keyword.IBM_notm}} Developer Answers](https://developer.ibm.com/answers/topics/ibm-cloud/){: external} to ask general questions about the {{site.data.keyword.Bluemix_notm}} offering and about getting started instructions.-->
 
 {{site.data.keyword.Bluemix_notm}} development and support teams actively monitor Stack Overflow and follow the questions that are tagged with **ibm-cloud**. When you create a question, add the **ibm-cloud** tag to your question to ensure that it's seen by the {{site.data.keyword.Bluemix_notm}} development and support teams.
 
