@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020 
 
-lastupdated: "2020-04-07"
+lastupdated: "2020-04-08"
 
 keywords: support, support case, premium support, advanced support, basic support, support page, help
 
@@ -29,6 +29,9 @@ All {{site.data.keyword.Bluemix_notm}} customers are provided with free technica
 
 The types of support that are available, and when they're available, depend on the support level of the account. Your support plan also determines the severity that you can assign to support cases. For more information, see [Case severity and response time](/docs/get-support?topic=get-support-support-case-severity#support-case-severity).
 
+If you need support but are unable to log in to your account, you can start a chat from the [{{site.data.keyword.Bluemix_notm}} Support](https://www.ibm.com/cloud/support) page. 
+{: tip}
+
 
 ## Satisfaction surveys for {{site.data.keyword.Bluemix_notm}} support  
 {: #survey}
@@ -43,7 +46,7 @@ To access the Support Center, log in to the {{site.data.keyword.Bluemix_notm}} c
 
 Review your offering topics to get a quick overview of {{site.data.keyword.Bluemix_notm}} documentation. These topics offer common tasks based on what is provisioned on your account. You can search to view topics based on specific offerings. You can also view and search through Featured FAQs. If you experience problems with {{site.data.keyword.Bluemix}}, create and manage support cases from the Support Center. If you have technical questions, you can find a link to Stack Overflow by going to the Contact support section. You can also filter to view all offerings. 
 
-If you have a basic, advanced, or premium [support plan](/docs/get-support?topic=get-support-support-plans#support-plans), you can find contact numbers to get help. Premium and advanced support can chat with a support agent for additional help. You can also use the [Create a case](https://{DomainName}/unifiedsupport/cases/add) page to submit a case. If you can't log in to your {{site.data.keyword.Bluemix_notm}} account, contact support by phone: +1-866-403-7638.
+If you have a basic, advanced, or premium [support plan](/docs/get-support?topic=get-support-support-plans#support-plans), you can find contact numbers to get help. Premium and advanced support can chat with a support agent for additional help. You can also use the [Create a case](https://{DomainName}/unifiedsupport/cases/add) page to submit a case. 
 
 As a classic infrastructure user, you might be familiar with support tickets. Tickets are now called cases in {{site.data.keyword.Bluemix_notm}}. 
 {: note} 
