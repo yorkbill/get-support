@@ -42,7 +42,7 @@ If you need support but are unable to log in to your account, start a chat by go
 ## Using the Support Center
 {: #using-avatar}
 
-To access the Support Center, log in to the {{site.data.keyword.Bluemix_notm}} console, and click **Support** from the menu bar.  
+To access the Support Center, in the {{site.data.keyword.Bluemix_notm}} console, go to **Support**.  
 
 Review your offering topics to get a quick overview of {{site.data.keyword.Bluemix_notm}} documentation. These topics offer common tasks based on what is provisioned on your account. You can search to view topics based on specific offerings. You can also view and search through Featured FAQs. If you experience problems with {{site.data.keyword.Bluemix}}, create and manage support cases from the Support Center. 
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-03-02"
+lastupdated: "2020-04-10"
 
 keywords: cloud status, view cloud status, planned maintenance, RSS feed, unfied notifications, iaas notifications, classic infrastructure notifications
 
@@ -30,8 +30,8 @@ To view key events that are specifically affecting your account, go to the [Noti
 
 To view the status page, use the following steps:
 
-1. From the console, click **Support** from the menu bar. 
-1. From the Today's Incidents tile, click **View notifications**. Or, you can access the page directly at [{{site.data.keyword.Bluemix_notm}} - Status](https://cloud.ibm.com/status){: external}.
+1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Support**.  
+1. From the Today's notifications widget, click **View all**. Or, you can access the page directly at [{{site.data.keyword.Bluemix_notm}} - Status](https://cloud.ibm.com/status){: external}.
 
 * Click **Status** to view the current status of resources in all {{site.data.keyword.Bluemix_notm}} locations. Only active events are shown.  
 

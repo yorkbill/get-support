@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-03-17"
+lastupdated: "2020-04-10"
 
 keywords: error messages, errors, platform errors, message ID
 
@@ -463,7 +463,7 @@ For instructions to fix this problem, see the [Account is inactive](/docs/accoun
 ## BXNUI0097E
 **Message**: Before you can add an app, at least one space must be associated with your organization and region.
 
-From the console menu bar, click **Manage** &gt; **Account** &gt; **Cloud Foundry Orgs**, and then click **Create**. When the space is created, try again. For more instructions to fix this problem, see [Why are no spaces associated with my current org?](/docs/account?topic=account-managingaccounts#ts_no_space){: external}
+In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** &gt; **Account** &gt; **Cloud Foundry Orgs**, and click **Create**. When the space is created, try again. For more instructions to fix this problem, see [Why are no spaces associated with my current org?](/docs/account?topic=account-managingaccounts#ts_no_space){: external}
 
 ## BXNUI0098E
 **Message**: The list of credentials can't be retrieved at the moment.

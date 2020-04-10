@@ -50,7 +50,7 @@ The account owner, an administrator on the support center service, or the admini
 
 If you're the account owner or an administrator of the Support Center, complete the following steps to create an access policy for working with support cases:
 
-1. Go to **Manage** > **Access (IAM)** and select **Users**.
+1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Access (IAM)** and select **Users**.
 1. Select a username, and click **Access policies**. 
 1. Click **Assign Access**. 
 1. From the Assign users additional access section, select **Account management**.
@@ -69,7 +69,7 @@ When you try to view the support cases that are associated with the account, you
 
 The account owner set the [user list visibility setting](/docs/iam?topic=iam-userlistview#userlistview) to restricted, and you don't have the required access to view all cases in the account. 
 
-You must be assigned an IAM policy with at least the Viewer role on the User management account management service in addition to your Support Center account management service access policy. To view your current access, go to **Manage** > **Access (IAM)**, and select your name from the **Users** page. Click the **Access policies** tab. 
+You must be assigned an IAM policy with at least the Viewer role on the User management account management service in addition to your Support Center account management service access policy. To view your current access, in the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Access (IAM)**, and select your name from the **Users** page. Click the **Access policies** tab. 
 {: tsCauses}
 
 To resolve the issue, contact the account owner to request the appropriate access. 
@@ -88,7 +88,7 @@ You can't find any cases that you created before 2018 December 2 on the Manage c
 Cases that were opened before 2018 December 2 are visible only as archived cases.
 {: tsCauses}
 
-To view your cases, click **Support** and click **View all** from the Recent support cases widget.
+To view your cases, in the {{site.data.keyword.Bluemix_notm}} console, go to **Support** and click **View all** from the Recent support cases widget.
 {: tsResolve} 
 
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-02-11"
+lastupdated: "2020-04-10"
 
 keywords: upcoming maintenance, stay up-to-date, monitor status
 
@@ -39,7 +39,7 @@ Check for upcoming maintenance windows posted on the {{site.data.keyword.Bluemix
 
 If you suspect that {{site.data.keyword.Bluemix_notm}} isn't functioning as expected, check the Status page for current maintenance windows or an incident in progress. To report an incident that isn't already listed on the Status page, open a support case by using the following steps:
 
-1. Click **Support** from the console. 
+1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Support**. 
 1. Select **Create new case** from the Contact support section.
 
 In most cases, {{site.data.keyword.Bluemix_notm}} can be used normally during a maintenance window. However, minor interruptions of a service can't always be avoided. Running applications typically remain available even if the application management functions, such as starting and stopping apps, are temporarily interrupted. To maximize the availability of your running applications, run at least three instances of each application.

@@ -34,9 +34,9 @@ By default, account users don't have access to create, update, search, or view c
 
 All users can open a support case, but Lite accounts are unable to open technical support cases. Technical support for Lite accounts with FREE support is provided by the {{site.data.keyword.Bluemix_notm}} docs and [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud?tab=Newest){: external}. 
 
-Complete the following steps to create a support case from the Support Center: 
+Complete the following steps to create a support case: 
 
-  1. Click **Support** from the console menu bar.
+  1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Support** from the console menu bar.
   1. From the Contact support section, click **Create a case**. 
   1. Select the type of issue that you need help with. 
   1. Complete the required fields.
@@ -67,7 +67,7 @@ All client support issues are documented in support cases. Each support case is 
 
 To view and manage your support cases, use the following steps:
 
-1. Click **Support** from the console.
+1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Support**.
 1. Click **View all** from the Recent support cases widget.
 
 To view closed or resolved cases use the filter option to retrieve cases in any status. If you're a classic infrastructure user, and you don't see a listing of a previous case, go to **View archived cases**. 
