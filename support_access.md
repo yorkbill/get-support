@@ -4,7 +4,7 @@ copyright:
 
   years: 2018,2020
 
-lastupdated: "2020-02-11"
+lastupdated: "2020-04-10"
 
 keywords: access to cases, get access for cases, assign cases, watchlist
 
@@ -60,12 +60,14 @@ By default, users with a Support Center service role can access only support cas
 ### Assigning access for all support cases in the account
 {: #support-view-account}
 
-When you give a user access, they might not have access view all cases in an account. If the account owner sets the user list visibility setting to restricted, users can view only the cases that they create themselves. To ensure that a user can always view or edit all cases in the account, you must assign a second access policy with the viewer role on the user management service. If you want to ensure that your users can view all support cases in the account, add a policy with the viewer role for the User Management service to your access group:
+When you give a user access, they might not have access view all cases in an account. If the account owner sets the user list visibility setting to restricted, users can view only the cases that they create themselves. To ensure that a user can always view or edit all cases in the account, you must assign a second access policy with the viewer role on the User Management service. If you want to ensure that your users can view all support cases in the account, add a policy with the viewer role for the User Management service to your access group:
 
+1. Go to **Manage** > **Access (IAM)**, select **Access groups** and then the Group that you want to have access.
 1. Click **Access policies** > **Assign access**.
 1. Select **Assign access to account management services**.
 1. Select **User Management**.
-1. Select **Viewer** and click **Assign**.
+1. Select **Viewer**.
+1. Click **Add** and click **Assign** after you review.
 
 
 ## Adding users to your case management access group

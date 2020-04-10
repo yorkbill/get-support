@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-04-03"
+lastupdated: "2020-04-10"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -37,16 +37,16 @@ All users can open a support case, but Lite accounts are unable to open technica
 Complete the following steps to create a support case from the Support Center: 
 
   1. Click **Support** from the console menu bar.
-  1. From the **Contact support** section, click **Create case**. 
+  1. From the Contact support section, click **Create a case**. 
   1. Select the type of issue that you need help with. 
   1. Complete the required fields.
   1. Optional: 
-    * Attach files that provide more details about the issue you're experiencing.
+    * Attach files and resources to provide more details about the issue you're experiencing.
     * Add another user to the case if the user is in the account. For more information, see [Adding users to your case management access group](/docs/get-support?topic=get-support-access#add-user-access-group).
     * Select **Email me updates about this case** to receive support case notifications. 
-  1. Click **Create**. You will receive email verification for the case. Follow the instructions for further communication on the issue. 
+  1. Click **Continue to review**, then **Create case**. You will receive email verification for the case. Follow the instructions for further communication on the issue. 
 
-You can also create a support case by clicking **View all open cases** from the Recent cases section of the Support page. Then, from the Manage cases page, click **Create new case**. 
+You can also create a support case by clicking **View all** from the Recent support cases widget of the Support Center. Then, from the Manage cases page, click **Create new case**. 
 {: tip} 
 
 ### Supported file types for cases 
@@ -68,7 +68,7 @@ All client support issues are documented in support cases. Each support case is 
 To view and manage your support cases, use the following steps:
 
 1. Click **Support** from the console.
-1. Click **View all open cases**.
+1. Click **View all** from the Recent support cases widget.
 
 To view closed or resolved cases use the filter option to retrieve cases in any status. If you're a classic infrastructure user, and you don't see a listing of a previous case, go to **View archived cases**. 
 {: tip}
