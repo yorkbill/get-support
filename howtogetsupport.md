@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020 
 
-lastupdated: "2020-04-08"
+lastupdated: "2020-04-10"
 
 keywords: support, support case, premium support, advanced support, basic support, support page, help
 
@@ -29,7 +29,7 @@ All {{site.data.keyword.Bluemix_notm}} customers are provided with free technica
 
 The types of support that are available, and when they're available, depend on the support level of the account. Your support plan also determines the severity that you can assign to support cases. For more information, see [Case severity and response time](/docs/get-support?topic=get-support-support-case-severity#support-case-severity).
 
-If you need support but are unable to log in to your account, you can start a chat from the [{{site.data.keyword.Bluemix_notm}} Support](https://www.ibm.com/cloud/support) page. 
+If you need support but are unable to log in to your account, start a chat by going to the [{{site.data.keyword.Bluemix_notm}} Support](https://www.ibm.com/cloud/support) page and clicking **Let's talk**. 
 {: tip}
 
 
@@ -44,9 +44,14 @@ If you need support but are unable to log in to your account, you can start a ch
 
 To access the Support Center, log in to the {{site.data.keyword.Bluemix_notm}} console, and click **Support** from the menu bar.  
 
-Review your offering topics to get a quick overview of {{site.data.keyword.Bluemix_notm}} documentation. These topics offer common tasks based on what is provisioned on your account. You can search to view topics based on specific offerings. You can also view and search through Featured FAQs. If you experience problems with {{site.data.keyword.Bluemix}}, create and manage support cases from the Support Center. If you have technical questions, you can find a link to Stack Overflow by going to the Contact support section. You can also filter to view all offerings. 
+Review your offering topics to get a quick overview of {{site.data.keyword.Bluemix_notm}} documentation. These topics offer common tasks based on what is provisioned on your account. You can search to view topics based on specific offerings. You can also view and search through Featured FAQs. If you experience problems with {{site.data.keyword.Bluemix}}, create and manage support cases from the Support Center. 
 
-If you have a basic, advanced, or premium [support plan](/docs/get-support?topic=get-support-support-plans#support-plans), you can find contact numbers to get help. Premium and advanced support can chat with a support agent for additional help. You can also use the [Create a case](https://{DomainName}/unifiedsupport/cases/add) page to submit a case. 
+There are different options to contact {{site.data.keyword.Bluemix_notm}} support if you need additional help. The following are the methods that you can find in the Contact support section: 
+
+* If have a valid pay-as-you-go or subscription account, you can click **Live chat with support** to chat with a support engineer.  
+* Pay-as-you-go or subscription accounts can also contact support by phone: +1-866-403-7638.
+* If you have technical questions, there's a link to [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external}). 
+* You can also use the [Create a case](https://{DomainName}/unifiedsupport/cases/add) page to submit a case.
 
 As a classic infrastructure user, you might be familiar with support tickets. Tickets are now called cases in {{site.data.keyword.Bluemix_notm}}. 
 {: note} 
@@ -59,13 +64,12 @@ The Stack Overflow forum provides a wide variety of searchable answers for your 
 {{site.data.keyword.Bluemix_notm}} development and support teams actively monitor Stack Overflow and follow the questions that are tagged with **ibm-cloud**. When you create a question, add the **ibm-cloud** tag to your question to ensure that it's seen by the {{site.data.keyword.Bluemix_notm}} development and support teams.
 
 
-## Contacting support for {{site.data.keyword.Bluemix_dedicated_notm}} or {{site.data.keyword.Bluemix_local_notm}}
+## Getting support for {{site.data.keyword.Bluemix_dedicated_notm}} or {{site.data.keyword.Bluemix_local_notm}}
 {: #contacting-ibmcloud-support-dedicated-local}
 
 If your account is either {{site.data.keyword.Bluemix_dedicated_notm}} or {{site.data.keyword.Bluemix_local_notm}}, support is provided by the {{site.data.keyword.Bluemix_notm}} support team. 
 
-* Contact support by opening a new case by using the
-[{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external} help page. Mention that your account is either **{{site.data.keyword.Bluemix_dedicated_notm}}** or **{{site.data.keyword.Bluemix_local_notm}}** in the Subject and Description of the support case. 
+* Open a new case by using the [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external} page and click **Create a case**. Mention that your account is either **{{site.data.keyword.Bluemix_dedicated_notm}}** or **{{site.data.keyword.Bluemix_local_notm}}** in the Subject and Description of the support case. 
 * If you don't have an {{site.data.keyword.ibmid}}, contact someone in your organization that does, or work with your {{site.data.keyword.IBM_notm}} representative.
 
 
