@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-03-02"
+lastupdated: "2020-04-13"
 
 keywords: escalate, support case, case, ticket, case severity, severity, support case severity
 
@@ -49,6 +49,9 @@ The following table lists some common examples of support issues, suggested seve
 | Severity 3 | **Minor business impact.** <br> A service feature or function is usable, but has some problems that affect its use. No critical impact on operations is caused. | Premium: Within 2 hours <br> Advanced: Within 4 hours <br> Basic: N/A, can't open severity 3 cases |
 | Severity 4 | **Minimal business impact.** <br> An inquiry or non-technical request. | Premium: Within 4 hours <br> Advanced: Within 8 hours <br> Basic: No SLO |
 {: caption="Table 1. Severity definition and initial response time" caption-side="top"}
+
+Initial response SLO's do not apply to any sales related inquiries or cases.
+{: important}
 
 If your support inquiry requires a more immediate response, consider upgrading to the premium or advanced support plan so that you can open severity 1-4 support cases. To upgrade your support plan, contact your [IBM sales representative](https://www.ibm.com/contact/us/en/?lnk=flg-cont-usen){: external}.
 
