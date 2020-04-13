@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-04-03"
+lastupdated: "2020-04-13"
 
 keywords: basic support, advanced support, premium support, support plans, free technical support, response time
 
@@ -40,6 +40,9 @@ If you have FREE support, you're provided technical support through [Stack Overf
 {:caption="Table 1. Support plans" caption-side="top"}
 
 For more information about how the severity of cases is assigned, see [Case severity and response times](/docs/get-support?topic=get-support-support-case-severity#support-case-severity).
+
+Initial response SLO's do not apply to any sales related inquiries or cases.
+{: important}
 
 
 ## Premium Support
