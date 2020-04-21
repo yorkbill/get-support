@@ -1,0 +1,47 @@
+---
+
+copyright:
+
+  years: 2019, 2020
+
+lastupdated: "2020-04-21"
+
+keywords: notifications, view notifications, set notifications, iaas notifications, notification icon, header bell, bell icon 
+
+subcollection: get-support
+
+---
+
+{:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:tip: .tip}
+{:note: .note}
+{:deprecated: .deprecated}
+{:external: target="_blank" .external}
+
+# Viewing notifications
+{: #viewing-notifications}
+
+The [Notifications page](https://cloud.ibm.com/notifications){: external} is a centralized place to view and control all incidents, maintenance, and announcements. Unlike the [Status page](https://cloud.ibm.com/status?selected=maintenance){: external} that provides information about all of the events that affect the {{site.data.keyword.Bluemix_notm}} platform, the Notifications page filters events that are likely to affect your account.
+{:shortdesc}
+
+Pages specific to the {{site.data.keyword.Bluemix_notm}} classic infrastructure are deprecated. The new Notifications page hosts all classic infrastructure notifications. You can view classic infrastructure history for planned and unplanned incidents and announcements on the Notifications page. 
+{: note}
+
+You can find the Notifications page by logging in to the {{site.data.keyword.Bluemix_notm}} console and clicking the **Notifications** icon ![Notification icon](../icons/Notification.svg) on the menu bar. Or, you can access the page directly at [{{site.data.keyword.Bluemix_notm}} - Notifications](https://cloud.ibm.com/notifications){: external}.
+
+The new unified notification experience provides enhancements to how users are notified about important changes on the {{site.data.keyword.Bluemix_notm}} platform: 
+
+* The **Notification** icon ![Bell icon](../icons/Notification.svg) on the menu bar shows a red indicator that is only visible when a new notification is available. You can see the details and interact with new and archived notifications.
+
+* The Notifications page is account scoped and shows only notifications for the account that is selected on the menu bar. You can switch accounts to view notifications that are affecting a different account. 
+
+* The severity or impact is listed for each notification type. Depending on the notification, you might see severity 1 listed for an unplanned incident notification and high impact that is listed for a planned maintenance notification. 
+
+* You can use the search field to locate a specific notification or filter by a notification type. 
+
+## Subscribing to email notifications
+{: #subscribe-email-notifications}
+
+You can select whether to receive email notifications about {{site.data.keyword.Bluemix_notm}} platform unplanned events, such as outages, and planned events, such as maintenance. Additionally, if you have a Pay-As-You-Go or Subscription account, you can choose whether to receive {{site.data.keyword.Bluemix_notm}} infrastructure email notifications about unplanned events, maintenance, and announcements. For more information, see [Setting email preferences](/docs/account?topic=account-email-prefs).
