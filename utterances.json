@@ -44,6 +44,7 @@
     "unable to create a case due to access",
     "do not have the access to create tickets",
     "cant edit a support case",
+    "don't have access to create a cloud case", 
     "unable to access cases"
      ],   
    "ts_viewarchivedcase": [
