@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020 
 
-lastupdated: "2020-04-10"
+lastupdated: "2020-05-05"
 
 keywords: support, support case, premium support, advanced support, basic support, support page, help
 
@@ -22,7 +22,7 @@ subcollection: get-support
 # Getting support
 {: #getting-customer-support}
 
-If you experience problems with {{site.data.keyword.Bluemix}}, you have several options to get help with determining the cause of the problem and finding a solution. If you're logged in, you can go directly to the [Support center](https://{DomainName}/unifiedsupport/supportcenter) to review your offering topics and featured FAQs, open or manage a support case, or search community content.
+If you experience problems with {{site.data.keyword.Bluemix}}, you have several options to get help with determining the cause of the problem and finding a solution. If you're logged in, you can go directly to the [Support center](https://{DomainName}/unifiedsupport/supportcenter) to review your product topics and featured FAQs, open or manage a support case, or search community content.
 {:shortdesc}
 
 All {{site.data.keyword.Bluemix_notm}} customers are provided with free technical support through the community and blogs. Go to [Asking a question](/docs/get-support?topic=get-support-getting-customer-support#asking-a-question) for more information. 
@@ -44,7 +44,7 @@ If you need support but are unable to log in to your account, start a chat by go
 
 To access the Support Center, in the {{site.data.keyword.Bluemix_notm}} console, go to **Support**.  
 
-Review your offering topics to get a quick overview of {{site.data.keyword.Bluemix_notm}} documentation. These topics offer common tasks based on what is provisioned on your account. You can search to view topics based on specific offerings. You can also view and search through Featured FAQs. If you experience problems with {{site.data.keyword.Bluemix}}, create and manage support cases from the Support Center. 
+Review your product topics to get a quick overview of {{site.data.keyword.Bluemix_notm}} documentation. These topics offer common tasks based on what is provisioned on your account. You can search to view topics based on specific products. You can also view and search through Featured FAQs. If you experience problems with {{site.data.keyword.Bluemix}}, create and manage support cases from the Support Center. 
 
 There are different options to contact {{site.data.keyword.Bluemix_notm}} support if you need additional help. The following are the methods that you can find in the Contact support section: 
 

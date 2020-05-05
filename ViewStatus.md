@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-04-10"
+lastupdated: "2020-05-05"
 
 keywords: cloud status, view cloud status, planned maintenance, RSS feed, unfied notifications, iaas notifications, classic infrastructure notifications
 
@@ -72,7 +72,7 @@ You receive alerts of any notifications by subscribing to the RSS feed for the S
 
 To subscribe, follow these steps:
 
-1. Access your favorite RSS readers. Many browsers have built-in RSS capabilities or extensions available. Several third-party RSS reader offerings are also available. 
+1. Access your favorite RSS readers. Many browsers have built-in RSS capabilities or extensions available. Several third-party RSS reader products are also available. 
 1. Use your reader to subscribe to the feed with one of the following methods:
     * Drag the RSS icon ![RSS-24px](../icons/RSS-24px.svg) into your RSS reader.
     * Right-click the RSS icon, select **Copy link address**, and paste the URL into your RSS reader.

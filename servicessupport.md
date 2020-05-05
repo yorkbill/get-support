@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-04-10"
+lastupdated: "2020-05-05"
 
 keywords: service support, type of service
 
@@ -20,7 +20,7 @@ subcollection: get-support
 {:external: target="_blank" .external}
 
 
-# Support options for your offering type
+# Support options for your product type
 {: #support-different-services}
 
 You can use the Support Center to access your available support options. The support option that you receive is different based on the type of service you have. 
@@ -40,11 +40,11 @@ Support is provided for problems that are determined to be a defect for services
 
 If the root cause analysis determines the issue is a defect in the beta service or container image, {{site.data.keyword.IBM_notm}} isn't required to provide a fix. Additionally, the case is assigned the appropriate 3 or 4 severity level.
 
-<!-- I can't find experimental offerings in the catalog. -KH
+<!-- I can't find experimental products in the catalog. -KH
 ## {{site.data.keyword.IBM_notm}} experimental services
 {: #s-services-exporcont}
 
-{{site.data.keyword.IBM_notm}} releases services or container images that are classified as experimental, which you can try out. To view all available experimental offerings, log in to the {{site.data.keyword.Bluemix_notm}} console and click **Catalog**. Scroll to the end of the catalog, and click **{{site.data.keyword.Bluemix_notm}} Experimental Services**. These services might be unstable, change frequently in ways that aren't compatible with earlier versions, and might be discontinued with a short notice. These services aren't recommended for use in production environments.
+{{site.data.keyword.IBM_notm}} releases services or container images that are classified as experimental, which you can try out. To view all available experimental products, log in to the {{site.data.keyword.Bluemix_notm}} console and click **Catalog**. Scroll to the end of the catalog, and click **{{site.data.keyword.Bluemix_notm}} Experimental Services**. These services might be unstable, change frequently in ways that aren't compatible with earlier versions, and might be discontinued with a short notice. These services aren't recommended for use in production environments.
 
 You can get community assistance for technical issues for experimental services through [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud?tab=Newest){: external}. If a problem is a defect in an experimental service, {{site.data.keyword.IBM_notm}} isn't required to provide a fix.-->
 
@@ -59,9 +59,9 @@ Support for third-party services is provided by the service provider. If the roo
 ### Bitnami helm charts
 {: #s-bitnami}
 
-Offerings that are provided by Bitnami are available in the {{site.data.keyword.cloud_notm}} catalog, and you manage the deployment and configuration on your own compute. Support for this third-party service is provided by Bitnami. {{site.data.keyword.IBM_notm}} isn't required to provide a fix for defects in a third-party service. Any issues that require a support case are opened in the [Bitnami charts GitHub repo](https://github.com/bitnami/charts/issues){: external}. 
+Products that are provided by Bitnami are available in the {{site.data.keyword.cloud_notm}} catalog, and you manage the deployment and configuration on your own compute. Support for this third-party service is provided by Bitnami. {{site.data.keyword.IBM_notm}} isn't required to provide a fix for defects in a third-party service. Any issues that require a support case are opened in the [Bitnami charts GitHub repo](https://github.com/bitnami/charts/issues){: external}. 
 
-To view all available Bitnami offerings, go to the catalog, and select the **Third party** provider filter. 
+To view all available Bitnami products, go to the catalog, and select the **Third party** provider filter. 
 
 
 ## Open source or community service

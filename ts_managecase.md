@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-04-10"
+lastupdated: "2020-05-05"
 
 keywords: help managing cases, resolve issues managing cases, trouble working with cases, support center, help support center, resolve issues support center, help getting support, help support 
 
@@ -114,7 +114,7 @@ To update your support plan, go to [{{site.data.keyword.Bluemix_notm}} support](
 You can't find any help information that's tailored to the services that are in your account. 
 {:shortdesc}
 
-The Support Center doesn't include My offerings topics, common tasks, or FAQs that are specific to the services that you're working with. 
+The Support Center doesn't include My products topics, common tasks, or FAQs that are specific to the services that you're working with. 
 {: tsSymptoms}
 
 Not all services provide personalized help information in the Support Center. 
