@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-04-10"
+lastupdated: "2020-06-01"
 
 keywords: error messages, errors, platform errors, message ID
 
@@ -28,7 +28,7 @@ When you receive an error message from {{site.data.keyword.Bluemix}}, you can us
 ## BXNUI0001E
 **Message**: The page wasn't loaded because {{site.data.keyword.Bluemix_notm}} didn't detect whether a session exists.
 
-For instructions to fix this problem, see the [Why do I encounter console pages that don't load?](/docs/account?topic=account-accessing#accessing){: external} troubleshooting topic.
+For instructions to fix this problem, see the [Why do I encounter console pages that don't load?](/docs/account?topic=account-ts_err) troubleshooting topic.
 
 ## BXNUI0004E
 **Message**: The '{0}' app wasn't deleted because a problem occurred contacting Cloud Foundry.
@@ -83,7 +83,7 @@ Try again later. If you see this message again, go to the [{{site.data.keyword.B
 ## BXNUI0016E
 **Message**: The apps and services weren't retrieved because a {{site.data.keyword.Bluemix_notm}} page didn't load.
 
-For instructions to fix this problem, see the [Why do I encounter console pages that don't load?](/docs/account?topic=account-accessing#accessing){: external}.
+For instructions to fix this problem, see the [Why do I encounter console pages that don't load?](/docs/account?topic=account-ts_err).
 
 ## BXNUI0017E
 **Message**: The service instance wasn't retrieved because a problem occurred contacting Cloud Foundry.
@@ -387,7 +387,7 @@ Try again later. If the problem continues, go to [{{site.data.keyword.Bluemix_no
 
 The container might be temporarily out of service.
 
-Try again later. If you see this message again, go to the [{{site.data.keyword.Bluemix_notm}} status page](https://cloud.ibm.com/status?selected=status){: external} to check whether a service or component has an issue. Also make sure you have [appropriate access](/docs/iam?topic=iam-iamfaq#iam-access).  If the error occurs again, follow the [troubleshooting steps for console pages that don’t load](/docs/account?topic=account-accessing#ts_err).  If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
+Try again later. If you see this message again, go to the [{{site.data.keyword.Bluemix_notm}} status page](https://cloud.ibm.com/status?selected=status){: external} to check whether a service or component has an issue. Also make sure you have [appropriate access](/docs/iam?topic=iam-iamfaq#iam-access).  If the error occurs again, follow the [troubleshooting steps for console pages that don’t load](/docs/account?topic=account-ts_err).  If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
 
 ## BXNUI0086E
 **Message**: The '{0}' container didn't start.
@@ -458,12 +458,12 @@ Use a different name and try again.
 
 Your account is inactive because it was canceled or suspended.
 
-For instructions to fix this problem, see the [Account is inactive](/docs/account?topic=account-managingaccounts#managingaccounts){: external} troubleshooting topic.
+For instructions to fix this problem, see the [Account is inactive](/docs/account?topic=account-ts_accnt_inactive) troubleshooting topic.
 
 ## BXNUI0097E
 **Message**: Before you can add an app, at least one space must be associated with your organization and region.
 
-In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** &gt; **Account** &gt; **Cloud Foundry Orgs**, and click **Create**. When the space is created, try again. For more instructions to fix this problem, see [Why are no spaces associated with my current org?](/docs/account?topic=account-managingaccounts#ts_no_space){: external}
+In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** &gt; **Account** &gt; **Cloud Foundry Orgs**, and click **Create**. When the space is created, try again. For more instructions to fix this problem, see [no spaces associated with my current org](/docs/account?topic=account-ts_no_space).
 
 ## BXNUI0098E
 **Message**: The list of credentials can't be retrieved at the moment.
@@ -623,17 +623,17 @@ Try again later. If the problem continues, go to [{{site.data.keyword.Bluemix_no
 ## BXNUI0300E
 **Message**: The usage information could not be retrieved.
 
-Try again later. If you see this message again, go to the [{{site.data.keyword.Bluemix_notm}} status page](https://cloud.ibm.com/status?selected=status){: external} to check whether a service or component has an issue. Also make sure you have [appropriate access](/docs/iam?topic=iam-iamfaq#iam-access).  If the error occurs again, follow the [troubleshooting steps for console pages that don’t load](/docs/account?topic=account-accessing#ts_err).  If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
+Try again later. If you see this message again, go to the [{{site.data.keyword.Bluemix_notm}} status page](https://cloud.ibm.com/status?selected=status){: external} to check whether a service or component has an issue. Also make sure you have [appropriate access](/docs/iam?topic=iam-iamfaq#iam-access).  If the error occurs again, follow the [troubleshooting steps for console pages that don’t load](/docs/account?topic=account-ts_err).  If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
 
 ## BXNUI0301E
 **Message**: While the usage information was being retrieved, the organizations could not be retrieved.
 
-Try again later. If you see this message again, go to the [{{site.data.keyword.Bluemix_notm}} status page](https://cloud.ibm.com/status?selected=status){: external} to check whether a service or component has an issue. Also make sure you have [appropriate access](/docs/iam?topic=iam-iamfaq#iam-access).  If the error occurs again, follow the [troubleshooting steps for console pages that don’t load](/docs/account?topic=account-accessing#ts_err).  If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
+Try again later. If you see this message again, go to the [{{site.data.keyword.Bluemix_notm}} status page](https://cloud.ibm.com/status?selected=status){: external} to check whether a service or component has an issue. Also make sure you have [appropriate access](/docs/iam?topic=iam-iamfaq#iam-access).  If the error occurs again, follow the [troubleshooting steps for console pages that don’t load](/docs/account?topic=account-ts_err).  If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
 
 ## BXNUI0305E
 **Message**: The usage information could not be displayed.
 
-If you see this message again, go to the [{{site.data.keyword.Bluemix_notm}} status page](https://cloud.ibm.com/status?selected=status){: external} to check whether a service or component has an issue.  Also make sure you have [appropriate access](/docs/iam?topic=iam-iamfaq#iam-access).  If the error occurs again, follow the [troubleshooting steps for console pages that don’t load](/docs/account?topic=account-accessing#ts_err).  If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
+If you see this message again, go to the [{{site.data.keyword.Bluemix_notm}} status page](https://cloud.ibm.com/status?selected=status){: external} to check whether a service or component has an issue.  Also make sure you have [appropriate access](/docs/iam?topic=iam-iamfaq#iam-access).  If the error occurs again, follow the [troubleshooting steps for console pages that don’t load](/docs/account?topic=account-ts_err).  If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
 
 ## BXNUI0306E
 **Message**: Third-party services information could not be retrieved.
@@ -740,7 +740,7 @@ Try to select another org or create a space, or request the developer role from 
 
 **Message**: The spaces in the org weren't retrieved. Either a network connection problem occurred, or your current organization does not have a space that is associated with it.
 
-Try again later. If you see this message again, go to the [{{site.data.keyword.Bluemix_notm}} status page](https://cloud.ibm.com/status?selected=status){: external} to check whether a service or component has an issue. Or, for instructions to fix this problem, see the [Can't retrieve spaces in the org](/docs/apps/tutorials?topic=creating-apps-managingapps#managingapps){: external} troubleshooting topic.
+Try again later. If you see this message again, go to the [{{site.data.keyword.Bluemix_notm}} status page](https://cloud.ibm.com/status?selected=status){: external} to check whether a service or component has an issue. 
 
 ## BXNUI0516E
 
@@ -995,7 +995,7 @@ Contact the system administrator for assistance in fixing the datastore componen
 
 While Cloud Foundry was being contacted to create the resource, an error occurred. Cloud Foundry message: "{0}."
 
-For instructions to fix this problem, see the [Freeing up used storage](/docs/services/Registry?topic=registry-registry_quota#registry_quota_freeup) troubleshooting topic.
+For instructions to fix this problem, see the [Freeing up used storage](/docs/Registry?topic=Registry-registry_quota#registry_quota_freeup) troubleshooting topic.
 
 ## BXNUI2033E
  **Message**: The {1} resource wasn't modified. While Cloud Foundry was being contacted to modify the resource, an error occurred. Cloud Foundry message: "{0}."
@@ -1135,7 +1135,7 @@ Go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifieds
 ## BXNUI2060E
 **Message**: The usage information could not be processed.
 
-If you see this message again, go to the [{{site.data.keyword.Bluemix_notm}} status page](https://cloud.ibm.com/status?selected=status){: external} to check whether a service or component has an issue. Also make sure you have [appropriate access](/docs/iam?topic=iam-iamfaq#iam-access).  If the error occurs again, follow the [troubleshooting steps for console pages that don’t load](/docs/account?topic=account-accessing#ts_err).  If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
+If you see this message again, go to the [{{site.data.keyword.Bluemix_notm}} status page](https://cloud.ibm.com/status?selected=status){: external} to check whether a service or component has an issue. Also make sure you have [appropriate access](/docs/iam?topic=iam-iamfaq#iam-access).  If the error occurs again, follow the [troubleshooting steps for console pages that don’t load](/docs/account?topic=account-ts_err).  If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
 
 ## BXNUI2061E
 **Message**: The pricing catalog information cannot be parsed.
@@ -1294,7 +1294,7 @@ Go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifieds
 ## BXNUI2093E
 **Message**: The number of intermediate certificates exceeds the number allowed.
 
-For more information about the number of allowed certificates and how to delete or replace them, see the [Uploading SSL certificates](/docs/apps?topic=creating-apps-ssl_csr#ssl_certificate){: external} topic.
+For more information about the number of allowed certificates and how to delete or replace them, see the [Uploading SSL certificates](/docs/apps?topic=apps-ssl_csr#ssl_certificate) topic.
 
 ## BXNUI2094E
 **Message**: The attempted operation failed because of a connection error.
