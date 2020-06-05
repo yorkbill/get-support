@@ -39,7 +39,7 @@ If you have FREE support, you're provided technical support through [Stack Overf
 | Additional support               | Not applicable | Not applicable | Technical Account Manager assigned <br> Quarterly business reviews <br> Access to experts |
 {:caption="Table 1. Support plans" caption-side="top"}
 
-For more information about how the severity of cases is assigned, see [Case severity and response times](/docs/get-support?topic=get-support-support-case-severity#support-case-severity).
+For more information about how the severity of cases is assigned, see [Case severity and response times](/docs/get-support?topic=get-support-escalation#support-case-severity).
 
 Initial response SLO's do not apply to any sales related inquiries or cases.
 {: important}
