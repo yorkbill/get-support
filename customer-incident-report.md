@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2020
 
-lastupdated: "2020-06-12"
+lastupdated: "2020-06-15"
 
 keywords: cir, impacting event, services, advanced customer support, 
 
@@ -35,7 +35,7 @@ CIR's are provided for larger, enterprise-level issues. They are updates that pr
 
 Larger enterprise-wide issues are events that typically impact multiple user environments or regions. Due to the scope and impact of enterprise issues, {{site.data.keyword.Bluemix_notm}} requires a thorough RCA and the CIR is a summary report for the findings of the investigation. 
 
-RCA investigations are complex and involve program review, feedback from product specialists, multiple inter-related cloud services, and vendor discussions. If the CIR can't be delivered within the Service Level Objective (SLO), an interim CIR is provided within the five business day SLO. For more information about SLO, see [Case severity and initial response times](/docs/get-support?topic=get-support-escalation#support-case-severity). 
+RCA investigations are complex and involve program review, feedback from product specialists, multiple inter-related cloud services, and vendor discussions. If the CIR can't be delivered within the Service Level Objective (SLO), an interim CIR is provided within the five business day SLO. For more information about SLO, see [Case severity and initial response times](/docs/get-support?topic=get-support-support-case-severity). 
 
 The interim CIR document provides the current findings of the ongoing RCA, the next investigative steps, and a timeline for the next expected update. Depending on the complexity of the issue, more than one interim CIR might be required before the final version is available. The Service team (SRE) determines when the CIR is available.  
 
@@ -53,7 +53,7 @@ A CIR must be requested by using one of the following methods:
 * Request a CIR within the case description
 * Update your case with a request for a CIR
 
-To create a case, go to [Create a case](https://{DomainName}/unifiedsupport/cases/add), or to update your case, go to [Manage cases](https://{DomainName}/unifiedsupport/cases).
+To create a case, go to [Create a case](https://{DomainName}/unifiedsupport/cases/add), or to update your case, go to the [Manage cases page](https://{DomainName}/unifiedsupport/cases).
 
 After the ACS team receives your request for a CIR, they will initiate the CIR process if the issue was caused by a CIE. When it's available, your CIR is provided with a PDF copy that is attached to your support case.
 
