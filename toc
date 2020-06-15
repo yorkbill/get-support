@@ -5,20 +5,15 @@
 Getting support
 
     {: .navgroup id="learn"}
-    support-plans.md
-    services-support.md
-    case-severity-response-times.md
+    index.md
+    servicessupport.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    getting-support.md
-
-    {: topicgroup}
-    Working with support cases
-        create-case.md
-        assign-user-access-cases.md
-        manage-case.md
-        escalate-case.md
+    howtogetsupport.md
+    opencase.md
+    quick-case-response.md
+    support_access.md
 
     {: topicgroup}
     Monitoring notifications and status
@@ -26,9 +21,6 @@ Getting support
         ViewStatus.md
         status-bps.md
         status_search.md
-
-    report-security.md
-    /billing-usage/billing-usage-support
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
@@ -41,15 +33,8 @@ Getting support
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+    ts_managecase.md
     faq.md
-    
-    {: topicgroup}
-    Troubleshooting    
-        ts_create-case.md
-        ts_help-info-services.md
-        ts_service-broker.md
-        ts_view-archived-cases.md
-        ts_view-case-details.md
     
     {: .topicgroup}
     Known issues
