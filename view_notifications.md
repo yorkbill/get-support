@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2020
 
-lastupdated: "2020-05-21"
+lastupdated: "2020-06-19"
 
 keywords: notifications, view notifications, set notifications, iaas notifications, notification icon, header bell, bell icon 
 
@@ -44,6 +44,19 @@ The new unified notification experience provides enhancements to how users are n
 * Navigate to a specific notification by using the unique URL that is associated with each notification. You can save and share the URL with users in the account. 
 
 * You can launch the notifications page with the applied filters to see only applicable notifications. Make sure to save the URL to launch the Notifications page with the filters you’d like to see applied. 
+
+## Notification types
+{: #notification-types}
+
+The following is a table with the different types of notifications and the reason that you might see one. 
+
+| Notification type | Description |
+|-------------------|-------------|
+| Planned maintenance | Scheduled upcoming maintenance that might affect the {{site.data.keyword.Bluemix_notm}} products that you use. Each notification describes the impact and the start and stop times of the maintenance. |
+| Security bulletins | Events that affect various the {{site.data.keyword.Bluemix_notm}} products, infrastructure, or the platform. |
+| Announcement | Notifications about the {{site.data.keyword.Bluemix_notm}} that might be of general interest to you, like product upgrades or updates. | 
+| Incident | An unexpected impacting event that affects your {{site.data.keyword.Bluemix_notm}} experience. |
+{: caption="Table 1. Notification types" caption-side="top"}
 
 ## Subscribing to email notifications
 {: #subscribe-email-notifications}
