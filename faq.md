@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2020
 
-lastupdated: "2020-04-10"
+lastupdated: "2020-06-22"
 
 keywords: frequently asked question, faq, support cases, email preferences, access for cases, support faq 
 
@@ -85,6 +85,6 @@ To view your support costs, you need an access policy with the Administrator rol
 {: #view-support-cases}
 {: faq}
 
-To access your support cases, in the {{site.data.keyword.cloud_notm}} console, go to **Support** > **Manage cases**.  If you're unable to view your cases, try clicking **View archived cases**. 
+To access your support cases, in the {{site.data.keyword.cloud_notm}} console, go to **Support** > **Manage cases**.  If you're unable to view your cases, try clicking **View classic infrastructure cases**. 
 
 If you still can't view them, you might not have the required permission. Ask your account owner to add you to the support case access group. For more information, see [SoftLayer account permissions](/docs/iam?topic=iam-migrated_permissions). 

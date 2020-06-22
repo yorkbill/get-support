@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-04-10"
+lastupdated: "2020-06-22"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -70,7 +70,7 @@ To view and manage your support cases, use the following steps:
 1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Support**.
 1. Click **View all** from the Recent support cases widget.
 
-To view closed or resolved cases use the filter option to retrieve cases in any status. If you're a classic infrastructure user, and you don't see a listing of a previous case, go to **View archived cases**. 
+To view closed or resolved cases use the filter option to retrieve cases in any status. If you're a classic infrastructure user, and you don't see a listing of a previous case, go to **View classic infrastructure cases**. 
 {: tip}
 
 ## Searching for support cases 
