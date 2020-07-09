@@ -29,7 +29,7 @@ Getting support
 
     {: .topicgroup}
     API reference
-        [Case management](https://{DomainName}/apidocs/case-management){: new_window}
+        [Case management](https://{DomainName}/apidocs/case-management){: external}
     {: .navgroup-end}
 
     {: .navgroup id="help"}
