@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-05-05"
+lastupdated: "2020-07-09"
 
 keywords: service support, type of service
 
@@ -16,7 +16,6 @@ subcollection: get-support
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:tip: .tip}
-{:new_window: target="_blank"}
 {:external: target="_blank" .external}
 
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 2018,2020
 
-lastupdated: "2020-04-10"
+lastupdated: "2020-07-09"
 
 keywords: access to cases, get access for cases, assign cases, watchlist
 
@@ -19,7 +19,6 @@ subcollection: get-support
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:new_window: target="_blank"}
 
 # Assigning user access for working with support cases
 {: #access}

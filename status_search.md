@@ -4,7 +4,7 @@ copyright:
 
   years: 2018,2020
 
-lastupdated: "2020-01-21"
+lastupdated: "2020-07-09"
 
 keywords: status page, status query, incident, maintenance, search query
 
@@ -15,7 +15,6 @@ subcollection: get-support
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
 {:tip: .tip}
 
 # Advanced status search

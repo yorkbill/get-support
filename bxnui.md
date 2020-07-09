@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-06-01"
+lastupdated: "2020-07-09"
 
 keywords: error messages, errors, platform errors, message ID
 
@@ -17,7 +17,6 @@ subcollection: get-support
 {:screen: .screen}
 {:tip: .tip}
 {:external: target="_blank" .external}
-{:new_window: target="_blank"}
 
 # {{site.data.keyword.Bluemix_notm}} error messages
 {: #bxn-error-messages}

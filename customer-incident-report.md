@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2020
 
-lastupdated: "2020-06-12"
+lastupdated: "2020-07-09"
 
 keywords: cir, impacting event, services, advanced customer support, 
 
@@ -16,7 +16,6 @@ keywords: cir, impacting event, services, advanced customer support,
 {:screen: .screen}
 {:tip: .tip}
 {:note: .note}
-{:new_window: target="_blank"}
 
 # Customer Incident Report
 {: #cir}
