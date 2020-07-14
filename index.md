@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-04-13"
+lastupdated: "2020-07-14"
 
 keywords: basic support, advanced support, premium support, support plans, free technical support, response time
 
@@ -83,4 +83,4 @@ Advanced and Premium support plans have a starting price for your cloud workload
 ## Support levels in enterprises
 {:support_level_enterprise}
 
-The level of support that is assigned to an [{{site.data.keyword.Bluemix_notm}} enterprise](/docs/account?topic=account-enterprise) defaults to the highest support plan within the enterprise. All child accounts within the enterprise also default to the highest support plan.
+The level of support that is assigned to an [{{site.data.keyword.Bluemix_notm}} enterprise](/docs/account?topic=account-what-is-enterprise) defaults to the highest support plan within the enterprise. All child accounts within the enterprise also default to the highest support plan.
