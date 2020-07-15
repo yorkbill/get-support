@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2020
 
-lastupdated: "2020-05-06"
+lastupdated: "2020-07-15"
 
 keywords: data centers, data center support, Dallas, Seattle, Melbourne, Houston, D2, D6, DAL07, SEA01, H2, MEL01, datacenter
 
@@ -24,6 +24,9 @@ subcollection: get-support
 
 As part of the data center modernization strategy for {{site.data.keyword.cloud}}, older legacy data centers in Dallas and Houston (D2, D6, D7, H2) are closing on 31 August 2020. Through coordination with our vendors, we’ve secured an extension for select facilities in Dallas, Melbourne and Seattle. For DAL07, MEL01, and SEA01, data center closures are extended to 30 November 2020.  
 {:shortdesc}
+
+New products and services can't be provisioned on data centers that are scheduled to be closed. 
+{: important}
 
 {{site.data.keyword.cloud_notm}} invests significantly in data center infrastructure. These investments include rolling out newer data centers and multizone regions (MZRs) designed to deliver a more resilient architecture with higher levels of network throughput and redundancy. For more information, see [Locations for resource deployment](/docs/overview?topic=overview-locations).
 
