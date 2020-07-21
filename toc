@@ -41,4 +41,5 @@ Getting support
         datacenter-migration.md
     
     [Stack Overflow](http://stackoverflow.com/questions/tagged/ibm-bluemix)
+    [IBM Public Cloud Community](https://community.ibm.com/community/user/publiccloud/home)
     {: .navgroup-end}
