@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-05-05"
+lastupdated: "2020-07-24"
 
 keywords: help managing cases, resolve issues managing cases, trouble working with cases, support center, help support center, resolve issues support center, help getting support, help support 
 
@@ -67,7 +67,7 @@ You can't view all of the cases in the account because you don't have access to 
 When you try to view the support cases that are associated with the account, you can't see all open cases. You can view users that you invited to the account, users with which you share a Cloud Foundry org membership, and users who are in your classic infrastructure user hierarchy.  
 {: tsSymptoms}
 
-The account owner set the [user list visibility setting](/docs/iam?topic=iam-userlistview#userlistview) to restricted, and you don't have the required access to view all cases in the account. 
+The account owner set the [user list visibility setting](/docs/account?topic=account-iam-user-setting#userlistview) to restricted, and you don't have the required access to view all cases in the account. 
 
 You must be assigned an IAM policy with at least the Viewer role on the User management account management service in addition to your Support Center account management service access policy. To view your current access, in the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Access (IAM)**, and select your name from the **Users** page. Click the **Access policies** tab. 
 {: tsCauses}
