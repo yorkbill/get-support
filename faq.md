@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2020
 
-lastupdated: "2020-06-22"
+lastupdated: "2020-07-24"
 
 keywords: frequently asked question, faq, support cases, email preferences, access for cases, support faq 
 
@@ -79,7 +79,7 @@ Before you open a support case, explore these resources to see whether your issu
 
 If you have Advanced or Premium support, you can track your monthly support costs. In the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Support costs**. Each support plan has a minimum monthly price for providing support for your cloud workload at the stated service level. Beyond this starting price, any additional costs for support are based on your resource usage. The higher your resource usage, the higher your total support cost. 
 
-To view your support costs, you need an access policy with the Administrator role on the Billing account management service. For more information about access roles, see [IAM access](/docs/iam?topic=iam-userroles).
+To view your support costs, you need an access policy with the Administrator role on the Billing account management service. For more information about access roles, see [IAM access](/docs/account?topic=account-userroles).
 
 ## Why can't I see my support cases? 
 {: #view-support-cases}
