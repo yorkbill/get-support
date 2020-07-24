@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-06-22"
+lastupdated: "2020-07-24"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -106,3 +106,21 @@ You want to search for both new and in progress support cases, limit the results
 You want to search for cases by the updated date, but you want to view them from oldest to newest. You also want the status of the support cases to be resolved. 
 
 `sort:~updatedAT status:resolved`
+
+### Support case status types
+{: #search-case-status}
+
+The following table shows each possible support case status and their definitions. 
+
+| Status                | Definition |
+|-----------------------|------------|
+| `New`                 | A created case that hasn't yet been viewed by a support engineer. |
+| `In progress`         | A case that is under review. |
+| `Blocked by customer` | The support engineer has left an inquiry on the case that needs the user's response. |
+| `Blocked by internal` | A support engineer is waiting for an update from an internal team or an {{site.data.keyword.Bluemix_notm}} vendor. |
+| `Resolution provided` | The support engineer provided a resolution that the user needs to perform. |
+| `Resolved`            | The support case is considered finished and ready to be closed. Every support case spends seven days as `Resolved` before they are `Closed`. |
+| `Closed`              | Case is closed by a support engineer and can't be reopened. | 
+{: caption="Table 2. Support case status types" caption-side="top"}
+
+Cases are `Closed` after they are `Resolved` for seven days or if the customer fails to respond to an inquiry within 14 days. When an inquiry relies on a user, the status of the case is `Blocked by customer`. If there is no response after seven days, the status is changed to `Resolved`. If there is still no response after seven more days, the case status is changed to `Closed`. 
