@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-06-22"
+lastupdated: "2020-07-27"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -106,3 +106,20 @@ You want to search for both new and in progress support cases, limit the results
 You want to search for cases by the updated date, but you want to view them from oldest to newest. You also want the status of the support cases to be resolved. 
 
 `sort:~updatedAT status:resolved`
+
+### Support case status types
+{: #search-case-status}
+
+The following table shows each possible support case status and their definitions. 
+
+| Status                | Definition |
+|-----------------------|------------|
+| `New`                 | A created case that hasn't yet been viewed by a support engineer. |
+| `In progress`         | A case that is under review. |
+| `Waiting on client`   | The support engineer has left an inquiry on the case that needs the user's response. |
+| `Resolution provided` | The support engineer provided a resolution that the user needs to perform. |
+| `Resolved`            | The support case is considered finished and ready to be closed. |
+| `Closed`              | Case is closed by a support engineer and can't be reopened. | 
+{: caption="Table 2. Support case status types" caption-side="top"}
+
+Cases are `Closed` if the user fails to respond to an inquiry within 14 days. When an inquiry relies on a user to reply, the status of the case is changed to `Waiting on client`. After seven days, if there is no response, the status is changed to `Resolved`. If there is still no response after seven more days, the case `Closed`. 
