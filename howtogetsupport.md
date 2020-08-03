@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020 
 
-lastupdated: "2020-07-02"
+lastupdated: "2020-08-03"
 
 keywords: support, support case, premium support, advanced support, basic support, support page, help
 
@@ -29,7 +29,7 @@ All {{site.data.keyword.Bluemix_notm}} customers are provided with free technica
 
 The types of support that are available, and when they're available, depend on the support level of the account. Your support plan also determines the severity that you can assign to support cases. For more information, see [Case severity and response time](/docs/get-support?topic=get-support-escalation#support-case-severity).
 
-If you need support but are unable to log in to your account, start a chat by going to the [{{site.data.keyword.Bluemix_notm}} Support](https://www.ibm.com/cloud/support) page and clicking **Let's talk**. 
+If you need support but are unable to log in to your account, start a chat by going to the [{{site.data.keyword.Bluemix_notm}} Support](https://www.ibm.com/cloud/support) page and clicking **Let's talk**, or by filling out the [Create an Account, Login, or Billing Request form](https://watson.service-now.com/x_ibmwc_open_case_app.do#!/create).
 {: tip}
 
 
