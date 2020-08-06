@@ -24,7 +24,6 @@ Getting support
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    bxnui.md
     customer-incident-report.md
 
     {: .topicgroup}
@@ -35,6 +34,7 @@ Getting support
     {: .navgroup id="help"}
     ts_managecase.md
     faq.md
+    bxnui.md
     
     {: .topicgroup}
     Known issues
