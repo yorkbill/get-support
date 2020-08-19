@@ -6,7 +6,9 @@ copyright:
 
 lastupdated: "2020-08-03"
 
-keywords: cir, impacting event, services, advanced customer support, 
+keywords: cir, impacting event, services, advanced customer support
+
+subcollection: get-support
 
 ---
 
