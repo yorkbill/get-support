@@ -1,15 +1,31 @@
 {
   "planned_maintenance_gs": [
     "check for planned maintenance",
+    "scheduled maintenance policy",
+    "Where infomation for scheduled maintenance",
     "upcoming maintenance",
     "when is the next maintenance",
     "when is planned maintenance",
     "maintenance planned for this week",
     "maintenance plans for tomorrow",
     "maintenance plans"
-     ],
+  ],
   "escalate_support": [
     "escalate support cases",
+    "case support escalation",
+    "raise ticket severity",
+    "raise severity of support ticket",
+    "support escalation",
+    "escalate a IAM case",
+    "escalate support case",
+    "Escalate a case",
+    "Escalate Ticket",
+    "want to escalate a case",
+    "Can we escalate the Case",
+    "escalate two support tickets",
+    "can I escalate my case",
+    "escalate cases",
+    "escalate a support ticket",
     "escalation for my support ticket",
     "support case escalation",
     "support case be escalated",
@@ -19,7 +35,7 @@
     "change severity of a case",
     "update case severity",
     "help escalating a ticket"
-     ],
+  ],
   "steps_before_opencase": [
     "before I open a case what can I do",
     "steps before opening a support case",
@@ -27,59 +43,88 @@
     "prior to opening a ticket what do I do",
     "steps to take before open a support case",
     "can I do anything before opening a case"
-     ],    
-   "support-costs": [
+  ],
+  "support-costs": [
     "charged for support",
     "the cost for support",
     "how much is support",
     "how much is support each month",
+    "know the charges for advance support plan",
+    "support costs calculated",
+    "how are support costs calculated",
+    "cost of standard support",
+    "want to know total support cost",
     "support costs",
     "cost of support",
     "costs for support"
-     ],   
-   "ts_service_broker": [
+  ],
+  "view-support-cases": [
+    "Can't find this case",
+    "were i can find all the cases that i submit",
+    "cant find support cases",
+    "can't find open cases",
+    "how to view support cases",
+    "manage my support case",
+    "Can't find a support case",
+    "unable to find support ticket",
+    "can't view a case"
+  ],
+  "ts_service_broker": [
     "looks like you don't have access to create cases for this account",
     "don't have access to create cases",
+    "don't have access to view, create, search, or update cases",
+    "do not have access to open a support case",
+    "can I get access to a support case",
+    "dont have access to open a support case",
     "no access to create a case",
     "unable to create a case due to access",
     "do not have the access to create tickets",
     "cant edit a support case",
-    "don't have access to create a cloud case", 
+    "don't have access to create a cloud case",
     "unable to access cases"
-     ],   
-   "ts_viewarchivedcase": [
-    "can't find all of the cases in the account",
-    "can't find all open cases",
-    "cant find all the support tickets",
-    "unable to find all my cases",
+  ],
+  "ts_viewarchivedcase": [
+    "can't find all of the cases in the account after migrating",
+    "can't find infrastructure open cases",
+    "cant find all the support tickets for Cloud infrastructure",
+    "unable to find all my cases after migration from SoftLayer",
     "my cases been archived",
     "where are archived cases",
-    "can't locate all the cases"
-     ],
+    "show me how to view past support cases",
+    "problem with managing tickets with Cloud infrastructure",
+    "can't locate all the Softlayer cases"
+  ],
   "ts_viewcasedetails": [
-     "can't I view all tickets in the account",
-     "unable to see all my account tickets",
-     "cant I see all the cases attached to this account",
-     "unable to view the support ticket",
-     "problem with managing tickets with Cloud infrastructure"
-     ],
+    "can't I view all tickets in the account",
+    "unable to see all my account tickets",
+    "cant I see all the cases attached to this account",
+    "unable to view all the support ticket",
+    "can't view all of the cases in the account"
+  ],
   "ts_tech-support-case": [
     "can't create a technical support case",
     "can't create a support ticket",
     "unable to create a ticket for a service",
     "can't create a technical case",
     "can't create a case",
+    "technical support",
+    "create case option is disabled for me",
+    "cannot open a support case",
+    "I cannot open a support case",
+    "creating a support case does not work",
+    "cannot create a support case",
+    "can't create a support case ",
     "unable to create a case",
     "can't create tickets for my service",
     "unable to create a technical support case",
     "can't create tickets for technical support",
     "only create a case for account and billing"
-    ],
-  "supportcenter-service": [  
+  ],
+  "supportcenter-service": [
     "can't find help information in the Support Center for my services",
     "unable to find anything helpful in Support Center for my service",
     "cant find the answer to my question in support center",
     "can't find helpful information in the Support Center",
     "cant find an answer to my issue in support center"
-     ]
+  ]
 }
