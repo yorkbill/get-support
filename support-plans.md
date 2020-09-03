@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-07-29"
+lastupdated: "2020-09-03"
 
 keywords: basic support, advanced support, premium support, support plans, free technical support, response time
 
@@ -39,7 +39,7 @@ If you have FREE support, you're provided technical support through [Stack Overf
 | Pricing               | Included with cloud entitlement | Starting at USD 200 per month | Starting at USD 10,000 per month |
 {:caption="Table 1. Support plans" caption-side="top"}
 
-For more information about how the severity of cases is assigned, see [Case severity and response times](/docs/get-support?topic=get-support-support-case-severity#support-case-severity).
+For more information about how the severity of cases is assigned, see [Case severity and response times](/docs/get-support?topic=get-support-support-case-severity).
 
 Initial response Service Level Objectives (SLO) do not apply to any sales related inquiries or cases.
 {: important}
