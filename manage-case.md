@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-07-31"
+lastupdated: "2020-09-03"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -98,3 +98,21 @@ Cases are `Closed` if the user fails to respond to an inquiry within 14 days. Wh
 {: caption="Table 2. Support case status types" caption-side="top"} -->
 
 
+## Viewing a support case by using the API
+{: #viewing-case-api}
+
+You can programmatically view a support case by calling the Case Management API as shown in the following sample request. For detailed information about the API, see [Case Management](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
+
+To view by the content of the IAM token, see the following sample:
+
+```
+curl -X GET 'https://support-center.cloud.ibm.com/case-management/v1/cases?offset=0&limit=10&status=new,in_progress,waiting_on_client,resolution_provided' -H 'Authorization: TOKEN' \
+```
+{: codeblock}
+
+To view a case specified by the case number, see the following sample:
+
+```
+curl -X GET '/case-management/v1/cases/{case_number}?fields=number,updated_at,resources' -H 'Authorization: TOKEN' 
+```
+{: codeblock}
