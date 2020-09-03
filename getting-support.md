@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-08-03"
+lastupdated: "2020-09-03"
 
 keywords: service support, type of service
 
@@ -26,7 +26,7 @@ subcollection: get-support
 If you experience problems with {{site.data.keyword.Bluemix}}, you have several options to get help with determining the cause of the problem and finding a solution. If you're logged in, you can go directly to the [Support center](https://{DomainName}/unifiedsupport/supportcenter) to review your product topics and featured FAQs, open or manage a support case, or search community content.
 {:shortdesc}
 
-The types of available support depends on the support level of the account. Your support plan also determines the severity level that you can assign to support cases. For more information, see [Case severity and response time](/docs/get-support?topic=get-support-support-case-severity#support-case-severity). 
+The types of available support depends on the support level of the account. Your support plan also determines the severity level that you can assign to support cases. For more information, see [Case severity and response time](/docs/get-support?topic=get-support-support-case-severity). 
 
 You can change your current support plan at any time by contacting {{site.data.keyword.Bluemix_notm}} sales. Go to the [{{site.data.keyword.Bluemix_notm}} support page](https://www.ibm.com/cloud/support){: external} and click **Contact Us**. From there, you can communicate with an expert through chat, phone, or email.
 
