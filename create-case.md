@@ -30,7 +30,7 @@ The types of available support depends on the support level of the account. Your
 By default, account users don't have access to create, update, search, or view cases. The account owner must provide users access by assigning an Identity and Access Management (IAM) access policy. For more information, see [Assigning user access for working with support cases](/docs/get-support?topic=get-support-access#access).
 {:tip}
 
-All accounts can open a support case, but Lite accounts are unable to open technical support cases. Technical support for Lite accounts with FREE support is provided by the {{site.data.keyword.Bluemix_notm}} docs and [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud?tab=Newest){: external}. 
+All accounts can open a support case, but Lite accounts are unable to open technical support cases. Technical support for Lite accounts with FREE support is provided by the [{{site.data.keyword.Bluemix_notm}} docs](https://cloud.ibm.com/docs){: external} and [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud?tab=Newest){: external}. 
 
 Complete the following steps to create a support case: 
 
@@ -57,5 +57,31 @@ When you create a case, you can attach a file. The following file types are supp
 ```
 {: screen}
 
+## Creating a support case by using the API
+{: #create-case-api}
 
+You can programmatically open a support case by calling the Case Management API as shown in the following sample request. For detailed information about the API, see [Case Management](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
 
+```
+curl --location --request POST 'support-center.cloud.ibm.com/case-management/v1/cases' --header 'Content-Type: application/json' --header 'Content-Type: text/plain' --data-raw '{ "type": "technical",
+  "subject": "Case subject",
+  "description": "Case description",
+  "severity":4,
+   "offering": {
+    "name": "Cloud Object Storage",
+    "type": {
+      "group": "crn_service_name",
+      "key": "cloud-object-storage",
+      "kind": "service",
+      "id": "dff97f5c-bc5e-4455-b470-411c3edbe49c"
+    }
+  },
+  "resources": [
+    {
+      "crn": "crn:v1:staging:public:cloud-object-storage:global:a/2dded3de4a4d4a098ebd0998be5cc845:723a59c4-9338-43fe-9dc4-e4a87cc78c8e::",
+      "note": "Resource note"
+    }
+  ]
+}'
+```
+{: codeblock}
