@@ -12,8 +12,8 @@ Getting support
     {: .navgroup id="howto"}
     {: topicgroup}
     Opening a support case
-            create-case.md
-            case-severity-response-times.md
+        create-case.md
+        case-severity-response-times.md
 
     assign-user-access-cases.md
         
