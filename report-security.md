@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020 
 
-lastupdated: "2020-06-10"
+lastupdated: "2020-09-03"
 
 keywords: security, reporting, vulnerability
 
@@ -24,7 +24,7 @@ subcollection: get-support
 
 If you see a potential {{site.data.keyword.Bluemix_notm}} security vulnerability, report it by completing the following steps:
 
-1. Open a severity 1 case or a case of the highest severity level that your support allows. For information about how to open a case, see [Creating support cases](/docs/get-support?topic=get-support-open-case#opentechcase).
+1. Open a severity 1 case or a case of the highest severity level that your support allows. For information about how to open a case, see [Creating support cases](/docs/get-support?topic=get-support-open-case).
 1. Clearly describe in the case summary that the case is about a potential security vulnerability.
 1. Provide details of the potential security vulnerability by including one of the following items:
 * A phone number at which you can be reached to discuss the issue.
