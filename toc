@@ -5,40 +5,56 @@
 Getting support
 
     {: .navgroup id="learn"}
-    index.md
-    servicessupport.md
+    using-support-center.md
+    support-plans.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    howtogetsupport.md
-    opencase.md
-    quick-case-response.md
-    support_access.md
+    {: topicgroup}
+    Opening a support case
+            create-case.md
+            case-severity-response-times.md
 
+    assign-user-access-cases.md
+        
+    {: topicgroup}
+    Managing your support cases
+        manage-case.md
+        escalate-case.md
+        
     {: topicgroup}
     Monitoring notifications and status
+        status-bps.md
         view_notifications.md
         ViewStatus.md
-        status-bps.md
         status_search.md
+
+    report-security.md
+    /billing-usage/billing-usage-support
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     customer-incident-report.md
 
     {: .topicgroup}
-    API reference
-        [Case management](https://{DomainName}/apidocs/case-management){: external}
+    [API reference](https://{DomainName}/apidocs/case-management){: external}
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    ts_managecase.md
     faq.md
+    
+    {: topicgroup}
+    Troubleshooting    
+        ts_create-case.md
+        ts_help-info-services.md
+        ts_service-broker.md
+        ts_view-archived-cases.md
+        ts_view-case-details.md
+        
     bxnui.md
     
     {: .topicgroup}
-    Known issues
-        datacenter-migration.md
+    datacenter-migration.md
     
     [Stack Overflow](http://stackoverflow.com/questions/tagged/ibm-bluemix)
     [IBM Public Cloud Community](https://community.ibm.com/community/user/publiccloud/home)
