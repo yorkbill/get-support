@@ -85,3 +85,16 @@ curl --location --request POST 'support-center.cloud.ibm.com/case-management/v1/
 }'
 ```
 {: codeblock}
+
+### Adding a resource to a support case by using the API
+{: #add-resource-api}
+
+You can programmatically add a resource to a support case that you're opening by calling the Case Management API as shown in the following sample request. For detailed information about the API, see [Case Management](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
+
+```
+curl -X PUT '/case-management/v1/cases/{case_number}/resources' -H 'Authorization: TOKEN' -d '{
+  "crn": "296878",
+  "note": "This resource does not work"
+}'
+```
+{: codeblock}
