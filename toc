@@ -16,11 +16,8 @@ Getting support
         case-severity-response-times.md
 
     assign-user-access-cases.md
-        
-    {: topicgroup}
-    Managing your support cases
-        manage-case.md
-        escalate-case.md
+    manage-case.md    
+    escalate-case.md
         
     {: topicgroup}
     Monitoring notifications and status
