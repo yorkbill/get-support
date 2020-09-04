@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-09-03"
+lastupdated: "2020-09-04"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -19,10 +19,14 @@ subcollection: get-support
 {:note: .note}
 {:external: target="_blank" .external}
 
-# Viewing support cases
+# Managing your support cases
 {: #viewing-support-cases}
 
 All client support issues are documented in support cases. Each support case is assigned a unique case number and a severity level based on the details in the case description. You can use the case number to review your support case progress and update the support case. Updates are recorded in the case notes, which can be found by selecting the specific support case. You can also select a case from the list to add comments and add users from the account to a watchlist so they can receive alerts about a case. 
+
+
+## Viewing support cases
+{: #viewing-support-cases}
 
 To view and manage your support cases, use the following steps:
 
@@ -114,5 +118,32 @@ To view a case specified by the case number, see the following sample:
 
 ```
 curl -X GET '/case-management/v1/cases/{case_number}?fields=number,updated_at,resources' -H 'Authorization: TOKEN' 
+```
+{: codeblock}
+
+
+## Updating a support case by using the API
+{: #updating-case-api}
+
+You can programmatically update a support case by calling the Case Management API as shown in the following sample request. For detailed information about the API, see [Case Management](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
+
+```
+curl -X PUT '/case-management/v1/cases/{case_number}/status' -H 'Authorization: TOKEN' -d '{
+  "action": "resolve",
+  "comment": "The issue is resolved. Thank you!",
+  "resolution_code": 1
+}'
+```
+{: codeblock}
+
+## Adding a comment to a support case by using the API
+{: #comment-case-api}
+
+You can programmatically add a comment to a support case by calling the Case Management API as shown in the following sample request. For detailed information about the API, see [Case Management](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
+
+```
+curl -X PUT '/case-management/v1/cases/{case_number}/comments' -H 'Authorization: TOKEN' -d '{
+  "comment": "Test comment api"
+}'
 ```
 {: codeblock}
