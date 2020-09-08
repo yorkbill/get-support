@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-09-04"
+lastupdated: "2020-09-08"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -20,7 +20,7 @@ subcollection: get-support
 {:external: target="_blank" .external}
 
 # Managing your support cases
-{: #viewing-support-cases}
+{: #managing-support-cases}
 
 All client support issues are documented in support cases. Each support case is assigned a unique case number and a severity level based on the details in the case description. You can use the case number to review your support case progress and update the support case. Updates are recorded in the case notes, which can be found by selecting the specific support case. You can also select a case from the list to add comments and add users from the account to a watchlist so they can receive alerts about a case. 
 
@@ -70,7 +70,6 @@ You want to search for both new and in progress support cases, limit the results
 You want to search for cases by the updated date, but you want to view them from oldest to newest. You also want the status of the support cases to be resolved. 
 
 `sort:~updatedAT status:resolved`
-
 
 ### Support case status types
 {: #search-case-status}
