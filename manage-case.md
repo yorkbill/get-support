@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-09-08"
+lastupdated: "2020-09-10"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -87,18 +87,6 @@ The following table shows each possible support case status and their definition
 {: caption="Table 2. Support case status types" caption-side="top"}
 
 Cases are `Closed` if the user fails to respond to an inquiry within 14 days. When an inquiry relies on a user to reply, the status of the case is changed to `Waiting on client`. After seven days, if there is no response, the status is changed to `Resolved`. If there is still no response after seven more days, the case `Closed`. 
-
-<!--This table has 2 potential new status types. It's unclear if or when these status types will be updated. Leaving here for now. 
-| Status                | Definition |
-|-----------------------|------------|
-| `New`                 | A created case that hasn't yet been viewed by a support engineer. |
-| `In progress`         | A case that is under review. |
-| `Blocked by customer` | The support engineer has left an inquiry on the case that needs the user's response. |
-| `Blocked by internal` | A support engineer is waiting for an update from an internal team or an {{site.data.keyword.Bluemix_notm}} vendor. |
-| `Resolution provided` | The support engineer provided a resolution that the user needs to perform. |
-| `Resolved`            | The support case is considered finished and ready to be closed. |
-| `Closed`              | Case is closed by a support engineer and can't be reopened. | 
-{: caption="Table 2. Support case status types" caption-side="top"} -->
 
 
 ## Viewing a support case by using the API

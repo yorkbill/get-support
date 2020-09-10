@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-06-11"
+lastupdated: "2020-09-10"
 
 keywords: case severity, severity, support case severity
 
@@ -31,17 +31,6 @@ The following table lists some common examples of support issues, suggested seve
 
 Initial response Service Level Objectives (SLO) do not apply to any sales related inquiries or cases.
 {: important}
-
-<!-- trying out the new table for now
-| Severity   | Severity Definition | Initial Response Time Objectives |
-|------------|---------------------|----------------------------------|
-| Severity 1 | **Critical business impact or service is down.** <br> Business-critical function is inoperable or critical interface is failed. This severity usually applies to a production environment and indicates that an inability to access services is leading to a critical impact on operations. This condition requires an immediate solution. | Premium: Less than 15 minutes <br> Advanced: Within 1 hour <br> Basic: N/A, can't open severity 1 cases |
-| Severity 2 | **Significant business impact.** <br> A service feature or function is severely restricted in its use or you are in danger of missing business deadlines. | Premium: Within 1 hour <br> Advanced: Within 2 hours <br> Basic: N/A, can't open severity 2 cases |
-| Severity 3 | **Minor business impact.** <br> A service feature or function is usable, but has some problems that affect its use. No critical impact on operations is caused. | Premium: Within 2 hours <br> Advanced: Within 4 hours <br> Basic: N/A, can't open severity 3 cases |
-| Severity 4 | **Minimal business impact.** <br> An inquiry or non-technical request. | Premium: Within 4 hours <br> Advanced: Within 8 hours <br> Basic: No SLO |
-{: caption="Table 1. Severity definition and initial response time" caption-side="top"}
--->
-
 
 | Severity level | Definition | Details |
 |:-----------------|:-----------------|:-----------------|
