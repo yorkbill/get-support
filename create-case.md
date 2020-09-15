@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-09-03"
+lastupdated: "2020-09-015"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -30,7 +30,7 @@ The types of available support depends on the support level of the account. Your
 By default, account users don't have access to create, update, search, or view cases. The account owner must provide users access by assigning an Identity and Access Management (IAM) access policy. For more information, see [Assigning user access for working with support cases](/docs/get-support?topic=get-support-access#access).
 {:tip}
 
-All accounts can open a support case, but Lite accounts are unable to open technical support cases. Technical support for Lite accounts with FREE support is provided by the [{{site.data.keyword.Bluemix_notm}} docs](https://cloud.ibm.com/docs){: external} and [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud?tab=Newest){: external}. 
+All accounts can open a support case, but Lite accounts are unable to open technical support cases. Technical support for Lite accounts with free support is provided by the [{{site.data.keyword.Bluemix_notm}} docs](https://cloud.ibm.com/docs){: external} and [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud?tab=Newest){: external}. 
 
 Complete the following steps to create a support case: 
 

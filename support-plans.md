@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-09-04"
+lastupdated: "2020-09-15"
 
 keywords: basic support, advanced support, premium support, support plans, free technical support, response time
 
@@ -26,7 +26,7 @@ subcollection: get-support
 You can choose a Basic, Advanced, or Premium support plan to customize your {{site.data.keyword.Bluemix}} support experience for your business needs. The level of support that you select determines the severity that you can assign to support cases and your level of access to the tools available in the Support Center. 
 {:shortdesc}
 
-If you have FREE support, you're provided technical support through [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud?tab=Newest){: external}. Also, with a Lite account and FREE support, you can open cases that are related to access management, accounts, and billing and usage.
+If you have free support, you're provided technical support through [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud?tab=Newest){: external}. Also, with a Lite account and free support, you can open cases that are related to access management, accounts, and billing and usage.
 {: note}
 
 |                                  | Basic Support | Advanced Support | Premium Support |
