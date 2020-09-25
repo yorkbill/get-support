@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2020
 
-lastupdated: "2020-09-03"
+lastupdated: "2020-09-25"
 
 keywords: cir, impacting event, services, advanced customer support
 
@@ -48,7 +48,7 @@ The following image shows the process for receiving a CIR.
 ## Requesting a Customer Incident Report (CIR)
 {: #requesting-customer-incident-report}
 
-A CIR must be requested by using one of the following methods: 
+A CIR must be requested within 30 days of an impacting event by using one of the following methods: 
 
 * Create a case requesting a CIR
 * Request a CIR within the case description
