@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2020
 
-lastupdated: "2020-06-19"
+lastupdated: "2020-10-01"
 
 keywords: notifications, view notifications, set notifications, iaas notifications, notification icon, header bell, bell icon 
 
@@ -55,7 +55,7 @@ The following is a table with the different types of notifications and the reaso
 | Planned maintenance | Scheduled upcoming maintenance that might affect the {{site.data.keyword.Bluemix_notm}} products that you use. Each notification describes the impact and the start and stop times of the maintenance. |
 | Security bulletins | Events that affect various the {{site.data.keyword.Bluemix_notm}} products, infrastructure, or the platform. |
 | Announcement | Notifications about the {{site.data.keyword.Bluemix_notm}} that might be of general interest to you, like product upgrades or updates. | 
-| Incident | An unexpected impacting event that affects your {{site.data.keyword.Bluemix_notm}} experience. |
+| Incident | An unexpected impacting issue that affects your {{site.data.keyword.Bluemix_notm}} experience. |
 {: caption="Table 1. Notification types" caption-side="top"}
 
 ## Subscribing to email notifications
