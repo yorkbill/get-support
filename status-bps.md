@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-04-10"
+lastupdated: "2020-10-02"
 
 keywords: upcoming maintenance, stay up-to-date, monitor status
 
@@ -21,7 +21,7 @@ subcollection: get-support
 # Best practices for monitoring status
 {: #best-practices}
 
-To create a plan and stay informed, use the following best practices for monitoring the status of {{site.data.keyword.Bluemix}}.
+To create a plan and stay informed about , use the following best practices for monitoring the status of {{site.data.keyword.Bluemix}}. Ongoing incidents or planned maintenance windows that impact a finite set of accounts do not display on the Status page. The notifications for those events will be published only to the customer [Notifications page](https://cloud.ibm.com/notifications){: external}.
 {: shortdesc}
 
 
