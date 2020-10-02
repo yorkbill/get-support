@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-05-05"
+lastupdated: "2020-10-02"
 
 keywords: cloud status, view cloud status, planned maintenance, RSS feed, unfied notifications, iaas notifications, classic infrastructure notifications
 
@@ -68,7 +68,7 @@ Infrastructure notifications are now hosted on the [Notifications](https://cloud
 ## Subscribing to an RSS feed
 {: #subscribing-rss-feed}
 
-You receive alerts of any notifications by subscribing to the RSS feed for the Status page. This approach provides a way for you to get updates without having to regularly go to the Status page.
+You receive alerts of any notifications by subscribing to the RSS feed for the Status page. This approach provides a way for you to get updates without having to regularly go to the Status page. Ongoing incidents or planned maintenance windows that impact a finite set of accounts do not display on the Status page. 
 
 To subscribe, follow these steps:
 
