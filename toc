@@ -51,7 +51,9 @@ Getting support
     bxnui.md
     
     {: .topicgroup}
-    datacenter-migration.md
+    Known issues 
+        datacenter-migration.md
+        data-center-closures.md
     
     [Stack Overflow](http://stackoverflow.com/questions/tagged/ibm-bluemix)
     [IBM Public Cloud Community](https://community.ibm.com/community/user/publiccloud/home)
