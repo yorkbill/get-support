@@ -62,7 +62,7 @@ that are set to close. You should receive notifications if you have services in 
 
 | Date           | Data Center Migration Milestone |
 |----------------|---------------------------------|
-| 14 October 2020 | Data center closure communicated to affected clients by email. |
+| 03 November 2020 | Official announcement for all impacted clients. |
 | October 2020    | Business Partner available to help clients migrate to a new data center. |
 | 03 September 2021 | HOU02, DAL05 - POD2, and WDC01 – POD3 and POD4 data centers are closed; no longer available or supported. Other PODs in DAL05 and WDC01 are not impacted. |
 {: caption="Table 2. Timeline for data center migration" caption-side="top"}
