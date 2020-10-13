@@ -20,7 +20,7 @@ subcollection: get-support
 {:important: .important}
 {:external: target="_blank" .external}
 
-# Known issues
+# Data center closures in 2020
 {: #dc-migrate}
 
 As part of the data center modernization strategy for {{site.data.keyword.cloud}}, older legacy data centers in Dallas and Houston (D2, D6, D7, H2) were scheduled to close on 31 August 2020; these data center closures are now extended to 30 October 2020. Through coordination with our vendors, we’ve also secured an extension for select facilities in Dallas, Melbourne and Seattle. For DAL07, MEL01, and SEA01, data center closures are extended to 30 November 2020.  
