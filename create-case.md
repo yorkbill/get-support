@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-09-015"
+lastupdated: "2020-10-21"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -38,6 +38,7 @@ Complete the following steps to create a support case:
   1. From the Contact support section, click **Create a case**. 
   1. Select the type of issue that you need help with. 
   1. Complete the required fields.
+     * To maintain device security and service security, do not include any device or service credentials within case responses. The response fields are not intended for Personal Information or Sensitive Data. Information entered into these fields is retained to provide the best support experience.
   1. Optional: 
     * Attach files and resources to provide more details about the issue you're experiencing.
     * Add another user to the case if the user is in the account. For more information, see [Adding users to your case management access group](/docs/get-support?topic=get-support-access#add-user-access-group).
