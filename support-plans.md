@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-09-15"
+lastupdated: "2020-10-27"
 
 keywords: basic support, advanced support, premium support, support plans, free technical support, response time
 
@@ -73,24 +73,4 @@ Basic Support is provided for non-production environments or workloads that don'
 
 The level of support that is assigned to an [{{site.data.keyword.Bluemix_notm}} enterprise](/docs/account?topic=account-what-is-enterprise) defaults to the highest support plan within the enterprise. All child accounts within the enterprise also default to the highest support plan.
 
-
-## Satisfaction surveys for {{site.data.keyword.Bluemix_notm}} support  
-{: #survey}
-
-{{site.data.keyword.IBM_notm}} periodically sends surveys to {{site.data.keyword.Bluemix_notm}} customers to get feedback on recent experiences with customer support. The survey focuses on the support quality and the overall experience. {{site.data.keyword.IBM_notm}} management reviews the survey results to improve the support experience.
-
-
-<!--moved this section to changing-support-plan.md
-## Changing your support plan
-{:changing-support}
-
-You can change your current support plan at any time by contacting {{site.data.keyword.Bluemix_notm}} sales. Go to the [{{site.data.keyword.Bluemix_notm}} support page](https://www.ibm.com/cloud/support){: external} and click **Contact Us**. From there, you can communicate with an expert through chat, phone, or email.
--->
-
-<!-- moved this section to tracking-support-costs.md
-## Tracking your support costs
-{: #support-tracking-costs}
-
-Advanced and Premium support plans have a starting price for your cloud workload at the stated service level. This starting price includes support for a certain amount of resource usage. If your resource usage exceeds this amount, you're charged for the associated extra support costs. You can track your support costs from the **Manage > Billing and usage > Support costs** page. For more information, see [Viewing your support costs](/docs/billing-usage?topic=billing-usage-support).
--->
 
