@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020 
 
-lastupdated: "2020-08-04"
+lastupdated: "2020-10-26"
 
 keywords: support, support case, premium support, advanced support, basic support, support page, help
 
@@ -44,6 +44,9 @@ There are different options to contact {{site.data.keyword.Bluemix_notm}} suppor
 * Pay-as-you-go or subscription accounts can also contact support by phone: +1-866-403-7638.
 * If you have technical questions, there's a link to [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external}). 
 * You can also use the [Create a case](https://{DomainName}/unifiedsupport/cases/add) page to submit a case.
+
+{{site.data.keyword.IBM_notm}} periodically sends surveys to {{site.data.keyword.Bluemix_notm}} customers to get feedback on recent experiences with customer support. The survey focuses on the support quality and the overall experience. {{site.data.keyword.IBM_notm}} management reviews the survey results to improve the support experience.
+{: note}
 
 ### Asking a question
 {: #asking-a-question}
