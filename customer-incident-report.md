@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2020
 
-lastupdated: "2020-09-25"
+lastupdated: "2020-11-02"
 
 keywords: cir, impacting event, services, advanced customer support
 
@@ -25,7 +25,7 @@ subcollection: get-support
 {{site.data.keyword.Bluemix}} works hard to maintain high availability of infrastructure and cloud services. If you're impacted by any event that disrupts your service delivery, a Customer Incident Report (CIR) can be provided for you to know how services were impacted and how the issue is being resolved. 
 {:shortdesc}
 
-After you create a support case, you can view updates about your impacting event from the Manage cases page. For more information, see [Viewing your support cases](/docs/get-support?topic=get-support-viewing-support-cases). If the scope of an impacting event is of a larger enterprise-wide scope, a CIR is provided upon request. 
+After you create a support case, you can view updates about your impacting event from the Manage cases page. For more information, see [Managing your support cases](/docs/get-support?topic=get-support-managing-support-cases). If the scope of an impacting event is of a larger enterprise-wide scope, a CIR is provided upon request. 
 {: note}
 
 
