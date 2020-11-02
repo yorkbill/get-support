@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-10-27"
+lastupdated: "2020-11-02"
 
 keywords: basic support, advanced support, premium support, support plans, free technical support, response time
 
@@ -36,7 +36,7 @@ If you have free support, you're provided technical support through [Stack Overf
 | Initial response time objectives | Not applicable | Severity 1: Less than 1 hour <br> Severity 2: Less than 2 hours <br> Severity 3: Less than 4 hours <br> Severity 4: Less than 8 hours | Severity 1: Less than 15 minutes <br> Severity 2: Less than 1 hour <br> Severity 3: Less than 2 hours <br> Severity 4: Less than 4 hours |
 | Case severity                    | Not applicable | Case severity ranking available | Case severity ranking available |
 | Additional support               | Not applicable | Not applicable | Technical Account Manager assigned <br> Quarterly business reviews <br> Access to experts |
-| Pricing               | Included with cloud entitlement | Starting at USD 200 per month | Starting at USD 10,000 per month |
+| Pricing               | Included with cloud entitlement | Starting at USD 200 per month and based on consumption | Starting at USD 10,000 per month and based on consumption |
 {:caption="Table 1. Support plans" caption-side="top"}
 
 For more information about how the severity of cases is assigned, see [Case severity and response times](/docs/get-support?topic=get-support-support-case-severity).
