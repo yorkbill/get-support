@@ -4,7 +4,7 @@ copyright:
 
   years: 2020
 
-lastupdated: "2020-10-13"
+lastupdated: "2020-11-03"
 
 keywords: data centers, data center support, datacenter, data center closure
 
@@ -36,7 +36,7 @@ New products and services can't be provisioned on data centers that are schedule
 
 
 ## Withdrawal of support for some data centers - 2021
-{: #withdrawal-support-data-centers}
+{: #withdrawal-support-data-centers-2021}
 
 {{site.data.keyword.cloud_notm}} invests significantly in data center infrastructure. These investments include rolling out 
 newer data centers and multizone regions (MZRs) designed to deliver a more resilient architecture with higher levels of 

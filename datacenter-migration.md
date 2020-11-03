@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2020
 
-lastupdated: "2020-08-24"
+lastupdated: "2020-11-02"
 
 keywords: data centers, data center support, Dallas, Seattle, Melbourne, Houston, D2, D6, DAL07, SEA01, H2, MEL01, datacenter
 
@@ -31,7 +31,7 @@ New products and services can't be provisioned on data centers that are schedule
 
 
 ## Withdrawal of support for some data centers
-{: #withdrawal-support-data-centers}
+{: #withdrawal-support-data-centers-2020}
 
 {{site.data.keyword.cloud_notm}} invests significantly in data center infrastructure. These investments include rolling out newer data centers and multizone regions (MZRs) designed to deliver a more resilient architecture with higher levels of network throughput and redundancy. For more information, see [Locations for resource deployment](/docs/overview?topic=overview-locations).
 
