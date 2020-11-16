@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-09-28"
+lastupdated: "2020-11-16"
 
 keywords: case severity, severity, support case severity
 
@@ -29,7 +29,7 @@ How quickly your support cases are addressed depends on the assigned severity. Y
 
 The following table lists some common examples of support issues, suggested severity levels, and the initial response time objectives. The initial response time objectives are used to describe IBM goals only, and don't represent a performance guarantee.
 
-Initial response Service Level Objectives (SLO) do not apply to any sales related inquiries or cases.
+Initial response Service Level Objectives (SLO) do not apply to any billing, invoice, or sales related inquiry or cases.
 {: important}
 
 | Severity | Business impact | Details |

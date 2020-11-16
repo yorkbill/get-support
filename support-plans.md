@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-11-02"
+lastupdated: "2020-11-16"
 
 keywords: basic support, advanced support, premium support, support plans, free technical support, response time
 
@@ -41,7 +41,7 @@ If you have free support, you're provided technical support through [Stack Overf
 
 For more information about how the severity of cases is assigned, see [Case severity and response times](/docs/get-support?topic=get-support-support-case-severity).
 
-Initial response Service Level Objectives (SLO) do not apply to any sales related inquiries or cases.
+Initial response Service Level Objectives (SLO) do not apply to any billing, invoice, or sales related inquiry or cases.
 {: important}
 
 
