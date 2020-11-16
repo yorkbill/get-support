@@ -39,7 +39,7 @@ If you have free support, you're provided technical support through [Stack Overf
 | Pricing               | Included with cloud entitlement | Starting at USD 200 per month and based on consumption | Starting at USD 10,000 per month and based on consumption |
 {:caption="Table 1. Support plans" caption-side="top"}
 
-For more information about how the severity of cases is assigned, see [Case severity and response times](/docs/get-support?topic=get-support-support-case-severity).
+If you want to upgrade your support plan, contact your [IBM sales representative](https://www.ibm.com/contact/us/en/?lnk=flg-cont-usen){: external}.
 
 Initial response Service Level Objectives (SLO) do not apply to any billing, invoice, or sales related inquiry or cases.
 {: important}
