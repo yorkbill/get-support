@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2020
 
-lastupdated: "2020-07-24"
+lastupdated: "2020-11-17"
 
 keywords: frequently asked question, faq, support cases, email preferences, access for cases, support faq 
 
@@ -35,6 +35,13 @@ You can check for upcoming maintenance from your dashboard in the {{site.data.ke
 * Go directly to the [Status - Planned maintenance page](https://cloud.ibm.com/status?selected=maintenance){: external}.
 
 
+## How do I open a support case?
+{: #open-support-case}
+{: faq}
+
+Go to the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external} and select **Create a case** from the Contact Support section. For more information, see [Creating support cases](https://cloud.ibm.com/docs/get-support?topic=get-support-open-case).
+
+
 ## How do I escalate support cases? 
 {: #escalate_support}
 {: faq}
@@ -49,6 +56,7 @@ To escalate a support case, complete the following steps:
     {: note} 
 1. Provide your existing case number and request to escalate the case. 
 1. Provide the justification for escalation and the business impact of your problem or issue. 
+
 
 ## How do I change my email preferences for notifications? 
 {: #email_preferences_gs}
@@ -80,6 +88,7 @@ Before you open a support case, explore these resources to see whether your issu
 If you have Advanced or Premium support, you can track your monthly support costs. In the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Support costs**. Each support plan has a minimum monthly price for providing support for your cloud workload at the stated service level. Beyond this starting price, any additional costs for support are based on your resource usage. The higher your resource usage, the higher your total support cost. 
 
 To view your support costs, you need an access policy with the Administrator role on the Billing account management service. For more information about access roles, see [IAM access](/docs/account?topic=account-userroles).
+
 
 ## Why can't I see my support cases? 
 {: #view-support-cases}
