@@ -4,7 +4,7 @@ copyright:
 
   years: 2020
 
-lastupdated: "2020-11-03"
+lastupdated: "2020-12-01"
 
 keywords: data centers, data center support, datacenter, data center closure
 
@@ -27,6 +27,7 @@ As part of the data center modernization strategy for {{site.data.keyword.cloud}
 {:shortdesc}
 
 The following data centers and PODs are scheduled to close on 03 September 2021:
+* OSL01
 * HOU02
 * DAL05 – POD2 (other PODs in DAL05 are not impacted)
 * WDC01 – POD3 and POD4 (other PODs in WDC01 are not impacted)
@@ -52,6 +53,7 @@ The following table shows the locations with the associated data centers and spe
 
 | Location      | Data Center to Close |  Migration Options  |
 |---------------|----------------------|---------------------|
+| Oslo          | OSL01                | FRA02, FRA04, FRA05 | 
 | Houston       | HOU02                | DAL10, DAL12, DAL13 | 
 | Dallas        | DAL05 – POD2 (other PODs in DAL05 are not impacted)  | DAL10, DAL12, DAL13  | 
 | Washington DC | WDC01 – POD3 and POD4 (other PODs in WDC01 are not impacted) | WDC04, WDC06, WDC07 | 
@@ -62,11 +64,10 @@ that are set to close. You should receive notifications if you have services in 
 
 | Date           | Data Center Migration Milestone |
 |----------------|---------------------------------|
-| 03 November 2020 | Official announcement for all impacted clients. |
-| October 2020    | Business Partner available to help clients migrate to a new data center. |
-| 03 September 2021 | HOU02, DAL05 - POD2, and WDC01 – POD3 and POD4 data centers are closed; no longer available or supported. Other PODs in DAL05 and WDC01 are not impacted. |
+| 03 November 2020 | Official announcement for all impacted clients in the following data centers / PODs: HOU02, DAL05 – POD2, WDC01 – POD3 and POD4. |
+| 01 December 2020 | Official announcement for all impacted clients in OSL01. |
+| November 2020    | Business Partner available to help clients migrate to a new data center. |
+| 03 September 2021 | OSL01, HOU02, DAL05 - POD2, and WDC01 – POD3 and POD4 data centers are closed; no longer available or supported. Other PODs in DAL05 and WDC01 are not impacted. |
 {: caption="Table 2. Timeline for data center migration" caption-side="top"}
-
-
 
 
