@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020 
 
-lastupdated: "2020-10-26"
+lastupdated: "2020-12-09"
 
 keywords: support, support case, premium support, advanced support, basic support, support page, help
 
@@ -22,13 +22,13 @@ subcollection: get-support
 # Using the Support Center
 {: #using-avatar}
 
-If you experience problems with {{site.data.keyword.Bluemix}}, you have several options to get help with determining the cause of the problem and finding a solution. If you're logged in, you can go directly to the [Support center](https://{DomainName}/unifiedsupport/supportcenter) to review your product topics and featured FAQs, open or manage a support case, or search community content. If you need support but are unable to log in to your account, start a chat by going to the [{{site.data.keyword.Bluemix_notm}} Support](https://www.ibm.com/cloud/support) page and clicking **Let's talk**, or by filling out the [Create an Account, Login, or Billing Request form](https://watson.service-now.com/x_ibmwc_open_case_app.do#!/create). 
+If you experience problems with {{site.data.keyword.Bluemix}}, you have several options to get help with determining the cause of the problem and finding a solution. If you're logged in, you can go directly to the [Support center](https://{DomainName}/unifiedsupport/supportcenter) to review your product topics and featured FAQs, open or manage a support case, or search community content. If you can't log in to your account, start a chat by going to the [{{site.data.keyword.Bluemix_notm}} Support](https://www.ibm.com/cloud/support) page and clicking **Let's talk**. Or you can complete the [Create an Account, Login, or Billing Request form](https://watson.service-now.com/x_ibmwc_open_case_app.do#!/create). 
 {:shortdesc}
 
 As a classic infrastructure user, you might be familiar with support tickets. Tickets are now called cases in {{site.data.keyword.Bluemix_notm}}. 
 {: note} 
 
-There are three different types of support plans offered. For more information, see [Basic, Advanced, and Premium Support plans](/docs/get-support?topic=get-support-support-plans). You can change your current support plan at any time by contacting {{site.data.keyword.Bluemix_notm}} sales. Go to the [{{site.data.keyword.Bluemix_notm}} support page](https://www.ibm.com/cloud/support){: external} and click **Contact Us**. From there, you can communicate with an expert through chat, phone, or email.
+Three different types of support plan are offered. For more information, see [Basic, Advanced, and Premium Support plans](/docs/get-support?topic=get-support-support-plans). You can change your current support plan at any time by contacting {{site.data.keyword.Bluemix_notm}} sales. Go to the [{{site.data.keyword.Bluemix_notm}} support page](https://www.ibm.com/cloud/support){: external} and click **Contact Us**. From there, you can communicate with an expert through chat, phone, or email.
 
 
 ## Getting support
@@ -36,11 +36,11 @@ There are three different types of support plans offered. For more information, 
 
 To access the Support Center, in the {{site.data.keyword.Bluemix_notm}} console, go to **Support**.  
 
-Review your product topics to get a quick overview of {{site.data.keyword.Bluemix_notm}} documentation. These topics offer common tasks based on what is provisioned on your account. You can search to view topics based on specific products. You can also view and search through Featured FAQs. If you experience problems with {{site.data.keyword.Bluemix}}, create and manage support cases from the Support Center. 
+Review your product topics to get a quick overview of the {{site.data.keyword.Bluemix_notm}} documentation that offers common tasks based on what is provisioned on your account. You can search to view topics based on specific products. You can also view and search through Featured FAQs. If you experience problems with {{site.data.keyword.Bluemix}}, create and manage support cases from the Support Center. 
 
-There are different options to contact {{site.data.keyword.Bluemix_notm}} support if you need additional help. The following are the methods that you can find in the Contact support section: 
+The following are the methods that you can find in the Contact support section if you need help: 
 
-* If have a valid pay-as-you-go or subscription account, you can click **Live chat with support** to chat with a support engineer.  
+* If you have a valid pay-as-you-go or subscription account, you can click **Live chat with support** to chat with a support engineer.  
 * Pay-as-you-go or subscription accounts can also contact support by phone: +1-866-403-7638.
 * If you have technical questions, there's a link to [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external}). 
 * You can also use the [Create a case](https://{DomainName}/unifiedsupport/cases/add) page to submit a case.
@@ -94,7 +94,7 @@ You can change your current support plan at any time by contacting {{site.data.k
 ## {{site.data.keyword.IBM_notm}} beta service
 {: #s-services-betaorcont}
 
-{{site.data.keyword.IBM_notm}} releases services or container images that are classified as beta releases. These services are in a trial stage of development and they aren't production-ready. A beta release helps {{site.data.keyword.IBM_notm}} development and marketing teams to assess the value of the service in the market. This assessment enables teams to make changes before it's released as a GA service or container image.
+{{site.data.keyword.IBM_notm}} releases services or container images that are classified as beta releases. These services are in a trial stage of development and they aren't production-ready. A beta release helps {{site.data.keyword.IBM_notm}} development and marketing teams to assess the value of the service in the market. This assessment enables teams to make updates before the service is released as a GA service or container image.
 
 If the root cause analysis determines the issue is a defect in the beta service or container image, {{site.data.keyword.IBM_notm}} isn't required to provide a fix. Additionally, the case is assigned the appropriate 3 or 4 severity level.
 

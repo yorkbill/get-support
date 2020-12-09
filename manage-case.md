@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-10-28"
+lastupdated: "2020-12-09"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -68,11 +68,11 @@ Enter the following query to view all resolved cases based on when they were las
 ### Support case status types
 {: #search-case-status}
 
-When your response to an update in your support case is needed, the status is displayed as `Waiting on client`. If you don't provide a response within 7 days, the status is updated to `Resolved`. The case is then closed if there is still no response after 7 more days. For a description of each status type, see the following table:
+When your response to an update in your support case is needed, the status is displayed as `Waiting on client`. If you don't provide a response within seven days, the status is updated to `Resolved`. The case is then closed if there's still no response after seven more days. For a description of each status type, see the following table:
 
 | Status                | Description |
 |-----------------------|------------|
-| New                 | A created case that hasn't yet been viewed by a support engineer. |
+| New                 | A created case not yet viewed by a support engineer. |
 | In progress         | A case that is under review. |
 | Waiting on client   | The support engineer has left an inquiry on the case that needs the user's response. |
 | Resolution provided | The support engineer provided a resolution that the user needs to perform. |
@@ -84,7 +84,7 @@ When your response to an update in your support case is needed, the status is di
 ## Viewing support cases by using the API
 {: #viewing-case-api}
 
-You can programmatically view a support case by using the API as shown in the following sample request. For more details, see the [Case Management API](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
+You can programmatically view a support case by using the API as shown in the following sample request. For more information, see the [Case Management API](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
 
 To view by the content of the IAM token, see the following sample:
 
@@ -104,7 +104,7 @@ curl -X GET '/case-management/v1/cases/{case_number}?fields=number,updated_at,re
 ## Updating support cases by using the API
 {: #updating-case-api}
 
-The following sample request shows how to programmatically update a support case. For more details, see the [Case Management API](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
+The following sample request shows how to programmatically update a support case. For more information, see the [Case Management API](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
 
 ```
 curl -X PUT '/case-management/v1/cases/{case_number}/status' -H 'Authorization: TOKEN' -d '{
@@ -118,7 +118,7 @@ curl -X PUT '/case-management/v1/cases/{case_number}/status' -H 'Authorization: 
 ## Adding comments to support cases by using the API
 {: #comment-case-api}
 
-The following sample request shows how to programmatically add a comment to a support case. For more details, see the [Case Management API](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
+The following sample request shows how to programmatically add a comment to a support case. For more information, see the [Case Management API](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
 
 ```
 curl -X PUT '/case-management/v1/cases/{case_number}/comments' -H 'Authorization: TOKEN' -d '{

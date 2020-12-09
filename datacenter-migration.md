@@ -4,7 +4,7 @@ copyright:
 
   years: 1994, 2020
 
-lastupdated: "2020-11-02"
+lastupdated: "2020-12-09"
 
 keywords: data centers, data center support, Dallas, Seattle, Melbourne, Houston, D2, D6, DAL07, SEA01, H2, MEL01, datacenter
 
@@ -23,7 +23,7 @@ subcollection: get-support
 # Data center closures in 2020
 {: #dc-migrate}
 
-As part of the data center modernization strategy for {{site.data.keyword.cloud}}, older legacy data centers in Dallas and Houston (D2, D6, D7, H2) were scheduled to close on 31 August 2020; these data center closures are now extended to 30 October 2020. Through coordination with our vendors, we’ve also secured an extension for select facilities in Dallas, Melbourne and Seattle. For DAL07, MEL01, and SEA01, data center closures are extended to 30 November 2020.  
+As part of the data center modernization strategy for the {{site.data.keyword.cloud}}, older legacy data centers in Dallas and Houston (D2, D6, D7, H2) were scheduled to close on 31 August 2020. These data center closures are now extended to 30 October 2020. Through coordination with our vendors, we secured an extension for select facilities in Dallas, Melbourne and Seattle. For DAL07, MEL01, and SEA01, data center closures are extended to 30 November 2020.  
 {:shortdesc}
 
 New products and services can't be provisioned on data centers that are scheduled to be closed. 
@@ -47,7 +47,7 @@ The following table shows the locations with the associated data centers that ar
 | Legacy Planet | D2 *(colocation in Dallas)*, D6 and D7 *(Dallas)*, H2 *(Houston)*  | DAL10, DAL12, DAL13 |
 {: caption="Table 1. Data centers that are closing" caption-side="top"}
 
-The following table describes important dates that you need to be aware of if you have services that run in the data centers that are set to close. You should receive notifications if you have services in the data centers that are closing.
+The following table describes important dates that you need to be aware of if you have services that run in the data centers that are set to close. You receive notifications if you have services in the data centers that are closing.
 
 | Date           | Data Center Migration Milestone |
 |----------------|---------------------------------|

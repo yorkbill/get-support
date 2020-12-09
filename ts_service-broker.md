@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-06-10"
+lastupdated: "2020-12-09"
 
 keywords: help managing cases, resolve issues managing cases, trouble working with cases, support center, help support center, resolve issues support center, help getting support, help support 
 
@@ -28,7 +28,7 @@ subcollection: get-support
 You can't create or edit an {{site.data.keyword.Bluemix_notm}} support case, and you receive an error message that you don't have the appropriate access. 
 {:shortdesc}
 
-When you try to create a case the following error message is displayed:   
+When you try to create a case, the following error message is displayed:   
 {: tsSymptoms}
 
 `Looks like you don't have access to create cases for this account.`

@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2020
 
-lastupdated: "2020-11-17"
+lastupdated: "2020-12-09"
 
 keywords: frequently asked question, faq, support cases, email preferences, access for cases, support faq 
 
@@ -29,7 +29,7 @@ subcollection: get-support
 {: #planned_maintenance_gs}
 {: faq}
 
-You can check for upcoming maintenance from your dashboard in the {{site.data.keyword.cloud}} console at least once every 24 hours. You can use one of the following options: 
+You can check for upcoming maintenance from your dashboard in the {{site.data.keyword.cloud}} console at least one time every 24 hours. You can use one of the following options: 
 
 * Check out the Planned maintenance widget on the [Dashboard](https://cloud.ibm.com){: external}, and click **View events** to view all planned maintenance.
 * Go directly to the [Status - Planned maintenance page](https://cloud.ibm.com/status?selected=maintenance){: external}.
@@ -39,7 +39,7 @@ You can check for upcoming maintenance from your dashboard in the {{site.data.ke
 {: #open-support-case}
 {: faq}
 
-Go to the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external} and select **Create a case** from the Contact Support section. For more information, see [Creating support cases](https://cloud.ibm.com/docs/get-support?topic=get-support-open-case).
+Go to the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external} in the console, and click **Create a case** from the Contact Support section. For more information, see [Creating support cases](https://cloud.ibm.com/docs/get-support?topic=get-support-open-case).
 
 
 ## How do I escalate support cases? 
@@ -68,7 +68,7 @@ You can change which email notifications you receive for planned events, unplann
 * For `control.softlayer.com`, you can change your email preferences by going to **Account** > **Users** > **Email Preferences**. 
 
 
-## What steps can I take before opening a support case? 
+## What steps can I take before I open a support case? 
 {: #steps_before_opencase}
 {: faq}
 
@@ -85,7 +85,7 @@ Before you open a support case, explore these resources to see whether your issu
 {: #support-costs}
 {: faq}
 
-If you have Advanced or Premium support, you can track your monthly support costs. In the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Support costs**. Each support plan has a minimum monthly price for providing support for your cloud workload at the stated service level. Beyond this starting price, any additional costs for support are based on your resource usage. The higher your resource usage, the higher your total support cost. 
+If you have Advanced or Premium support, you can track your monthly support costs. In the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Support costs**. Each support plan has a minimum monthly support price for your cloud workload at the stated service level. Beyond this starting price, any additional costs for support are based on your resource usage. The higher your resource usage, the higher your total support cost. 
 
 To view your support costs, you need an access policy with the Administrator role on the Billing account management service. For more information about access roles, see [IAM access](/docs/account?topic=account-userroles).
 
@@ -94,6 +94,6 @@ To view your support costs, you need an access policy with the Administrator rol
 {: #view-support-cases}
 {: faq}
 
-To access your support cases, in the {{site.data.keyword.cloud_notm}} console, go to **Support** > **Manage cases**.  If you're unable to view your cases, try clicking **View classic infrastructure cases**. 
+To access your support cases, in the {{site.data.keyword.cloud_notm}} console, go to **Support** > **Manage cases**. If you're unable to view your cases, try clicking **View classic infrastructure cases**. 
 
 If you still can't view them, you might not have the required permission. Ask your account owner to add you to the support case access group. For more information, see [SoftLayer account permissions](/docs/account?topic=account-migrated_permissions). 

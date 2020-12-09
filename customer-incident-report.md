@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2020
 
-lastupdated: "2020-11-02"
+lastupdated: "2020-12-09"
 
 keywords: cir, impacting event, services, advanced customer support
 
@@ -22,7 +22,7 @@ subcollection: get-support
 # Customer Incident Report
 {: #cir}
 
-{{site.data.keyword.Bluemix}} works hard to maintain high availability of infrastructure and cloud services. If you're impacted by any event that disrupts your service delivery, a Customer Incident Report (CIR) can be provided for you to know how services were impacted and how the issue is being resolved. 
+{{site.data.keyword.Bluemix}} works hard to maintain high availability of infrastructure and cloud services. If you're impacted by any event that disrupts your service delivery, a Customer Incident Report (CIR) can be provided. A CIR provides information about how services are impacted and how an issue is getting resolved. 
 {:shortdesc}
 
 After you create a support case, you can view updates about your impacting event from the Manage cases page. For more information, see [Managing your support cases](/docs/get-support?topic=get-support-managing-support-cases). If the scope of an impacting event is of a larger enterprise-wide scope, a CIR is provided upon request. 
@@ -32,7 +32,7 @@ After you create a support case, you can view updates about your impacting event
 ## Details about the Customer Incident Report (CIR)
 {: #details-customer-incident-report}
 
-CIR's are provided for larger, enterprise-level issues. They are updates that provide a Root Cause Analysis (RCA) which is the process for determining the underlying cause of a Customer Impacting Event (CIE). Smaller issues that don't affect {{site.data.keyword.Bluemix_notm}} at an enterprise level don't provide an RCA or CIR. The Advanced Customer Support (ACS) team that mitigates the issue still provides updates, but they're not a formal RCA. 
+A CIR is provided for larger, enterprise-level issues. They are updates that provide a Root Cause Analysis (RCA) which is the process for determining the underlying cause of a Customer Impacting Event (CIE). Smaller issues that don't affect {{site.data.keyword.Bluemix_notm}} at an enterprise level don't provide an RCA or CIR. The Advanced Customer Support (ACS) team that mitigates the issue still provides updates, but they're not a formal RCA. 
 
 Larger enterprise-wide issues are events that typically impact multiple user environments or regions. Due to the scope and impact of enterprise issues, {{site.data.keyword.Bluemix_notm}} requires a thorough RCA and the CIR is a summary report for the findings of the investigation. 
 
@@ -50,7 +50,7 @@ The following image shows the process for receiving a CIR.
 
 A CIR must be requested within 30 days of an impacting event by using one of the following methods: 
 
-* Create a case requesting a CIR
+* Create a case that requests a CIR
 * Request a CIR within the case description
 * Update your case with a request for a CIR
 

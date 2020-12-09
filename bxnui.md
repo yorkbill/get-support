@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-07-24"
+lastupdated: "2020-12-09"
 
 keywords: error messages, errors, platform errors, message ID
 
@@ -82,7 +82,7 @@ Try again later. If you see this message again, go to the [{{site.data.keyword.B
 ## BXNUI0016E
 **Message**: The apps and services weren't retrieved because a {{site.data.keyword.Bluemix_notm}} page didn't load.
 
-For instructions to fix this problem, see the [Why do I encounter console pages that don't load?](/docs/account?topic=account-ts_err).
+For instructions to fix this problem, see the [Why do I encounter console pages that don't load?](/docs/account?topic=account-ts_err) troubleshooting 
 
 ## BXNUI0017E
 **Message**: The service instance wasn't retrieved because a problem occurred contacting Cloud Foundry.
@@ -217,7 +217,7 @@ Try again later. If you see this message again, go to the [{{site.data.keyword.B
 ## BXNUI0046E
 **Message**: Your organizations weren't retrieved because of a problem contacting Cloud Foundry.
 
-You will be logged out of{{site.data.keyword.Bluemix_notm}} .
+You are logged out of {{site.data.keyword.Bluemix_notm}}.
 
 Try again later. If you see this message again, go to the [{{site.data.keyword.Bluemix_notm}} status page](https://cloud.ibm.com/status?selected=status){: external} to check whether a service or component has an issue. If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
 
@@ -303,7 +303,7 @@ The following browsers are supported. Ensure that you use the latest version for
 * Internet Explorer
 * Safari
 
-For details, see [What are the IBM Cloud prerequisites?](/docs/overview?topic=overview-prereqs-platform)
+For information, see [What are the IBM Cloud prerequisites?](/docs/overview?topic=overview-prereqs-platform)
 
 
 ## BXNUI0065E
@@ -337,7 +337,7 @@ Try again later. If you see this message again, go to the [{{site.data.keyword.B
 Try again later. If you see this message again, go to the [{{site.data.keyword.Bluemix_notm}} status page](https://cloud.ibm.com/status?selected=status){: external} to check whether a service or component has an issue. If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
 
 ## BXNUI0073E
-**Message**: Information about the uploaded certificates could not be retrieved.
+**Message**: Information about the uploaded certificates might not be retrieved.
 
 Try again later. If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
 
@@ -369,7 +369,7 @@ Add the prerequisite service first, and then try again.
 ## BXNUI0081E
 **Message**: You uploaded {0} certificates, which is the maximum number that your organization can use.
 
-If using a Lite account, you must upgrade to use SSL Certificates. For other account types, remove a certificate if you’ve reached the limit. If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
+Lite account users must upgrade to use SSL Certificates. For other account types, remove a certificate if you reach the limit. If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
 
 ## BXNUI0082E
 **Message**: {{site.data.keyword.Bluemix_notm}}can't load your notification preferences at the moment.
@@ -386,7 +386,7 @@ Try again later. If the problem continues, go to [{{site.data.keyword.Bluemix_no
 
 The container might be temporarily out of service.
 
-Try again later. If you see this message again, go to the [{{site.data.keyword.Bluemix_notm}} status page](https://cloud.ibm.com/status?selected=status){: external} to check whether a service or component has an issue. Also make sure you have [appropriate access](/docs/account?topic=account-iamfaq#iam-access).  If the error occurs again, follow the [troubleshooting steps for console pages that don’t load](/docs/account?topic=account-ts_err).  If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
+Try again later. If you see this message again, go to the [{{site.data.keyword.Bluemix_notm}} status page](https://cloud.ibm.com/status?selected=status){: external} to check whether a service or component has an issue. Also, make sure you have [appropriate access](/docs/account?topic=account-iamfaq#iam-access). If the error occurs again, follow the [troubleshooting steps for console pages that don’t load](/docs/account?topic=account-ts_err). If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
 
 ## BXNUI0086E
 **Message**: The '{0}' container didn't start.
@@ -495,7 +495,7 @@ Change your browser settings to allow pop-up windows.
 Try again later. If you see this message again, go to the [{{site.data.keyword.Bluemix_notm}} status page](https://cloud.ibm.com/status?selected=status){: external} to check whether a service or component has an issue. If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
 
 ## BXNUI0112E
-**Message**: The plan could not be updated.
+**Message**: The plan might not be updated.
 
 Try again later. If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
 
@@ -506,7 +506,7 @@ Try again later. If the problem continues, go to [{{site.data.keyword.Bluemix_no
 
 ## BXNUI0118E
 
-**Message**: {0}'s access to {1} could not be revoked.
+**Message**: {0}'s access to {1} might not be revoked.
 
 Try to revoke access again. If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
 
@@ -550,8 +550,8 @@ Try again later. If you see this message again, go to the [{{site.data.keyword.B
 
 **Message**: You will be logged out because you are not a member of an active account.
 
-Your {{site.data.keyword.Bluemix_notm}} account might have expired or been cancelled, or you might have been removed from your org.
-Contact your org manager. Make sure you have selected the correct account within the IBM Cloud Console. [Switch between multiple accounts](/docs/account?topic=account-accountfaqs&locale=dk#switch-between-accounts) if needed.  If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
+Your {{site.data.keyword.Bluemix_notm}} account might be expired or cancelled, or you might have been removed from your org.
+Contact your org manager. Make sure you select the correct account within the IBM Cloud Console. [Switch between multiple accounts](/docs/account?topic=account-accountfaqs&locale=dk#switch-between-accounts) if needed. If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
 
 ## BXNUI0126E
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-11-16"
+lastupdated: "2020-12-09"
 
 keywords: case severity, severity, support case severity
 
@@ -29,15 +29,15 @@ How quickly your support cases are addressed depends on the assigned severity. Y
 
 The following table lists some common examples of support issues, suggested severity levels, and the initial response time objectives. The initial response time objectives are used to describe IBM goals only, and don't represent a performance guarantee.
 
-Initial response Service Level Objectives (SLO) do not apply to any billing, invoice, or sales related inquiry or cases.
+Initial response Service Level Objectives (SLO) do not apply to any billing, invoice, or sales-related inquiry or cases.
 {: important}
 
 | Severity | Business impact | Details |
 |:-----------------|:-----------------|:-----------------|
 | 4 | Minimal | An inquiry or non-technical request. |
-| 3 | Some | The product, service, or functionality is usable, and the issue doesn't represent a significant impact on operations. |
+| 3 | Some | The product, service, or functions are usable, and the issue doesn't represent a significant impact on operations. |
 | 2 | Significant | A product, service, business feature, or function of the product or service is severely restricted in its use, or you are in jeopardy of missing business deadlines. |
-| 1 | Critical | **System or Service Down** <br> Business critical functionality is inoperable or a critical interface has failed. This usually applies to a production environment and indicates an inability to access products or services resulting in a critical impact on operations. This condition requires an immediate solution. |
+| 1 | Critical | **System or Service Down** <br> Business-critical functions are inoperable or a critical interface has failed. This usually applies to a production environment and indicates an inability to access products or services that results in a critical impact on operations. This condition requires an immediate solution. |
 {: class="simple-tab-table"}
 {: caption="Table 1. Case severity definitions" caption-side="top"}
 {: #caseseverity1}
@@ -56,5 +56,5 @@ Initial response Service Level Objectives (SLO) do not apply to any billing, inv
 {: tab-title="Initial Response Time Objectives"}
 {: tab-group="case-severity"}
 
-We work with you 24 hours a day, seven days a week to resolve Severity 1 problems provided that you have a technical resource available to work during those hours. You must reasonably assist with any problem diagnosis and resolution. 
+We work with you 24 hours a day and seven days a week to resolve Severity 1 problems if you have a technical resource available to work during those hours. You must reasonably assist with any problem diagnosis and resolution. 
 {: note}

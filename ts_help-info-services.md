@@ -4,7 +4,7 @@ copyright:
 
   years: 2020
 
-lastupdated: "2020-06-11"
+lastupdated: "2020-12-09"
 
 keywords: support center help, resolve issues on the support center, trouble support center, personalized help
 
@@ -28,7 +28,7 @@ subcollection: get-support
 You can't find any help information that's tailored to the services that are in your account. 
 {:shortdesc}
 
-The Support Center doesn't include My products topics, common tasks, or FAQs that are specific to the services that you're working with. 
+The Support Center doesn't include the My products topics, common tasks, or FAQs that are specific to the services that you're working with. 
 {: tsSymptoms}
 
 Not all services provide personalized help information in the Support Center. 

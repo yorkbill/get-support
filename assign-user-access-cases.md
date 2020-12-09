@@ -4,7 +4,7 @@ copyright:
 
   years: 2018,2020
 
-lastupdated: "2020-07-24"
+lastupdated: "2020-12-09"
 
 keywords: access to cases, get access for cases, assign cases, watchlist
 
@@ -32,7 +32,7 @@ When you create a case, you can give other users full access to that case by add
 For classic infrastructure users, the permissions to assign support case access is now available in [migrated classic infrastructure permission access groups](/docs/account?topic=account-migrated_permissions). The migrated permission access groups do include the IAM policy on the user management service with the viewer role assigned.
 {: note}
 
-The following table shows the roles and actions required to work with cases:
+The following table shows the roles and actions that are required to work with cases:
 
 | Role          | Action                                                                              | 
 |---------------|-------------------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ The following table shows the roles and actions required to work with cases:
 | Administrator | View, search, create, and update cases; manage support center roles for other users |
 {: caption="Table 1. Roles and actions for the Support Center service" caption-side="top"}
 
-By default, users with a Support Center service role can access only support cases that they are assigned to unless one of the following conditions is met:
+By default, users with a Support Center service role can access support cases that they are assigned to unless one of the following conditions is met:
 
 * User list visibility is set to Unrestricted view by the account owner.
 * The user is assigned a user management account management service role.
