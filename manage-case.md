@@ -22,7 +22,7 @@ subcollection: get-support
 # Managing your support cases
 {: #managing-support-cases}
 
-Each support case is assigned a unique number and severity level based on the details in the case description. You can use the case number to track the progress of your reported issue, leave feedback, or update the support case. Updates and feedback are recorded in the case notes, which you can find by selecting the specific support case. You can also add users in your account to a watchlist so they can receive alerts about a case. 
+Each support case is assigned a unique number and severity level based on the details in the case description. You can use the case number to track the progress of your reported issue, leave feedback, or update the support case. Updates and feedback are recorded in the case notes, which you can find by selecting the specific support case. You can also add users in your account to a list so they can receive alerts about a case. 
 {: shortdesc}
 
 To view and manage your support cases, go to the [Manage cases page](https://{DomainName}/unifiedsupport/cases). 
