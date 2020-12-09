@@ -34,7 +34,7 @@ To view the Status page, complete the following steps:
 2. Click **View cloud status**.
 3. You can view all ongoing events, including confirmed incidents and those that are under investigation, and the status of all {{site.data.keyword.Bluemix_notm}} resources.
     * To get more information about an incident, click each component in the table. You can check the incident's location, start time, and when it was last updated. 
-    * You can report any issue that you might be experiencing by clicking the Report impact icon ![Report impact icon](../icons/thunderstorm.svg).
+    * You can report any issue that you might be experiencing by clicking the Report impact icon.
 4. From the side navigation pane, you can select to view planned maintenance, security bulletins, announcements, and history.
     * Click **Planned maintenance** to see any upcoming maintenance that's scheduled. 
     * Click **Security bulletins** to view a list of security bulletins that might affect various {{site.data.keyword.Bluemix_notm}} services or the platform.
