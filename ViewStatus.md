@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2020
+  years: 2015, 2021
 
-lastupdated: "2020-12-08"
+lastupdated: "2021-01-22"
 
 keywords: cloud status, view cloud status, planned maintenance, RSS feed, unfied notifications, iaas notifications, classic infrastructure notifications
 
@@ -32,9 +32,7 @@ To view the Status page, complete the following steps:
 
 1. In the {{site.data.keyword.Bluemix_notm}} console, click the Notifications icon ![Notifications icon](../icons/Notification.svg) in the menu bar.
 2. Click **View cloud status**.
-3. You can view all ongoing events, including confirmed incidents and those that are under investigation, and the status of all {{site.data.keyword.Bluemix_notm}} resources.
-    * To get more information about an incident, click each component in the table. You can check the incident's location, start time, and when it was last updated. 
-    * You can report any issue that you might be experiencing by clicking the Report impact icon.
+3. You can view all ongoing events, including confirmed incidents and those that are under investigation, and the status of all {{site.data.keyword.Bluemix_notm}} resources. Expand a resource's row to view more details. 
 4. From the side navigation pane, you can select to view planned maintenance, security bulletins, announcements, and history.
     * Click **Planned maintenance** to see any upcoming maintenance that's scheduled. 
     * Click **Security bulletins** to view a list of security bulletins that might affect various {{site.data.keyword.Bluemix_notm}} services or the platform.
