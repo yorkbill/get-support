@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2019, 2020
+  years: 2019, 2021
 
-lastupdated: "2020-12-09"
+lastupdated: "2021-02-04"
 
 keywords: frequently asked question, faq, support cases, email preferences, access for cases, support faq 
 
@@ -89,6 +89,13 @@ If you have Advanced or Premium support, you can track your monthly support cost
 
 To view your support costs, you need an access policy with the Administrator role on the Billing account management service. For more information about access roles, see [IAM access](/docs/account?topic=account-userroles).
 
+## How can I upgrade my support plan? 
+{: #support-plan}
+{: faq}
+
+If you want to upgrade your support plan, contact your [IBM sales representative](https://www.ibm.com/contact){: external}. 
+
+For more information on the different support plans, see [Basic, Advanced, and Premium Support plans](/docs/get-support?topic=get-support-support-plans).
 
 ## Why can't I see my support cases? 
 {: #view-support-cases}
