@@ -23,13 +23,13 @@ subcollection: get-support
 # Viewing notifications
 {: #viewing-notifications}
 
-The {{site.data.keyword.Bluemix_notm}} [Notifications page](https://cloud.ibm.com/user/notifications) is a centralized place to view and control all incidents, maintenance, announcements, and security bulletins. Unlike the [Status page](https://cloud.ibm.com/status?selected=status){: external}, which provides information about all of the events that affect the platform, the Notifications page filters events that are specifically impacting the user. Users can set notification preferences on the enhanced Notification preferences page. You can easily get to the page from checking your notifications by clicking **Manage email preferences**. 
+The {{site.data.keyword.Bluemix_notm}} [Notifications page](https://cloud.ibm.com/user/notifications){: external} is a centralized place to view and control all incidents, maintenance, announcements, and security bulletins. Events that are displayed on the Notifications page are ones that specificially impact users based on the preferences that the account owner or administrator sets.   
 {:shortdesc}
 
 Pages specific to the {{site.data.keyword.Bluemix_notm}} classic infrastructure are deprecated. The new Notifications page hosts all classic infrastructure notifications. You can view classic infrastructure history for planned and unplanned incidents and announcements on the Notifications page. 
 {: note}
 
-To find the Notifications page, log in to the {{site.data.keyword.Bluemix_notm}} console and click the **Notifications** icon ![Notification icon](../icons/Notification.svg) on the menu bar. Or, you can access the page directly at [{{site.data.keyword.Bluemix_notm}} - Notifications](https://cloud.ibm.com/user/notifications){: external}.
+To view the page, log in to the {{site.data.keyword.Bluemix_notm}} console, and click the **Notifications** icon ![Notification icon](../icons/Notification.svg) on the menu bar. 
 
 The new notification experience provides enhancements to how users are notified about important changes on the {{site.data.keyword.Bluemix_notm}} platform: 
 
@@ -43,19 +43,19 @@ The new notification experience provides enhancements to how users are notified 
 
 * Navigate to a specific notification by using the unique URL that is associated with each notification. You can save and share the URL with users in the account. 
 
-* You can launch the notifications page with the applied filters to see only applicable notifications. Make sure to save the URL to launch the Notifications page with the filters you’d like to see applied. 
+* You can access the Notifications page with the applied filters to view only applicable notifications. Make sure to save the URL to view the Notifications page with the applied filters. 
 
-* If you'd like to receive future updates about a specific type of notification, click the **Email** icon next to each notification item in the list. 
+* If you want to receive future updates about a specific type of notification, click the **Email** icon next to each notification item in the list. 
 
 ## Notification types
 {: #notification-types}
 
-The following table describes the different types of notifications and the reason that you might see one. 
+The following table describes the different types of notifications that are displayed. 
 
 | Notification Type | Description |
 |-------------------|-------------|
 | Planned maintenance | Scheduled maintenance that is required to keep the {{site.data.keyword.Bluemix_notm}} platform and infrastructure operating at optimal status. |
-| Security bulletins | Announcements about security vulnerabilities and the required actions.
+| Security bulletins | Announcements about security vulnerabilities and the required actions. |
 | Announcements | Updates on new infrastructure features and services in {{site.data.keyword.Bluemix_notm}}. | 
 | Incidents | Unexpected impacting events that can cause an outage or restrict functionality. |
 {: caption="Table 1. Notification types" caption-side="top"}
