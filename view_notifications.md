@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2021
 
-lastupdated: "2021-02-05"
+lastupdated: "2021-02-09"
 
 keywords: notifications, view notifications, set notifications, iaas notifications, notification icon, header bell, bell icon 
 
