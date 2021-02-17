@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2020
+  years: 2015, 2021
 
-lastupdated: "2020-12-09"
+lastupdated: "2021-02-17"
 
 keywords: escalate, support case, case, ticket, case severity, severity, support case severity
 
@@ -29,7 +29,7 @@ You can use the escalation process to surface critical issues and voice your con
 To escalate a case, complete the following steps:
 
 1. Contact {{site.data.keyword.Bluemix_notm}} Support by phone or chat:
-  * By phone at +1-(866)403-7638.
+  * By phone at +1-(866)403-7638 for US and Canada.
   * By chat from the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external}.
 1. Provide your existing case number and request to escalate the case.
 1. Provide the justification for escalation and the business impact of your problem or issue.
