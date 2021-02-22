@@ -47,6 +47,12 @@ Getting support
         ts_service-broker.md
         ts_view-archived-cases.md
         ts_view-case-details.md
+    
+    {: .topicgroup}
+    Troubleshooting the IBM Cloud docs
+        troubleshoot-docs.md
+        troubleshoot-allowlist.md
+        troubleshoot-library.md
         
     bxnui.md
     
