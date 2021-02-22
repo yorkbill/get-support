@@ -10,6 +10,8 @@ keywords: help managing cases, resolve issues managing cases, trouble working wi
 
 subcollection: get-support
 
+content-type: troubleshoot
+
 ---
 
 {:tsSymptoms: .tsSymptoms}

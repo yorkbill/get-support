@@ -10,6 +10,8 @@ keywords: support center help, resolve issues on the support center, trouble sup
 
 subcollection: get-support
 
+content-type: troubleshoot
+
 ---
 
 {:tsSymptoms: .tsSymptoms}
