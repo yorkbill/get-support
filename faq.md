@@ -4,11 +4,13 @@ copyright:
 
   years: 2019, 2021
 
-lastupdated: "2021-02-04"
+lastupdated: "2021-02-25"
 
 keywords: frequently asked question, faq, support cases, email preferences, access for cases, support faq 
 
 subcollection: get-support 
+
+content-type: faq
 
 ---
 
