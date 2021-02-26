@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2021
 
-lastupdated: "2021-02-09"
+lastupdated: "2021-02-26"
 
 keywords: notifications, view notifications, set notifications, iaas notifications, notification icon, header bell, bell icon 
 
@@ -91,10 +91,10 @@ For IaaS offerings, {{site.data.keyword.Bluemix_notm}} provides advanced notice 
 
 The following table shows the advanced notice guidelines for each possibility of impact severity. 
 
-| Possibility of impact | Advanced Notice Guidelines | Pending Customer Impacting Event (CIE) Risk | Partial Disruption without Customer Actions |
-|-----------------------|----------------------------|---------------------------------------------|---------------------------------------------|
-| High                  | a minimum of 30 days       | a minimum of 21 days                        | a minimum of 7 days                         |
-| Medium                | a minimum of 21 days       | a minimum of 14 days                        | no notification guidelines                  |
-| Low                   | offering-specific          | no notification guidelines                  | no notification guidelines                  |
-| Emergency             | a minimum of 24 hours      | no notification guidelines                  | no notification guidelines                  |
+| Possibility of impact | Advanced Notice Guidelines | Pending Customer Impacting Event (CIE) Risk | 
+|-----------------------|----------------------------|---------------------------------------------|
+| High                  | a minimum of 30 days       | a minimum of 21 days                        | 
+| Medium                | a minimum of 21 days       | a minimum of 14 days                        | 
+| Low                   | offering-specific          | no notification guidelines                  | 
+| Emergency             | a minimum of 24 hours      | no notification guidelines                  | 
 {: caption="Table 4. IaaS offerings advanced notice guidelines" caption-side="top"}
