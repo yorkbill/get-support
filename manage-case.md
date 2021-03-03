@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2020
+  years: 2015, 2021
 
-lastupdated: "2020-12-09"
+lastupdated: "2021-03-03"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -18,6 +18,9 @@ subcollection: get-support
 {:tip: .tip}
 {:note: .note}
 {:external: target="_blank" .external}
+{:ui: .ph data-hd-interface='ui'}
+{:cli: .ph data-hd-interface='cli'}
+{:api: .ph data-hd-interface='api'}
 
 # Managing your support cases
 {: #managing-support-cases}
@@ -33,6 +36,7 @@ If you're a classic infrastructure user, and you don't see a listing of a previo
 
 ## Searching for support cases 
 {: #search-options}
+{: ui}
 
 From the Manage cases page, you can search for all of your support cases by using query parameters in the search bar. You can use all parameters together and enter them in any order.
 
@@ -52,6 +56,7 @@ If you enter a term without a parameter, the search results are shown for the su
 
 ### Query examples
 {: #search-query-examples}
+{: ui}
 
 Enter the following query to search support cases by case number:
 
@@ -65,24 +70,10 @@ Enter the following query to view all resolved cases based on when they were las
 
 `sort:~updatedAT status:resolved`
 
-### Support case status types
-{: #search-case-status}
-
-When your response to an update in your support case is needed, the status is displayed as `Waiting on client`. If you don't provide a response within seven days, the status is updated to `Resolved`. The case is then closed if there's still no response after seven more days. For a description of each status type, see the following table:
-
-| Status                | Description |
-|-----------------------|------------|
-| New                 | A created case not yet viewed by a support engineer. |
-| In progress         | A case that is under review. |
-| Waiting on client   | The support engineer has left an inquiry on the case that needs the user's response. |
-| Resolution provided | The support engineer provided a resolution that the user needs to perform. |
-| Resolved            | The support case is considered finished and ready to be closed. |
-| Closed              | Case is closed by a support engineer and can't be reopened. | 
-{: caption="Table 2. Support case status types" caption-side="top"}
-
 
 ## Viewing support cases by using the API
 {: #viewing-case-api}
+{: api}
 
 You can programmatically view a support case by using the API as shown in the following sample request. For more information, see the [Case Management API](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
 
@@ -103,6 +94,7 @@ curl -X GET '/case-management/v1/cases/{case_number}?fields=number,updated_at,re
 
 ## Updating support cases by using the API
 {: #updating-case-api}
+{: api}
 
 The following sample request shows how to programmatically update a support case. For more information, see the [Case Management API](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
 
@@ -117,6 +109,7 @@ curl -X PUT '/case-management/v1/cases/{case_number}/status' -H 'Authorization: 
 
 ## Adding comments to support cases by using the API
 {: #comment-case-api}
+{: api}
 
 The following sample request shows how to programmatically add a comment to a support case. For more information, see the [Case Management API](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
 
@@ -126,3 +119,18 @@ curl -X PUT '/case-management/v1/cases/{case_number}/comments' -H 'Authorization
 }'
 ```
 {: codeblock}
+
+## Support case status types
+{: #search-case-status}
+
+When your response to an update in your support case is needed, the status is displayed as `Waiting on client`. If you don't provide a response within seven days, the status is updated to `Resolved`. The case is then closed if there's still no response after seven more days. For a description of each status type, see the following table:
+
+| Status              | Description |
+|---------------------|------------|
+| New                 | A created case not yet viewed by a support engineer. |
+| In progress         | A case that is under review. |
+| Waiting on client   | The support engineer has left an inquiry on the case that needs the user's response. |
+| Resolution provided | The support engineer provided a resolution that the user needs to perform. |
+| Resolved            | The support case is considered finished and ready to be closed. |
+| Closed              | Case is closed by a support engineer and can't be reopened. | 
+{: caption="Table 2. Support case status types" caption-side="top"}
