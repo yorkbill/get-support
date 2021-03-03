@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2020
+  years: 2015, 2021
 
-lastupdated: "2020-12-09"
+lastupdated: "2021-03-02"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -18,6 +18,9 @@ subcollection: get-support
 {:tip: .tip}
 {:note: .note}
 {:external: target="_blank" .external}
+{:ui: .ph data-hd-interface='ui'}
+{:cli: .ph data-hd-interface='cli'}
+{:api: .ph data-hd-interface='api'}
 
 # Creating support cases 
 {: #open-case}
@@ -31,6 +34,10 @@ Users with a Lite account can also create support cases, but are limited to issu
 
 By default, account users don't have access to create, update, search, or view cases. The account owner must provide users access by assigning an Identity and Access Management (IAM) access policy. For more information, see [Assigning user access for working with support cases](/docs/get-support?topic=get-support-access#access).
 {:tip}
+
+## Creating a support case
+{: #creating-support-case}
+{: ui}
 
 Complete the following steps to create a support case: 
 
@@ -51,18 +58,10 @@ Complete the following steps to create a support case:
 After your support case is created, you can follow its progress on the [Manage cases page](https://{DomainName}/unifiedsupport/cases). 
 {: tip}
 
-## Supported file types for cases 
-{: #supported-file-types}
-
-When you create a case, you can attach a file. The following file types are supported: 
-
-```
-7z, ace, ams, arm, asp, bash, history, bkp, big, bmp, bz2, ca, ca-bundle, ca-crt, cabundle, cap, cer, cert, cfg, cnf, crt, csr, csv, dat, dbs, debug, dib, dmesg, dmp, doc, docx, dotx, dump, email, eml, emz, env, eps, error, evt, evtx, fragment, gif, gz, gz_aa, gz_ab, gz_ac, har, hosts, htaccess, html, iaf, ics, id, img, info, jpb, jpe, jpeg, jpg, key, lic, log, logsm lon02, lst, lzh, mai, md5, mib, mjpg, msg, mso, odp, ods, odt, oft, openssh, out, ovf, ovpn, p7b, p7s, pages, pcap, pcf, pcx, pdb, pem, pfx, pic, pix, png, ppk, ppt, pptx, psd, psp, pspimage, pub_key, rar, raw, rdp, req, rpt, rtf, sjc03-raid-2, sjc03-raid-log-1, snag, sql, ssh, stats, sth, svg, sxc, tar, targz, tbz2, tcpdump, text, tgz, tgz-aa, tgz-ab, tgz-ac, tgz-ad, tgz-ae, tgz-af, tgz-ag, tgz-ah, tgz-ai, tgz-aj, tgz-ak, tgz-ak, tgz-al, tgz-al, tgz-am, tif, tiff, tip, trace, tsv, txt, ufo, vcf, vdx, vsdx, webarchive, wml, wps, wpz, wrf, wri, xcf, xlog, xlr, xls, xis, xism, xisx, xit, xml, xpm, xps, xslic, xz, yaml, zip, zipaa, zipx, zone
-```
-{: screen}
 
 ## Creating a support case by using the API
 {: #create-case-api}
+{: api}
 
 You can programmatically open a support case by calling the Case Management API as shown in the following sample request. For more information about the API, see [Case Management](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
 
@@ -92,6 +91,7 @@ curl --location --request POST 'support-center.cloud.ibm.com/case-management/v1/
 
 ### Adding a resource to a support case by using the API
 {: #add-resource-api}
+{: api}
 
 You can programmatically add a resource to a support case by using the API as shown in the following sample request. For more information, see the [Case Management API reference](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
 
@@ -102,3 +102,13 @@ curl -X PUT '/case-management/v1/cases/{case_number}/resources' -H 'Authorizatio
 }'
 ```
 {: codeblock}
+
+## Supported file types for cases 
+{: #supported-file-types}
+
+When you create a case, you can attach a file. The following file types are supported: 
+
+```
+7z, ace, ams, arm, asp, bash, history, bkp, big, bmp, bz2, ca, ca-bundle, ca-crt, cabundle, cap, cer, cert, cfg, cnf, crt, csr, csv, dat, dbs, debug, dib, dmesg, dmp, doc, docx, dotx, dump, email, eml, emz, env, eps, error, evt, evtx, fragment, gif, gz, gz_aa, gz_ab, gz_ac, har, hosts, htaccess, html, iaf, ics, id, img, info, jpb, jpe, jpeg, jpg, key, lic, log, logsm lon02, lst, lzh, mai, md5, mib, mjpg, msg, mso, odp, ods, odt, oft, openssh, out, ovf, ovpn, p7b, p7s, pages, pcap, pcf, pcx, pdb, pem, pfx, pic, pix, png, ppk, ppt, pptx, psd, psp, pspimage, pub_key, rar, raw, rdp, req, rpt, rtf, sjc03-raid-2, sjc03-raid-log-1, snag, sql, ssh, stats, sth, svg, sxc, tar, targz, tbz2, tcpdump, text, tgz, tgz-aa, tgz-ab, tgz-ac, tgz-ad, tgz-ae, tgz-af, tgz-ag, tgz-ah, tgz-ai, tgz-aj, tgz-ak, tgz-ak, tgz-al, tgz-al, tgz-am, tif, tiff, tip, trace, tsv, txt, ufo, vcf, vdx, vsdx, webarchive, wml, wps, wpz, wrf, wri, xcf, xlog, xlr, xls, xis, xism, xisx, xit, xml, xpm, xps, xslic, xz, yaml, zip, zipaa, zipx, zone
+```
+{: screen}
