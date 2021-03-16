@@ -58,8 +58,7 @@ Getting support
     
     {: .topicgroup}
     Known issues 
-        datacenter-migration.md
-        data-center-closures.md
+        data-center-closures-2021.md
     
     [Stack Overflow](http://stackoverflow.com/questions/tagged/ibm-bluemix)
     [IBM Public Cloud Community](https://community.ibm.com/community/user/publiccloud/home)
