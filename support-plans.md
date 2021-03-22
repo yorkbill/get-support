@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2021
 
-lastupdated: "2021-01-11"
+lastupdated: "2021-03-22"
 
 keywords: basic support, advanced support, premium support, support plans, free technical support, response time
 
@@ -48,13 +48,15 @@ Initial response Service Level Objectives (SLO) do not apply to any billing, inv
 ## Premium Support
 {: #premium-support}
 
-Premium Support is for mission-critical environments that have a strategic dependency on {{site.data.keyword.Bluemix_notm}}. The following extra support is provided if you have a Premium Support plan:
+Premium Support is for mission-critical environments that have a strategic dependency on {{site.data.keyword.cloud_notm}}. The additional features of Premium Support provide you the comfort in knowing that {{site.data.keyword.cloud_notm}} has you covered in any situation. With your Premium Support plan you get a technical account manager that advises you on processes, policies, and best practices related to the platform or infrastructure services. In addition, your technical account manager assists you with:
 
-  * Priority handling of cases
-  * A Technical Account Manager to help accelerate time to value
-  * Access to experts for specialized technical consultations and assistance
-  * Quarterly business reviews
-
+  * **Issue management.** Your technical account manager works with the {{site.data.keyword.cloud_notm}} Support team to reduce time-to-resolution. 
+  * **Onboarding assistance.** Your technical account manager helps with cloud onboarding and serves as your advocate, aligning resources to meet your needs.
+  * **Platform and infrastructure maintenance.** Your technical account manager alerts you about maintenance events or service end of life that might impact your environment.
+  * **Event management.** The technical account manager can arrange architectural support on scaling and high availability for critical customer events such as maintenance, promotions, or holiday events.
+  * **Seminars and events.** Your technical account manager ensures that your teams are engaged in IBM events and conferences.
+  * **Quarterly business reviews.** Your technical account manager provides periodic business reviews of cloud usage, support case activity, escalations, hardware age, upcoming planned maintenance, upcoming EOL/EOS dates and how to plan for those, and reviews of your users and permissions.
+  
 
 ## Advanced Support
 {: #standard-support}
