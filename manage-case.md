@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2021
 
-lastupdated: "2021-03-03"
+lastupdated: "2021-03-25"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -21,6 +21,18 @@ subcollection: get-support
 {:ui: .ph data-hd-interface='ui'}
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
+{:java: .ph data-hd-programlang='java'}
+{:ruby: .ph data-hd-programlang='ruby'}
+{:c#: .ph data-hd-programlang='c#'}
+{:objectc: .ph data-hd-programlang='Objective C'}
+{:python: .ph data-hd-programlang='python'}
+{:javascript: .ph data-hd-programlang='javascript'}
+{:php: .ph data-hd-programlang='PHP'}
+{:swift: .ph data-hd-programlang='swift'}
+{:curl: .ph data-hd-programlang='curl'}
+{:dotnet-standard: .ph data-hd-programlang='dotnet-standard'}
+{:go: .ph data-hd-programlang='go'}
+{:unity: .ph data-hd-programlang='unity'}
 
 # Managing your support cases
 {: #managing-support-cases}
@@ -77,19 +89,93 @@ Enter the following query to view all resolved cases based on when they were las
 
 You can programmatically view a support case by using the API as shown in the following sample request. For more information, see the [Case Management API](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
 
-To view by the content of the IAM token, see the following sample:
+To view a case, see the following samples:
 
-```
-curl -X GET 'https://support-center.cloud.ibm.com/case-management/v1/cases?offset=0&limit=10&status=new,in_progress,waiting_on_client,resolution_provided' -H 'Authorization: TOKEN' \
+```curl
+curl -X GET 'https://support-center.cloud.ibm.com/case-management/v1/cases/{case_number}?fields=number,updated_at,resources' -H 'Authorization: TOKEN' \
 ```
 {: codeblock}
+{: curl}
 
-To view a case specified by the case number, see the following sample:
+```java
+GetCaseOptions getCaseOptions = new GetCaseOptions.Builder()
+  .caseNumber(caseNumber)
+  .addFields(GetCaseOptions.Fields.DESCRIPTION)
+  .addFields(GetCaseOptions.Fields.STATUS)
+  .addFields(GetCaseOptions.Fields.SEVERITY)
+  .addFields(GetCaseOptions.Fields.CREATED_BY)
+  .build();
 
-```
-curl -X GET '/case-management/v1/cases/{case_number}?fields=number,updated_at,resources' -H 'Authorization: TOKEN' 
+Response<Case> response = service.getCase(getCaseOptions).execute();
+Case xCase = response.getResult();
+
+System.out.println(xCase);
 ```
 {: codeblock}
+{: java}
+
+```javascript
+const fieldsToReturn = [
+  CaseManagementV1.GetCaseConstants.Fields.DESCRIPTION,
+  CaseManagementV1.GetCaseConstants.Fields.STATUS,
+  CaseManagementV1.GetCaseConstants.Fields.SEVERITY,
+  CaseManagementV1.GetCaseConstants.Fields.CREATED_BY,
+];
+
+const params = {
+  caseNumber: caseNumber,
+  fields: fieldsToReturn,
+};
+
+caseManagementService.getCase(params)
+  .then(res => {
+    console.log(JSON.stringify(res.result, null, 2));
+  })
+  .catch(err => {
+    console.warn(err)
+  });
+```
+{: codeblock}
+{: javascript}
+
+```python
+fields_to_return = [
+  GetCaseEnums.Fields.DESCRIPTION,
+  GetCaseEnums.Fields.STATUS,
+  GetCaseEnums.Fields.SEVERITY,
+  GetCaseEnums.Fields.CREATED_BY,
+]
+
+case = case_management_service.get_case(
+  case_number=case_number,
+  fields=fields_to_return
+).get_result()
+
+print(json.dumps(case, indent=2))
+```
+{: codeblock}
+{: python}
+
+```go
+getCaseOptions := caseManagementService.NewGetCaseOptions(
+  caseNumber,
+)
+getCaseOptions.SetFields([]string{
+  casemanagementv1.GetCaseOptionsFieldsDescriptionConst,
+  casemanagementv1.GetCaseOptionsFieldsStatusConst,
+  casemanagementv1.GetCaseOptionsFieldsSeverityConst,
+  casemanagementv1.GetCaseOptionsFieldsCreatedByConst,
+})
+
+caseVar, response, err := caseManagementService.GetCase(getCaseOptions)
+if err != nil {
+  panic(err)
+}
+b, _ := json.MarshalIndent(caseVar, "", "  ")
+fmt.Println(string(b))
+```
+{: codeblock}
+{: go}
 
 
 ## Updating support cases by using the API
@@ -98,7 +184,7 @@ curl -X GET '/case-management/v1/cases/{case_number}?fields=number,updated_at,re
 
 The following sample request shows how to programmatically update a support case. For more information, see the [Case Management API](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
 
-```
+```curl
 curl -X PUT '/case-management/v1/cases/{case_number}/status' -H 'Authorization: TOKEN' -d '{
   "action": "resolve",
   "comment": "The issue is resolved. Thank you!",
@@ -106,6 +192,88 @@ curl -X PUT '/case-management/v1/cases/{case_number}/status' -H 'Authorization: 
 }'
 ```
 {: codeblock}
+{: curl}
+
+```java
+ResolvePayload statusPayloadModel = new ResolvePayload.Builder()
+  .action("resolve")
+  .comment("The problem has been resolved.")
+  .resolutionCode(1)
+  .build();
+UpdateCaseStatusOptions updateCaseStatusOptions = new UpdateCaseStatusOptions.Builder()
+  .caseNumber(caseNumber)
+  .statusPayload(statusPayloadModel)
+  .build();
+
+Response<Case> response = service.updateCaseStatus(updateCaseStatusOptions).execute();
+Case xCase = response.getResult();
+
+System.out.println(xCase);
+```
+{: codeblock}
+{: java}
+
+```javascript
+const statusPayloadModel = {
+  action: 'resolve',
+  comment: 'The problem has been resolved.',
+  resolution_code: 1,
+};
+
+const params = {
+  caseNumber: caseNumber,
+  statusPayload: statusPayloadModel,
+};
+
+caseManagementService.updateCaseStatus(params)
+  .then(res => {
+    console.log(JSON.stringify(res.result, null, 2));
+  })
+  .catch(err => {
+    console.warn(err)
+  });
+```
+{: codeblock}
+{: javascript}
+
+```python
+status_payload_model = {
+  'action': 'resolve',
+  'comment': 'The problem has been resolved.',
+  'resolution_code': 1,
+}
+
+case = case_management_service.update_case_status(
+  case_number=case_number,
+  status_payload=status_payload_model
+).get_result()
+
+print(json.dumps(case, indent=2))
+```
+{: codeblock}
+{: python}
+
+```go
+statusPayloadModel := &casemanagementv1.ResolvePayload{
+  Action:         core.StringPtr("resolve"),
+  Comment:        core.StringPtr("The problem has been resolved."),
+  ResolutionCode: core.Int64Ptr(int64(1)),
+}
+
+updateCaseStatusOptions := caseManagementService.NewUpdateCaseStatusOptions(
+  caseNumber,
+  statusPayloadModel,
+)
+
+caseVar, response, err := caseManagementService.UpdateCaseStatus(updateCaseStatusOptions)
+if err != nil {
+  panic(err)
+}
+b, _ := json.MarshalIndent(caseVar, "", "  ")
+fmt.Println(string(b))
+```
+{: codeblock}
+{: go}
 
 ## Adding comments to support cases by using the API
 {: #comment-case-api}
@@ -113,12 +281,71 @@ curl -X PUT '/case-management/v1/cases/{case_number}/status' -H 'Authorization: 
 
 The following sample request shows how to programmatically add a comment to a support case. For more information, see the [Case Management API](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
 
-```
+```curl
 curl -X PUT '/case-management/v1/cases/{case_number}/comments' -H 'Authorization: TOKEN' -d '{
   "comment": "Test comment api"
 }'
 ```
 {: codeblock}
+{: curl}
+
+```java
+AddCommentOptions addCommentOptions = new AddCommentOptions.Builder()
+  .caseNumber(caseNumber)
+  .comment("This is an example comment.")
+  .build();
+
+Response<Comment> response = service.addComment(addCommentOptions).execute();
+Comment comment = response.getResult();
+
+System.out.println(comment);
+```
+{: codeblock}
+{: java}
+
+```javascript
+const params = {
+  caseNumber: caseNumber,
+  comment: 'This is an example comment,',
+};
+
+caseManagementService.addComment(params)
+  .then(res => {
+    console.log(JSON.stringify(res.result, null, 2));
+  })
+  .catch(err => {
+    console.warn(err)
+  });
+```
+{: codeblock}
+{: javascript}
+
+```python
+comment = case_management_service.add_comment(
+  case_number=case_number,
+  comment='This is an example comment.'
+).get_result()
+
+print(json.dumps(comment, indent=2))
+```
+{: codeblock}
+{: python}
+
+```go
+addCommentOptions := caseManagementService.NewAddCommentOptions(
+  caseNumber,
+  "This is an example comment.",
+)
+
+comment, response, err := caseManagementService.AddComment(addCommentOptions)
+if err != nil {
+  panic(err)
+}
+b, _ := json.MarshalIndent(comment, "", "  ")
+fmt.Println(string(b))
+```
+{: codeblock}
+{: go}
 
 ## Support case status types
 {: #search-case-status}
