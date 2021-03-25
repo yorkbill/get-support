@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2021
 
-lastupdated: "2021-03-02"
+lastupdated: "2021-03-25"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -21,6 +21,18 @@ subcollection: get-support
 {:ui: .ph data-hd-interface='ui'}
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
+{:java: .ph data-hd-programlang='java'}
+{:ruby: .ph data-hd-programlang='ruby'}
+{:c#: .ph data-hd-programlang='c#'}
+{:objectc: .ph data-hd-programlang='Objective C'}
+{:python: .ph data-hd-programlang='python'}
+{:javascript: .ph data-hd-programlang='javascript'}
+{:php: .ph data-hd-programlang='PHP'}
+{:swift: .ph data-hd-programlang='swift'}
+{:curl: .ph data-hd-programlang='curl'}
+{:dotnet-standard: .ph data-hd-programlang='dotnet-standard'}
+{:go: .ph data-hd-programlang='go'}
+{:unity: .ph data-hd-programlang='unity'}
 
 # Creating support cases 
 {: #open-case}
@@ -63,9 +75,9 @@ After your support case is created, you can follow its progress on the [Manage c
 {: #create-case-api}
 {: api}
 
-You can programmatically open a support case by calling the Case Management API as shown in the following sample request. For more information about the API, see [Case Management](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
+You can programmatically open a support case by calling the Case Management API as shown in the following sample requests. For more information about the API, see [Case Management](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
 
-```
+```curl
 curl --location --request POST 'support-center.cloud.ibm.com/case-management/v1/cases' --header 'Content-Type: application/json' --header 'Content-Type: text/plain' --data-raw '{ "type": "technical",
   "subject": "Case subject",
   "description": "Case description",
@@ -88,6 +100,114 @@ curl --location --request POST 'support-center.cloud.ibm.com/case-management/v1/
 }'
 ```
 {: codeblock}
+{: curl}
+
+```java
+OfferingType offeringType = new OfferingType.Builder()
+  .group(OfferingType.Group.CRN_SERVICE_NAME)
+  .key("cloud-object-storage")
+  .build();
+Offering offeringPayload = new Offering.Builder()
+  .name("Cloud Object Storage")
+  .type(offeringType)
+  .build();
+CreateCaseOptions createCaseOptions = new CreateCaseOptions.Builder()
+  .type("technical")
+  .subject("Example technical case")
+  .description("This is an example case description. This is where the problem would be described.")
+  .offering(offeringPayload)
+  .severity(4)
+  .build();
+
+Response<Case> response = service.createCase(createCaseOptions).execute();
+Case xCase = response.getResult();
+
+System.out.println(xCase);
+```
+{: codeblock}
+{: java}
+
+```javascript
+const offeringType = {
+  group: 'crn_service_name',
+  key: 'cloud-object-storage',
+};
+
+const offeringPayload = {
+  name: 'Cloud Object Storage',
+  type: offeringType,
+};
+
+const params = {
+  type: 'technical',
+  subject: 'Example technical case',
+  description: 'This is an example case description. This is where the problem would be described.',
+  offering: offeringPayload,
+  severity: 4,
+};
+
+caseManagementService.createCase(params)
+  .then(res => {
+    caseNumber = res.result.number
+    console.log(JSON.stringify(res.result, null, 2));
+  })
+  .catch(err => {
+    console.warn(err)
+  });
+```
+{: codeblock}
+{: javascript}
+
+```python
+offering_type = OfferingType(
+  group='crn_service_name',
+  key='cloud-object-storage'
+)
+offering_payload = Offering(
+  name='Cloud Object Storage',
+  type=offering_type
+)
+
+case = case_management_service.create_case(
+  type='technical',
+  subject='Example technical case',
+  description='This is an example case description. This is where the problem would be described.',
+  offering=offering_payload,
+  severity=4,
+).get_result()
+
+print(json.dumps(case, indent=2))
+```
+{: codeblock}
+{: python}
+
+```go
+offeringType, _ := caseManagementService.NewOfferingType(
+  casemanagementv1.OfferingTypeGroupCRNServiceNameConst,
+  "cloud-object-storage",
+)
+offeringPayload, _ := caseManagementService.NewOffering(
+  "Cloud Object Storage",
+  offeringType,
+)
+
+createCaseOptions := caseManagementService.NewCreateCaseOptions(
+  "technical",
+  "Example technical case",
+  "This is an example case description. This is where the problem would be described.",
+)
+createCaseOptions.SetSeverity(4)
+createCaseOptions.SetOffering(offeringPayload)
+
+caseVar, response, err := caseManagementService.CreateCase(createCaseOptions)
+if err != nil {
+  panic(err)
+}
+b, _ := json.MarshalIndent(caseVar, "", "  ")
+fmt.Println(string(b))
+```
+{: codeblock}
+{: go}
 
 ### Adding a resource to a support case by using the API
 {: #add-resource-api}
@@ -95,13 +215,76 @@ curl --location --request POST 'support-center.cloud.ibm.com/case-management/v1/
 
 You can programmatically add a resource to a support case by using the API as shown in the following sample request. For more information, see the [Case Management API reference](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
 
-```
+```curl
 curl -X PUT '/case-management/v1/cases/{case_number}/resources' -H 'Authorization: TOKEN' -d '{
   "crn": "296878",
   "note": "This resource does not work"
 }'
 ```
 {: codeblock}
+{: curl}
+
+```java
+AddResourceOptions addResourceOptions = new AddResourceOptions.Builder()
+  .caseNumber(caseNumber)
+  .crn(resourceCrn)
+  .note("This resource is the service that is having the problem.")
+  .build();
+
+Response<Resource> response = service.addResource(addResourceOptions).execute();
+Resource resource = response.getResult();
+
+System.out.println(resource);
+```
+{: codeblock}
+{: java}
+
+```javascript
+const params = {
+  caseNumber: caseNumber,
+  crn: resourceCrn,
+  note: 'This resource is the service that is having the problem.',
+};
+
+caseManagementService.addResource(params)
+  .then(res => {
+    console.log(JSON.stringify(res.result, null, 2));
+  })
+  .catch(err => {
+    console.warn(err)
+  });
+```
+{: codeblock}
+{: javascript}
+
+```python
+resource = case_management_service.add_resource(
+  case_number=case_number,
+  crn=resource_crn,
+  note='This resource is the service that is having the problem.',
+).get_result()
+
+print(json.dumps(resource, indent=2))
+```
+{: codeblock}
+{: python}
+
+```go
+addResourceOptions := caseManagementService.NewAddResourceOptions(
+  caseNumber,
+)
+addResourceOptions.SetCRN(resourceCRN)
+addResourceOptions.SetNote("This resource is the service that is having the problem.")
+
+resource, response, err := caseManagementService.AddResource(addResourceOptions)
+if err != nil {
+  panic(err)
+}
+b, _ := json.MarshalIndent(resource, "", "  ")
+fmt.Println(string(b))
+```
+{: codeblock}
+{: go}
 
 ## Supported file types for cases 
 {: #supported-file-types}
