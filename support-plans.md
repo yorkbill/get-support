@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2021
 
-lastupdated: "2021-03-22"
+lastupdated: "2021-04-12"
 
 keywords: basic support, advanced support, premium support, support plans, free technical support, response time
 
@@ -56,6 +56,29 @@ Premium Support is for mission-critical environments that have a strategic depen
   * **Event management.** The technical account manager can arrange architectural support on scaling and high availability for critical customer events such as maintenance, promotions, or holiday events.
   * **Seminars and events.** Your technical account manager ensures that your teams are engaged in IBM events and conferences.
   * **Quarterly business reviews.** Your technical account manager provides periodic business reviews of cloud usage, support case activity, escalations, hardware age, upcoming planned maintenance, upcoming EOL/EOS dates and how to plan for those, and reviews of your users and permissions.
+  
+### Premium support for events
+{: #premium-support-events}
+
+On a case-by-case basis, your technical account manager can provide and help coordinate additional support for large-scale, customer-initiated events. The following details describe the event support.
+
+* Time critical actions, including:
+  * Meet with the event team to review the details of the event.
+  * Review critical functions and services that are required.
+  * Highlight key dates and times for actions.
+  * Assemble the team to ensure that plans are understood and actions are defined.
+* A support plan with crisis management, including:
+  * Review the plan from previous years' event and post feedback actions.
+  * Revise the plan to ensure that roles and responsibilities are understood.
+  * Ensure that all service teams are aware of the event and ready for any activity that requires quick assistance or resolution.
+  * Ensure that any maintenance activity is known and understood.
+* A create and practice plan. Actions include:
+  * A dry run of plan and expected or probable issue management.
+  * Test that the alert notifications are working as expected.
+  * Post an event review.
+* An event postmortem review and retrospective, including:
+  * A postmortem with service teams to highlight any areas for improvement.
+  * Documenting and updating the plan for future events.
   
 
 ## Advanced Support
