@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2020
+  years: 2020, 2021
 
-lastupdated: "2020-12-01"
+lastupdated: "2021-04-22"
 
 keywords: data centers, data center support, datacenter, data center closure
 
@@ -32,6 +32,19 @@ The following data centers and PODs are scheduled to close on 03 September 2021:
 * DAL05 – POD2 (other PODs in DAL05 are not impacted)
 * WDC01 – POD3 and POD4 (other PODs in WDC01 are not impacted)
 
+To prepare for the data center closures, the following {{site.data.keyword.cloud_notm}} services are ending their service support on the following dates:  
+
+| Service        | Support end date |
+|----------------|---------------------------------|
+| {{site.data.keyword.cloud_notm}} Databases (ICD) | 01 August 2021 |
+| {{site.data.keyword.cos_full_notm}} (COS) | 01 August 2021 |
+| {{site.data.keyword.containerlong_notm}} (IKS)  | 30 August 2021 |
+| {{site.data.keyword.openshiftlong_notm}} (Managed OpenShift) | 30 August 2021 |
+{: caption="Table 1. {{site.data.keyword.cloud_notm}} services that are ending support leading up to data center closure" caption-side="top"}
+
+* The {{site.data.keyword.cloud_notm}} Databases portfolio includes {{site.data.keyword.databases-for-postgresql}}, {{site.data.keyword.databases-for-redis}}, {{site.data.keyword.databases-for-etcd}}, {{site.data.keyword.databases-for-mongodb}}, {{site.data.keyword.databases-for-elasticsearch}}, {{site.data.keyword.databases-for-enterprisedb}}, {{site.data.keyword.databases-for-cassandra}}, and {{site.data.keyword.messages-for-rabbitmq}}. 
+* The last date to create new deployments for IKS, COS, and Managed OpenShift services in the OSL01 data center is 01 July 2021.
+
 New products and services can't be provisioned on data centers that are scheduled to be closed. 
 {: important}
 
@@ -57,17 +70,22 @@ The following table shows the locations with the associated data centers and spe
 | Houston       | HOU02                | DAL10, DAL12, DAL13 | 
 | Dallas        | DAL05 – POD2 (other PODs in DAL05 are not impacted)  | DAL10, DAL12, DAL13  | 
 | Washington DC | WDC01 – POD3 and POD4 (other PODs in WDC01 are not impacted) | WDC04, WDC06, WDC07 | 
-{: caption="Table 1. Data centers that are closing in September 2021" caption-side="top"}
+{: caption="Table 2. Data centers that are closing in September 2021" caption-side="top"}
 
 The following table describes important dates that you need to be aware of if you have services that run in the data centers 
-that are set to close. You should receive notifications if you have services in the data centers that are closing.
+that are set to close. You receive notifications if you have services in the data centers that are closing.
 
 | Date           | Data Center Migration Milestone |
 |----------------|---------------------------------|
 | 03 November 2020 | Official announcement for all impacted clients in the following data centers / PODs: HOU02, DAL05 – POD2, WDC01 – POD3 and POD4. |
-| 01 December 2020 | Official announcement for all impacted clients in OSL01. |
+| 01 December 2020 | Official announcement for all impacted clients in OSL01 |
 | November 2020    | Business Partner available to help clients migrate to a new data center. |
+| 01 July 2021     | The last date to create new deployments for IKS, COS, and Managed OpenShift services in OSL01. |
+| 01 August 2021   | ICD and COS services end service support. |
+| 30 August 2021    | IKS and Managed OpenShift services end service support. |
 | 03 September 2021 | OSL01, HOU02, DAL05 - POD2, and WDC01 – POD3 and POD4 data centers are closed; no longer available or supported. Other PODs in DAL05 and WDC01 are not impacted. |
-{: caption="Table 2. Timeline for data center migration" caption-side="top"}
+{: caption="Table 3. Timeline for data center migration" caption-side="top"}
+
+
 
 
