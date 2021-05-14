@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2020-12-09"
+lastupdated: "2021-05-14"
 
 keywords: upcoming maintenance, stay up-to-date, monitor status
 
@@ -37,10 +37,7 @@ Check for upcoming maintenance windows posted on the {{site.data.keyword.Bluemix
 ## Check for current maintenance windows or an incident in progress
 {: #monbp-checcurmaninprog}
 
-If you suspect that {{site.data.keyword.Bluemix_notm}} isn't functioning as expected, check the Status page for current maintenance windows or an incident in progress. To report an incident that isn't already listed on the Status page, open a support case by using the following steps:
-
-1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Support**. 
-1. Select **Create new case** from the Contact support section.
+If you suspect that {{site.data.keyword.Bluemix_notm}} isn't functioning as expected, check the Status page for current maintenance windows or an incident in progress. To report an incident that isn't already listed on the Status page, open a support case. For more information about opening a support case, see [Creating support cases](/docs/get-support?topic=get-support-open-case).  
 
 In most cases, {{site.data.keyword.Bluemix_notm}} can be used normally during a maintenance window. However, minor interruptions of a service can't always be avoided. Running applications typically remain available even if the application management functions, such as starting and stopping apps, are temporarily interrupted. To maximize the availability of your running applications, run at least three instances of each application.
 
@@ -50,7 +47,7 @@ In most cases, {{site.data.keyword.Bluemix_notm}} can be used normally during a 
 
 All users of {{site.data.keyword.Bluemix_notm}} automatically have access to the Dallas, London, Frankfurt, Sydney, Washington DC, and Tokyo locations. The {{site.data.keyword.Bluemix_notm}} Global Operations team manages all locations to avoid maintenance impacts and minimize the risk of incidents that affect all locations at the same time. 
 
-You can check the status of your locations from the dashboard on the Location status widget. To view specific events, click **View status**. 
+You can check the status of your locations from the dashboard on the {{site.data.keyword.Bluemix_notm}} status widget. To view specific events, click **View all**. 
 
 
 ## Subscribing to email notifications
