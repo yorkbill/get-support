@@ -4,9 +4,9 @@ copyright:
 
   years: 2018,2020
 
-lastupdated: "2020-12-09"
+lastupdated: "2021-05-14"
 
-keywords: access to cases, get access for cases, assign cases, watchlist
+keywords: access to cases, get access for cases, assign cases, assign access, access support center
 
 subcollection: get-support
 
@@ -55,8 +55,8 @@ To streamline the access assignment process, you can take advantage of assigning
 1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Access (IAM)**, select **Access groups**, and click **Create**. 
 1. Enter an access group name and description, and click **Create**. 
 1. Click **Access policies** > **Assign access**.
-1. From the Assign access to account management services section, select **Account management**.
-1. Select **Support Center**.
+1. From the Assign access group additional access section, select **Account management**.
+1. To assign access to a service, select **Support Center**.
 1. Select any combination of roles to assign the wanted access. 
 1. Click **Add**, then click **Assign** from the Access summary section.  
 
@@ -68,17 +68,18 @@ When you give a user access, they might not have access view all cases in an acc
 
 1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Access (IAM)**, select **Access groups** and select the Group that you want to have access.
 1. Click **Access policies** > **Assign access**.
-1. Select **Assign access to account management services**.
-1. Select **User Management**.
-1. Select **Viewer**.
+1. From the Assign access group additional access section, select **Account management**.
+1. To assign access to your service, select **User management**.
+1. For platform access, select **Viewer**.
 1. Click **Add** and click **Assign** after you review.
 
 
 ## Adding users to your case management access group
 {: #add-user-access-group} 
 
-After you create the access group, complete the following steps to add users:
+You need to have an access group to add users to it. For more information about access groups, see [Setting up access groups](/docs/account?topic=account-groups). After you create the access group, complete the following steps to add users:
 
+1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Access (IAM)**, select **Access groups** and select the Group that you want to have access.
 1. From the **Users** tab for your access group, click **Add users**.
 1. Select the user that you want to add and click **Add to group**.
 
@@ -86,12 +87,12 @@ After you create the access group, complete the following steps to add users:
 ## Granting individual users access to cases 
 {: #support-user-access}
 
-Using access groups to assign the support center and user management services is the most efficient way for you to assign access, but you can also assign the same permissions to individual users. 
+Using access groups to assign the support center and user management services is the most efficient way for you to assign access, but you can also assign the same permissions to individual users. To assign permissions to an individual user, use the following steps:
 
 1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Access (IAM)**, and then select **Users**. 
 1. Select the user. 
-1. Click **Access policies** > **Assign access**.
+1. Select the **Access policies** tab, and click **Assign access**.
 1. In the Assign user additional access section, select **Account management**.
-1. From the What type of access do you want to assign? section, select **Support Center**.
+1. To assign access to a service, select **Support Center**.
 1. Select any combination of roles to assign the wanted access. 
 1. Click **Add**, then click **Assign** from the Access summary section.  
