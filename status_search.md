@@ -4,7 +4,7 @@ copyright:
 
   years: 2018,2020
 
-lastupdated: "2020-07-09"
+lastupdated: "2021-05-20"
 
 keywords: status page, status query, incident, maintenance, search query
 
@@ -20,7 +20,7 @@ subcollection: get-support
 # Advanced status search
 {: #adv-search}
 
-You can search across all tabs on the Status page, but did you know that you can build URL search values by using query parameters from outside the console?
+You can search across all tabs on the [Status page](https://{DomainName}/status), but did you know that you can build URL search values by using query parameters from outside the console?
 {:shortdesc}
 
 The following list includes examples of URL search options:
