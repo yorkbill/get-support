@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2021
 
-lastupdated: "2021-04-22"
+lastupdated: "2021-05-21"
 
 keywords: data centers, data center support, datacenter, data center closure
 
@@ -32,7 +32,7 @@ The following data centers and PODs are scheduled to close on 03 September 2021:
 * DAL05 – POD2 (other PODs in DAL05 are not impacted)
 * WDC01 – POD3 and POD4 (other PODs in WDC01 are not impacted)
 
-To prepare for the data center closures, the following {{site.data.keyword.cloud_notm}} services are ending their service support on the following dates:  
+For the OSL01 data center, the following {{site.data.keyword.cloud_notm}} services are ending their service support on the following dates:  
 
 | Service        | Support end date |
 |----------------|---------------------------------|
