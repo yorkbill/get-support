@@ -41,7 +41,8 @@ You can check for upcoming maintenance from your dashboard in the {{site.data.ke
 {: #open-support-case}
 {: faq}
 
-Go to the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external} in the console, and click **Create a case** from the Contact Support section. For more information, see [Creating support cases](/docs/get-support?topic=get-support-open-case).
+Go to the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external} in the console, and click **Create a case** from the Contact Support section. After your support case is created, you can follow its progress on the [Manage cases](https://cloud.ibm.com/unifiedsupport/cases/manage) page. For more information about creating a case, see [Creating support cases](https://cloud.ibm.com/docs/get-support?topic=get-support-open-case).
+
 
 
 ## How do I escalate support cases? 
