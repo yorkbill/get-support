@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2021
 
-lastupdated: "2021-05-25"
+lastupdated: "2021-05-26"
 
 keywords: frequently asked question, faq, support cases, email preferences, access for cases, support faq 
 
@@ -41,7 +41,7 @@ You can check for upcoming maintenance from your dashboard in the {{site.data.ke
 {: #open-support-case}
 {: faq}
 
-Go to the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external} in the console, and click **Create a case** from the Contact Support section. After your support case is created, you can follow its progress on the [Manage cases](https://cloud.ibm.com/unifiedsupport/cases/manage) page. For more information about creating a case, see [Creating support cases](https://cloud.ibm.com/docs/get-support?topic=get-support-open-case).
+Go to the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external} in the console, and click **Create a case** from the Contact Support section. After your support case is created, you can follow its progress on the [Manage cases](https://{DomainName}/unifiedsupport/cases/manage){: external} page. For more information about creating a case, see [Creating support cases](https://{DomainName}/docs/get-support?topic=get-support-open-case).
 
 
 

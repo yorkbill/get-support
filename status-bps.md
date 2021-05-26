@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2020
 
-lastupdated: "2021-05-14"
+lastupdated: "2021-05-25"
 
 keywords: upcoming maintenance, stay up-to-date, monitor status
 
@@ -21,7 +21,7 @@ subcollection: get-support
 # Best practices for monitoring status
 {: #best-practices}
 
-To create a plan and stay informed, use the following best practices for monitoring the status of {{site.data.keyword.Bluemix}}. Ongoing incidents or planned maintenance windows that impact a finite set of accounts do not display on the Status page. The notifications for those events are published only to the customer [Notifications page](https://cloud.ibm.com/notifications){: external}.
+To create a plan and stay informed, use the following best practices for monitoring the status of {{site.data.keyword.Bluemix}}. Ongoing incidents or planned maintenance windows that impact a finite set of accounts do not display on the Status page. The notifications for those events are published only to the customer [Notifications page](https://{DomainName}/notifications){: external}.
 {: shortdesc}
 
 
@@ -30,8 +30,8 @@ To create a plan and stay informed, use the following best practices for monitor
 
 Check for upcoming maintenance windows posted on the {{site.data.keyword.Bluemix_notm}} console Dashboard page, at least one time every 24 hours, by using one of the following options:
 
-* Check out the Planned maintenance widget on the [Dashboard](https://cloud.ibm.com){: external}, and click **View events** to view all planned maintenance.
-* Go directly to the [Status - Planned maintenance page](https://cloud.ibm.com/status?selected=maintenance){: external}.
+* Check out the Planned maintenance widget on the [Dashboard](https://{DomainName}){: external}, and click **View events** to view all planned maintenance.
+* Go directly to the [Status - Planned maintenance page](https://{DomainName}/status?selected=maintenance){: external}.
 
 
 ## Check for current maintenance windows or an incident in progress

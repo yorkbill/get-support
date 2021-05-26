@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2021
 
-lastupdated: "2021-02-26"
+lastupdated: "2021-05-25"
 
 keywords: notifications, view notifications, set notifications, iaas notifications, notification icon, header bell, bell icon 
 
@@ -23,7 +23,7 @@ subcollection: get-support
 # Viewing notifications
 {: #viewing-notifications}
 
-The {{site.data.keyword.Bluemix_notm}} [Notifications page](https://cloud.ibm.com/user/notifications){: external} is a centralized place to view and control all incidents, maintenance, announcements, and security bulletins. Events that are displayed on the Notifications page are ones that specificially impact users based on the preferences that the account owner or administrator sets.   
+The {{site.data.keyword.Bluemix_notm}} [Notifications page](https://{DomainName}/user/notifications){: external} is a centralized place to view and control all incidents, maintenance, announcements, and security bulletins. Events that are displayed on the Notifications page are ones that specificially impact users based on the preferences that the account owner or administrator sets.    
 {:shortdesc}
 
 Pages specific to the {{site.data.keyword.Bluemix_notm}} classic infrastructure are deprecated. The new Notifications page hosts all classic infrastructure notifications. You can view classic infrastructure history for planned and unplanned incidents and announcements on the Notifications page. 
@@ -46,11 +46,13 @@ The new notification experience provides enhancements to how users are notified 
 * You can access the Notifications page with the applied filters to view only applicable notifications. Make sure to save the URL to view the Notifications page with the applied filters. 
 
 * If you want to receive future updates about a specific type of notification, click the **Email** icon next to each notification item in the list. 
+ 
 
 ## Notification types
 {: #notification-types}
 
 The following table describes the different types of notifications that are displayed. 
+
 
 | Notification Type | Description |
 |-------------------|-------------|
@@ -58,13 +60,21 @@ The following table describes the different types of notifications that are disp
 | Security bulletins | Announcements about security vulnerabilities and the required actions. |
 | Announcements | Updates on new infrastructure features and services in {{site.data.keyword.Bluemix_notm}}. | 
 | Incidents | Unexpected impacting events that can cause an outage or restrict functionality. |
+| Account | Invitation email, or console notifications for inviting users to the IBM Cloud platform.  |
 {: caption="Table 1. Notification types" caption-side="top"}
 
 ## Subscribing to email notifications
 {: #subscribe-email-notifications}
 
-You can select whether to receive email notifications about {{site.data.keyword.Bluemix_notm}} platform-related items, such as announcements, billing and usage, additional notification preferences and ordering. Or, about resource-related items, such as incidents, maintenance, security bulletins and resource activity. Additionally, if you have a Pay-As-You-Go or Subscription account, you can choose whether to receive {{site.data.keyword.Bluemix_notm}} infrastructure service updates about changes, such as OS reloads, assigned IPs, and image and firmware updates. You can update your preferences on the [Notification preferences page](https://cloud.ibm.com/user/notifications). For more information, see [Setting email preferences](https://cloud.ibm.com/docs/account?topic=account-email-prefs).
+You can select whether to receive email notifications about {{site.data.keyword.Bluemix_notm}} platform-related items, such as announcements, billing and usage, additional notification preferences and ordering. Or, about resource-related items, such as incidents, maintenance, security bulletins and resource activity. Additionally, if you have a Pay-As-You-Go or Subscription account, you can choose whether to receive {{site.data.keyword.Bluemix_notm}} infrastructure service updates about changes, such as OS reloads, assigned IPs, and image and firmware updates. For more information, see [Setting email preferences for notifications](https://{DomainName}/docs/account?topic=account-email-prefs).
 
+You cannot set email preferences for receiving account type notifications. On the {{site.data.keyword.Bluemix_notm}} [Notifications page](https://{DomainName}/user/notifications){: external}, you can use the search field to locate an invitation or filter by the notification type called account. 
+
+Email addresses that correspond to users already present in IBM Cloud are automatically added to each invited account. If an email address does not correspond to a known user in IBM Cloud, an invitation email gets sent to accept, but users can also choose not to accept the invitation. For more information, see [Setting email preferences for notifications
+](/docs/account?topic=account-email-prefs) and [Inviting users to an account](/docs/account?topic=account-iamuserinv).
+
+The invitations expire after 30 days. 
+{: note}
 
 ## Getting advanced notice for disruptive maintenance
 {: #disruptive-maintenance}
