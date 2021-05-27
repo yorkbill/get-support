@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2021
 
-lastupdated: "2021-05-25"
+lastupdated: "2021-05-27"
 
 keywords: notifications, view notifications, set notifications, iaas notifications, notification icon, header bell, bell icon 
 
@@ -70,10 +70,10 @@ You can select whether to receive email notifications about {{site.data.keyword.
 
 You cannot set email preferences for receiving account type notifications. On the {{site.data.keyword.Bluemix_notm}} [Notifications page](https://{DomainName}/user/notifications){: external}, you can use the search field to locate an invitation or filter by the notification type called account. 
 
-Email addresses that correspond to users already present in IBM Cloud are automatically added to each invited account. If an email address does not correspond to a known user in IBM Cloud, an invitation email gets sent to accept, but users can also choose not to accept the invitation. For more information, see [Setting email preferences for notifications
+Users already present in IBM Cloud will receive an email and a notification with an invitation link. If an email address does not correspond to a known user in IBM Cloud, an invitation email gets sent to accept, but users can also choose not to accept the invitation. For more information, see [Setting email preferences for notifications
 ](/docs/account?topic=account-email-prefs) and [Inviting users to an account](/docs/account?topic=account-iamuserinv).
 
-The invitations expire after 30 days. 
+The invitations expire after 30 days. New users to {{site.data.keyword.cloud_notm}} can only accept an invitation by using the invitation link they received through email.
 {: note}
 
 ## Getting advanced notice for disruptive maintenance
