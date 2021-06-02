@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="get-support" category="platform_services" audience="platform" href="/docs/get-support?topic=get-support-support-plans#support-plans" path="get-support"}
+{: .toc subcollection="get-support" category="platform_services" audience="platform" href="/docs/get-support" path="get-support"}
 Getting support
 
     {: .navgroup id="learn"}
