@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2021
 
-lastupdated: "2021-05-25"
+lastupdated: "2021-06-09"
 
 keywords: escalate, support case, case, ticket, case severity, severity, support case severity
 
@@ -34,4 +34,4 @@ To escalate a case, complete the following steps:
 1. Provide your existing case number and a request to escalate the case.
 1. Provide the justification an escalation and explain the business impact of your problem or issue.
 
-If your support inquiry requires a more immediate response, consider upgrading to the premium or advanced support plan so that you can open severity 1-4 support cases. To upgrade your support plan, contact your [IBM sales representative](https://www.ibm.com/contact/us/en/?lnk=flg-cont-usen){: external}.
+If your support inquiry requires a more immediate response, consider upgrading to the premium or advanced support plan so that you can open severity 1-4 support cases. To upgrade your support plan, contact a [{{site.data.keyword.Bluemix_notm}} Sales](https://{DomainName}//catalog?contactmodule){: external} representative.
