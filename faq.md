@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2021
 
-lastupdated: "2021-06-09"
+lastupdated: "2021-06-10"
 
 keywords: frequently asked question, faq, support cases, email preferences, access for cases, support faq 
 
@@ -107,3 +107,9 @@ To access your support cases, in the {{site.data.keyword.cloud_notm}} console, g
 If you still can't view them, you might not have the required permission. Ask your account owner to add you to the support case access group. For more information, see [SoftLayer account permissions](/docs/account?topic=account-migrated_permissions). 
 
 
+## How do I get support for non-{{site.data.keyword.Bluemix_notm}} products??
+{: #on-cloud-cases}
+{: faq}
+
+Some cloud-based {{site.data.keyword.IBM_notm}} products are not offered in {{site.data.keyword.Bluemix_notm}}. These products, such as [Aspera on Cloud](https://www.ibm.com/cloud/aspera), are offered by {{site.data.keyword.IBM_notm}} but aren't supported by the {{site.data.keyword.Bluemix_notm}} platform. For support for these products, go to [{{site.data.keyword.IBM_notm}} Support](https://www.ibm.com/support/home/).
+d
