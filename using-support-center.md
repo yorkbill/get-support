@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2020 
+  years: 2015, 2021 
 
-lastupdated: "2020-12-09"
+lastupdated: "2021-06-10"
 
 keywords: support, support case, premium support, advanced support, basic support, support page, help
 
@@ -22,13 +22,13 @@ subcollection: get-support
 # Using the Support Center
 {: #using-avatar}
 
-If you experience problems with {{site.data.keyword.Bluemix}}, you have several options to get help with determining the cause of the problem and finding a solution. If you're logged in, you can go directly to the [Support center](https://{DomainName}/unifiedsupport/supportcenter) to review your product topics and featured FAQs, open or manage a support case, or search community content. If you can't log in to your account, start a chat by going to the [{{site.data.keyword.Bluemix_notm}} Support](https://www.ibm.com/cloud/support) page and clicking **Let's talk**. Or you can complete the [Create an Account, Login, or Billing Request form](https://watson.service-now.com/x_ibmwc_open_case_app.do#!/create). 
+If you experience problems with {{site.data.keyword.Bluemix}}, you have several options to get help with determining the cause of the problem and finding a solution. If you're logged in, you can go directly to the [Support center](https://{DomainName}/unifiedsupport/supportcenter){: external} to review your product topics and featured FAQs, open or manage a support case, or search community content. If you can't log in to your account, start a chat by going to the [{{site.data.keyword.Bluemix_notm}} Support](https://www.ibm.com/cloud/support){: external} page and clicking **Let's talk**. Or you can complete the [Create an Account, Login, or Billing Request form](https://watson.service-now.com/x_ibmwc_open_case_app.do#!/create). 
 {:shortdesc}
 
 As a classic infrastructure user, you might be familiar with support tickets. Tickets are now called cases in {{site.data.keyword.Bluemix_notm}}. 
 {: note} 
 
-Three different types of support plan are offered. For more information, see [Basic, Advanced, and Premium Support plans](/docs/get-support?topic=get-support-support-plans). You can change your current support plan at any time by contacting {{site.data.keyword.Bluemix_notm}} sales. Go to the [{{site.data.keyword.Bluemix_notm}} support page](https://www.ibm.com/cloud/support){: external} and click **Contact Us**. From there, you can communicate with an expert through chat, phone, or email.
+Three different types of support plan are offered. For more information, see [Basic, Advanced, and Premium Support plans](/docs/get-support?topic=get-support-support-plans). You can change your current support plan at any time by contacting a [{{site.data.keyword.Bluemix_notm}} Sales](https://{DomainName}//catalog?contactmodule){: external} representative.
 
 
 ## Getting support
@@ -43,7 +43,7 @@ The following are the methods that you can find in the Contact support section i
 * If you have a valid pay-as-you-go or subscription account, you can click **Live chat with support** to chat with a support engineer.  
 * Pay-as-you-go or subscription accounts can also contact support by phone: +1-866-403-7638.
 * If you have technical questions, there's a link to [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external}). 
-* You can also use the [Create a case](https://{DomainName}/unifiedsupport/cases/add) page to submit a case.
+* You can also use the [Create a case](https://{DomainName}/unifiedsupport/cases/add){: external} page to submit a case.
 
 {{site.data.keyword.IBM_notm}} periodically sends surveys to {{site.data.keyword.Bluemix_notm}} customers to get feedback on recent experiences with customer support. The survey focuses on the support quality and the overall experience. {{site.data.keyword.IBM_notm}} management reviews the survey results to improve the support experience.
 {: note}
@@ -87,7 +87,7 @@ Enabling the EU Support setting for your account applies to all future cases tha
 
 Support is provided for problems that are determined to be a defect for services or container images that are generally available (GA) and provided by {{site.data.keyword.IBM_notm}}. The case is addressed based on the severity that you assign. For more information, see [Case severity and initial response times](/docs/get-support?topic=get-support-support-case-severity). 
 
-You can change your current support plan at any time by contacting {{site.data.keyword.Bluemix_notm}} sales. Go to the [{{site.data.keyword.Bluemix_notm}} support page](https://www.ibm.com/cloud/support){: external} and click **Contact Us**. From there, you can communicate with an expert through chat, phone, or email.
+You can change your current support plan at any time by contacting a [{{site.data.keyword.Bluemix_notm}} Sales](https://{DomainName}//catalog?contactmodule){: external} representative.
 {: tip}
 
 
