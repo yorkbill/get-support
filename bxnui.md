@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2021
 
-lastupdated: "2021-05-25"
+lastupdated: "2021-06-11"
 
 keywords: error messages, errors, platform errors, message ID
 
@@ -314,7 +314,7 @@ Try again later. If you see this message again, go to the [{{site.data.keyword.B
 ## BXNUI0066E
 **Message**: The runtime can't be deleted because when the runtime was added, a buildpack value was explicitly set for the application by using the `-b` option on the `cf` push command.
 
-Go to [{{site.data.keyword.Bluemix_notm}} Support ![External link icon](../icons/launch-glyph.svg)](https://{DomainName}/unifiedsupport/supportcenter){: external}.
+Go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
 
 ## BXNUI0067E
 **Message**: The data for the plans wasn't retrieved because a problem occurred contacting Cloud Foundry.
