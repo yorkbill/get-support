@@ -112,4 +112,3 @@ If you still can't view them, you might not have the required permission. Ask yo
 {: faq}
 
 Some cloud-based {{site.data.keyword.IBM_notm}} products are not offered in {{site.data.keyword.Bluemix_notm}}. These products, such as [Aspera on Cloud](https://www.ibm.com/cloud/aspera), are offered by {{site.data.keyword.IBM_notm}} but aren't supported by the {{site.data.keyword.Bluemix_notm}} platform. For support for these products, go to [{{site.data.keyword.IBM_notm}} Support](https://www.ibm.com/support/home/).
-d
