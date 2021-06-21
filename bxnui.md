@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2021
 
-lastupdated: "2021-06-11"
+lastupdated: "2021-06-21"
 
 keywords: error messages, errors, platform errors, message ID
 
@@ -550,7 +550,7 @@ Try again later. If you see this message again, go to the [{{site.data.keyword.B
 
 **Message**: You will be logged out because you are not a member of an active account.
 
-Your {{site.data.keyword.Bluemix_notm}} account might be expired or cancelled, or you might have been removed from your org.
+Your {{site.data.keyword.Bluemix_notm}} account might be expired or canceled, or you might have been removed from your org.
 Contact your org manager. Make sure you select the correct account within the IBM Cloud Console. [Switch between multiple accounts](/docs/account?topic=account-accountfaqs&locale=dk#switch-between-accounts) if needed. If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external}.
 
 ## BXNUI0126E
