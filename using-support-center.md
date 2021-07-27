@@ -40,7 +40,7 @@ Review your product topics to get a quick overview of the {{site.data.keyword.Bl
 
 The following are the methods that you can find in the Contact support section if you need help: 
 
-* If you have a valid pay-as-you-go or subscription account, you can click **Live chat with support** to chat with a support engineer.  
+* By chat from the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external}.  
 * Pay-as-you-go or subscription accounts can also contact support by phone: +1-866-403-7638.
 * If you have technical questions, there's a link to [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external}). 
 * You can also use the [Create a case](https://{DomainName}/unifiedsupport/cases/add){: external} page to submit a case.
