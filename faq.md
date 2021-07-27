@@ -54,7 +54,7 @@ As an {{site.data.keyword.cloud_notm}} customer, you can escalate support cases 
 To escalate a support case, complete the following steps: 
 1. Contact {{site.data.keyword.cloud_notm}} Support by phone or chat:
   * By phone at the following number: +1-866-403-7638.
-  * By chat, if you have Premium or Advanced support, from the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external}. 
+  * By chat from the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external}. 
 1. Provide your existing case number and a request to escalate the case. 
 1. Provide a justification for the escalation and explain the business impact of your problem or issue. 
 
