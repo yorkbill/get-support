@@ -43,7 +43,9 @@
     "increase support case severity",
     "change severity of a case",
     "update case severity",
-    "help escalating a ticket"
+    "help escalating a ticket",
+    "please can you escalate my ticket",
+    "need some one to raise the Ticket Sev"
   ],
   "steps_before_opencase": [
     "before I open a case what can I do",
@@ -165,25 +167,6 @@
     "Why can't I see others Support Cases",
     "can't view all of the cases in the account"
   ],
-  "ts_tech-support-case": [
-    "can't create a technical support case",
-    "can't create a support ticket for a service",
-    "I can't open a technical support case",
-    "unable to create a ticket for a service",
-    "can't create a technical case",
-    "unable to get technical support",
-    "why can I not open a technical areas question",
-    "can not open technical request",
-    "only create a support ticket for account and billing",
-    "raised a case but was told that the account type don't allow this",
-    "need to have a technical configuration issue solved",
-    "cannot create a technical support case",
-    "why can't I create a technical case",
-    "can't create tickets for my technical service",
-    "unable to create a technical support case",
-    "can't create tickets for technical support",
-    "only create a case for account and billing"
-  ],
   "supportcenter-service": [
     "can't find help information in the Support Center for my services",
     "unable to find anything helpful in Support Center for my service",
@@ -235,10 +218,11 @@
     "How can I raise a support case for support team",
     "open a tkt for support",
     "how to open an issue with support",
-	  "How can open an issue against our Networking Team",
-	  "creating an issue",
-	  "create a support issue",
-	  "open an issue"
+    "How can open an issue against our Networking Team",
+    "creating an issue",
+    "create a support issue",
+    "open an issue",
+    "urgent support"
  ],
   "support-plan": [
     "want to upgrade support plan",
