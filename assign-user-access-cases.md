@@ -2,16 +2,15 @@
 
 copyright:
 
-  years: 2018,2020
+  years: 2018, 2021
 
-lastupdated: "2021-05-14"
+lastupdated: "2021-08-10"
 
 keywords: access to cases, get access for cases, assign cases, assign access, access support center
 
 subcollection: get-support
 
 ---
-
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -43,8 +42,8 @@ The following table shows the roles and actions that are required to work with c
 
 By default, users with a Support Center service role can access support cases that they are assigned to unless one of the following conditions is met:
 
-* User list visibility is set to Unrestricted view by the account owner.
-* The user is assigned a user management account management service role.
+   * User list visibility is set to Unrestricted view by the account owner.
+   * The user is assigned a user management account management service role.
 
 
 ## Creating an access group for working with cases
@@ -52,13 +51,13 @@ By default, users with a Support Center service role can access support cases th
 
 To streamline the access assignment process, you can take advantage of assigning a policy to users through access groups. Complete the following steps to create an access group with support center service access:
 
-1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Access (IAM)**, select **Access groups**, and click **Create**. 
-1. Enter an access group name and description, and click **Create**. 
-1. Click **Access policies** > **Assign access**.
-1. From the Assign access group additional access section, select **Account management**.
-1. To assign access to a service, select **Support Center**.
-1. Select any combination of roles to assign the wanted access. 
-1. Click **Add**, then click **Assign** from the Access summary section.  
+   1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Access (IAM)**, select **Access groups**, and click **Create**. 
+   1. Enter an access group name and description, and click **Create**. 
+   1. Click **Access policies** > **Assign access**.
+   1. From the Assign access group additional access section, select **Account management**.
+   1. To assign access to a service, select **Support Center**.
+   1. Select any combination of roles to assign the wanted access. 
+   1. Click **Add**, then click **Assign** from the Access summary section.  
 
 
 ## Assigning access for all support cases in the account
@@ -66,12 +65,12 @@ To streamline the access assignment process, you can take advantage of assigning
 
 When you give a user access, they might not have access view all cases in an account. If the account owner sets the user list visibility setting to restricted, users can view only the cases that they create themselves. To ensure that a user can always view or edit all cases in the account, you must assign a second access policy with the viewer role on the User Management service. If you want to ensure that your users can view all support cases in the account, add a policy with the viewer role for the User Management service to your access group:
 
-1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Access (IAM)**, select **Access groups** and select the Group that you want to have access.
-1. Click **Access policies** > **Assign access**.
-1. From the Assign access group additional access section, select **Account management**.
-1. To assign access to your service, select **User management**.
-1. For platform access, select **Viewer**.
-1. Click **Add** and click **Assign** after you review.
+   1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Access (IAM)**, select **Access groups** and select the Group that you want to have access.
+   1. Click **Access policies** > **Assign access**.
+   1. From the Assign access group additional access section, select **Account management**.
+   1. To assign access to your service, select **User management**.
+   1. For platform access, select **Viewer**.
+   1. Click **Add** and click **Assign** after you review.
 
 
 ## Adding users to your case management access group
@@ -79,9 +78,9 @@ When you give a user access, they might not have access view all cases in an acc
 
 You need to have an access group to add users to it. For more information about access groups, see [Setting up access groups](/docs/account?topic=account-groups). After you create the access group, complete the following steps to add users:
 
-1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Access (IAM)**, select **Access groups** and select the Group that you want to have access.
-1. From the **Users** tab for your access group, click **Add users**.
-1. Select the user that you want to add and click **Add to group**.
+   1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Access (IAM)**, select **Access groups** and select the Group that you want to have access.
+   1. From the **Users** tab for your access group, click **Add users**.
+   1. Select the user that you want to add and click **Add to group**.
 
 
 ## Granting individual users access to cases 
@@ -89,10 +88,10 @@ You need to have an access group to add users to it. For more information about 
 
 Using access groups to assign the support center and user management services is the most efficient way for you to assign access, but you can also assign the same permissions to individual users. To assign permissions to an individual user, use the following steps:
 
-1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Access (IAM)**, and then select **Users**. 
-1. Select the user. 
-1. Select the **Access policies** tab, and click **Assign access**.
-1. In the Assign user additional access section, select **Account management**.
-1. To assign access to a service, select **Support Center**.
-1. Select any combination of roles to assign the wanted access. 
-1. Click **Add**, then click **Assign** from the Access summary section.  
+   1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Access (IAM)**, and then select **Users**. 
+   1. Select the user. 
+   1. Select the **Access policies** tab, and click **Assign access**.
+   1. In the Assign user additional access section, select **Account management**.
+   1. To assign access to a service, select **Support Center**.
+   1. Select any combination of roles to assign the wanted access. 
+   1. Click **Add**, then click **Assign** from the Access summary section.  

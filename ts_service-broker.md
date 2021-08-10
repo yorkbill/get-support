@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2020
+  years: 2015, 2021
 
-lastupdated: "2020-12-09"
+lastupdated: "2021-08-10"
 
 keywords: help managing cases, resolve issues managing cases, trouble working with cases, support center, help support center, resolve issues support center, help getting support, help support 
 
@@ -44,12 +44,12 @@ The account owner, an administrator on the support center service, or the admini
 
 If you're the account owner or an administrator of the Support Center, complete the following steps to create an access policy for working with support cases:
 
-1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Access (IAM)** and select **Users**.
-1. Select a username, and click **Access policies**. 
-1. Click **Assign Access**. 
-1. From the Assign users additional access section, select **Account management**.
-1. For the type of access that you want to assign, select **Support Center**. 
-1. Select a role to define the level of access for the user. The user needs the Editor or Administrator role to view, search, create, and update support cases. 
+   1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Manage** > **Access (IAM)** and select **Users**.
+   1. Select a username, and click **Access policies**. 
+   1. Click **Assign Access**. 
+   1. From the Assign users additional access section, select **Account management**.
+   1. For the type of access that you want to assign, select **Support Center**. 
+   1. Select a role to define the level of access for the user. The user needs the Editor or Administrator role to view, search, create, and update support cases. 
 
 
 

@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2021
 
-lastupdated: "2021-07-13"
+lastupdated: "2021-08-10"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -53,17 +53,17 @@ By default, account users don't have access to create, update, search, or view c
 
 Complete the following steps to create a support case: 
 
-  1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Support** from the console menu bar.
-  1. From the Contact support section, click **Create a case**. 
-  1. Select the category for your issue. 
-  1. Select the topic and then the associated subtopic that is most closely related to your issue and click **Next**.
-  1. Complete the required fields.
+   1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Support** from the console menu bar.
+   1. From the Contact support section, click **Create a case**. 
+   1. Select the category for your issue. 
+   1. Select the topic and then the associated subtopic that is most closely related to your issue and click **Next**.
+   1. Complete the required fields.
     * To maintain device and service security, do not include any device or service credentials within case responses. The response fields are not intended for Personal Information or Sensitive Data. Information that is entered into these fields is retained to provide the best support experience.
-  1. Optional: 
+   1. Optional: 
     * Attach files and resources to provide more details about the issue you're experiencing.
     * Add another user to the case if the user is in the account. For more information, see [Adding users to your case management access group](/docs/get-support?topic=get-support-access#add-user-access-group).
     * Select **Email me updates about this case** to receive support case notifications. 
-  1. Click **Next**, review your case summary, and click **Submit case**. After you receive email verification for the case, follow the instructions for further communication on the issue. 
+   1. Click **Next**, review your case summary, and click **Submit case**. After you receive email verification for the case, follow the instructions for further communication on the issue. 
 
 After your support case is created, you can follow its progress on the [Manage cases page](https://{DomainName}/unifiedsupport/cases). 
 {: tip}

@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2021
 
-lastupdated: "2021-06-21"
+lastupdated: "2021-08-10"
 
 keywords: error messages, errors, platform errors, message ID
 
@@ -298,10 +298,10 @@ Try again later.
 **Message**: The browser that you are using is not supported by IBM{{site.data.keyword.Bluemix_notm}}.
 
 The following browsers are supported. Ensure that you use the latest version for your operating system.
-* Google Chrome
-* Mozilla Firefox
-* Internet Explorer
-* Safari
+   * Google Chrome
+   * Mozilla Firefox
+   * Internet Explorer
+   * Safari
 
 For information, see [What are the IBM Cloud prerequisites?](/docs/overview?topic=overview-prereqs-platform)
 
@@ -847,7 +847,7 @@ Try again later.
 
 ## BXNUI0704E
 
-**Message**: The details for this invited user could not be loaded from the following region or regions: <strong>`regions`</strong>.
+**Message**: The details for this invited user could not be loaded from the following region or regions: **`regions`**.
 
 Try again later.
 

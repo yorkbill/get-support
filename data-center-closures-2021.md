@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2021
 
-lastupdated: "2021-05-21"
+lastupdated: "2021-08-10"
 
 keywords: data centers, data center support, datacenter, data center closure
 
@@ -27,10 +27,10 @@ As part of the data center modernization strategy for {{site.data.keyword.cloud}
 {:shortdesc}
 
 The following data centers and PODs are scheduled to close on 03 September 2021:
-* OSL01
-* HOU02
-* DAL05 – POD2 (other PODs in DAL05 are not impacted)
-* WDC01 – POD3 and POD4 (other PODs in WDC01 are not impacted)
+   * OSL01
+   * HOU02
+   * DAL05 – POD2 (other PODs in DAL05 are not impacted)
+   * WDC01 – POD3 and POD4 (other PODs in WDC01 are not impacted)
 
 For the OSL01 data center, the following {{site.data.keyword.cloud_notm}} services are ending their service support on the following dates:  
 
@@ -42,8 +42,8 @@ For the OSL01 data center, the following {{site.data.keyword.cloud_notm}} servic
 | {{site.data.keyword.openshiftlong_notm}} (Managed OpenShift) | 30 August 2021 |
 {: caption="Table 1. {{site.data.keyword.cloud_notm}} services that are ending support leading up to data center closure" caption-side="top"}
 
-* The {{site.data.keyword.cloud_notm}} Databases portfolio includes {{site.data.keyword.databases-for-postgresql}}, {{site.data.keyword.databases-for-redis}}, {{site.data.keyword.databases-for-etcd}}, {{site.data.keyword.databases-for-mongodb}}, {{site.data.keyword.databases-for-elasticsearch}}, {{site.data.keyword.databases-for-enterprisedb}}, {{site.data.keyword.databases-for-cassandra}}, and {{site.data.keyword.messages-for-rabbitmq}}. 
-* The last date to create new deployments for IKS, COS, and Managed OpenShift services in the OSL01 data center is 01 July 2021.
+   * The {{site.data.keyword.cloud_notm}} Databases portfolio includes {{site.data.keyword.databases-for-postgresql}}, {{site.data.keyword.databases-for-redis}}, {{site.data.keyword.databases-for-etcd}}, {{site.data.keyword.databases-for-mongodb}}, {{site.data.keyword.databases-for-elasticsearch}}, {{site.data.keyword.databases-for-enterprisedb}}, {{site.data.keyword.databases-for-cassandra}}, and {{site.data.keyword.messages-for-rabbitmq}}. 
+   * The last date to create new deployments for IKS, COS, and Managed OpenShift services in the OSL01 data center is 01 July 2021.
 
 New products and services can't be provisioned on data centers that are scheduled to be closed. 
 {: important}
@@ -52,15 +52,9 @@ New products and services can't be provisioned on data centers that are schedule
 ## Withdrawal of support for some data centers - 2021
 {: #withdrawal-support-data-centers-2021}
 
-{{site.data.keyword.cloud_notm}} invests significantly in data center infrastructure. These investments include rolling out 
-newer data centers and multizone regions (MZRs) designed to deliver a more resilient architecture with higher levels of 
-network throughput and redundancy. For more information, see 
-[Locations for resource deployment](/docs/overview?topic=overview-locations).
+{{site.data.keyword.cloud_notm}} invests significantly in data center infrastructure. These investments include rolling out newer data centers and multizone regions (MZRs) designed to deliver a more resilient architecture with higher levels of network throughput and redundancy. For more information, see [Locations for resource deployment](/docs/overview?topic=overview-locations).
 
-Part of this modernization strategy is to close older data centers that are unsuitable for upgrading. As this transition 
-approaches, help is available to assist you in your migration to modern data centers. For more information, see 
-[Migrating resources to a different data center](/docs/account?topic=account-migrate-data-center) or 
-[FAQs for migrating resources to a different data center](/docs/account?topic=account-faqs-dc-closure).
+Part of this modernization strategy is to close older data centers that are unsuitable for upgrading. As this transition approaches, help is available to assist you in your migration to modern data centers. For more information, see [Migrating resources to a different data center](/docs/account?topic=account-migrate-data-center) or [FAQs for migrating resources to a different data center](/docs/account?topic=account-faqs-dc-closure).
 
 The following table shows the locations with the associated data centers and specific PODs that are set to close, and the recommended data centers to which you can migrate.  
 
@@ -85,7 +79,3 @@ that are set to close. You receive notifications if you have services in the dat
 | 30 August 2021    | IKS and Managed OpenShift services end service support. |
 | 03 September 2021 | OSL01, HOU02, DAL05 - POD2, and WDC01 – POD3 and POD4 data centers are closed; no longer available or supported. Other PODs in DAL05 and WDC01 are not impacted. |
 {: caption="Table 3. Timeline for data center migration" caption-side="top"}
-
-
-
-

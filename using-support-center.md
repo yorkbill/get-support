@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2021 
 
-lastupdated: "2021-06-10"
+lastupdated: "2021-08-10"
 
 keywords: support, support case, premium support, advanced support, basic support, support page, help
 
@@ -40,10 +40,10 @@ Review your product topics to get a quick overview of the {{site.data.keyword.Bl
 
 The following are the methods that you can find in the Contact support section if you need help: 
 
-* By chat from the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external}.  
-* Pay-as-you-go or subscription accounts can also contact support by phone: +1-866-403-7638.
-* If you have technical questions, there's a link to [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external}). 
-* You can also use the [Create a case](https://{DomainName}/unifiedsupport/cases/add){: external} page to submit a case.
+   * By chat from the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external}.  
+   * Pay-as-you-go or subscription accounts can also contact support by phone: +1-866-403-7638.
+   * If you have technical questions, there's a link to [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external}). 
+   * You can also use the [Create a case](https://{DomainName}/unifiedsupport/cases/add){: external} page to submit a case.
 
 {{site.data.keyword.IBM_notm}} periodically sends surveys to {{site.data.keyword.Bluemix_notm}} customers to get feedback on recent experiences with customer support. The survey focuses on the support quality and the overall experience. {{site.data.keyword.IBM_notm}} management reviews the survey results to improve the support experience.
 {: note}
@@ -61,8 +61,8 @@ The Stack Overflow forum provides a wide variety of searchable answers for your 
 
 If your account is either {{site.data.keyword.Bluemix_dedicated_notm}} or {{site.data.keyword.Bluemix_local_notm}}, support is provided by the {{site.data.keyword.Bluemix_notm}} support team. 
 
-* Open a new case by using the [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external} page and click **Create a case**. Mention that your account is either **{{site.data.keyword.Bluemix_dedicated_notm}}** or **{{site.data.keyword.Bluemix_local_notm}}** in the Subject and Description of the support case. 
-* If you don't have an {{site.data.keyword.ibmid}}, contact someone in your organization that does, or work with your {{site.data.keyword.IBM_notm}} representative.
+   * Open a new case by using the [{{site.data.keyword.Bluemix_notm}} Support](https://{DomainName}/unifiedsupport/supportcenter){: external} page and click **Create a case**. Mention that your account is either **{{site.data.keyword.Bluemix_dedicated_notm}}** or **{{site.data.keyword.Bluemix_local_notm}}** in the Subject and Description of the support case. 
+   * If you don't have an {{site.data.keyword.ibmid}}, contact someone in your organization that does, or work with your {{site.data.keyword.IBM_notm}} representative.
 
 
 ## Requesting support for resources in the European Union
@@ -72,9 +72,9 @@ European Union (EU) support is available to customers who choose to enable the E
 
 You can specify that you want EU support for your account if the following criteria are true:
 
-* The EU Supported setting is enabled for your account by the master user or account owner. For more information, see [Enabling the EU Supported setting](/docs/account?topic=account-eu-hipaa-supported#bill_eusupported).
-* Your resources are in the appropriate European data center. For more information, see [Data centers](/docs/overview?topic=overview-locations#data-centers).
-* You select the EU supported case level when you open the case.
+   * The EU Supported setting is enabled for your account by the master user or account owner. For more information, see [Enabling the EU Supported setting](/docs/account?topic=account-eu-hipaa-supported#bill_eusupported).
+   * Your resources are in the appropriate European data center. For more information, see [Data centers](/docs/overview?topic=overview-locations#data-centers).
+   * You select the EU supported case level when you open the case.
 
 {{site.data.keyword.Bluemix_notm}} platform services that are hosted in the Frankfurt location must be supported by a team that is physically located in Europe. 
 {: note}  

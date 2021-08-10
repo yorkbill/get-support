@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2020
+  years: 2015, 2021
 
-lastupdated: "2021-05-25"
+lastupdated: "2021-08-10"
 
 keywords: upcoming maintenance, stay up-to-date, monitor status
 
@@ -30,8 +30,8 @@ To create a plan and stay informed, use the following best practices for monitor
 
 Check for upcoming maintenance windows posted on the {{site.data.keyword.Bluemix_notm}} console Dashboard page, at least one time every 24 hours, by using one of the following options:
 
-* Check out the Planned maintenance widget on the [Dashboard](https://{DomainName}){: external}, and click **View events** to view all planned maintenance.
-* Go directly to the [Status - Planned maintenance page](https://{DomainName}/status?selected=maintenance){: external}.
+   * Check out the Planned maintenance widget on the [Dashboard](https://{DomainName}){: external}, and click **View events** to view all planned maintenance.
+   * Go directly to the [Status - Planned maintenance page](https://{DomainName}/status?selected=maintenance){: external}.
 
 
 ## Check for current maintenance windows or an incident in progress

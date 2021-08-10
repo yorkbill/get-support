@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2019, 2020
+  years: 2019, 2021
 
-lastupdated: "2020-12-09"
+lastupdated: "2021-08-10"
 
 keywords: cir, impacting event, services, advanced customer support
 
@@ -50,9 +50,9 @@ The following image shows the process for receiving a CIR.
 
 A CIR must be requested within 30 days of an impacting event by using one of the following methods: 
 
-* Create a case that requests a CIR
-* Request a CIR within the case description
-* Update your case with a request for a CIR
+   * Create a case that requests a CIR
+   * Request a CIR within the case description
+   * Update your case with a request for a CIR
 
 To create a case, go to [Create a case](https://{DomainName}/unifiedsupport/cases/add), or to update your case, go to the [Manage cases page](https://{DomainName}/unifiedsupport/cases).
 

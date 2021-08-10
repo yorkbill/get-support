@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2021
 
-lastupdated: "2021-06-14"
+lastupdated: "2021-08-10"
 
 keywords: notifications, view notifications, set notifications, iaas notifications, notification icon, header bell, bell icon 
 
@@ -33,19 +33,13 @@ To view the page, log in to the {{site.data.keyword.Bluemix_notm}} console, and 
 
 The new notification experience provides enhancements to how users are notified about important changes on the {{site.data.keyword.Bluemix_notm}} platform: 
 
-* The **Notifications** icon ![Notification icon "Notifications"](../icons/Notification.svg) on the {{site.data.keyword.Bluemix_notm}} console shows a red indicator that is only visible when a new notification is available. You can see the details and interact with new and archived notifications.
-
-* The Notifications page is account scoped and shows only notifications for the account that is selected on the menu bar. You can switch accounts to view notifications that are affecting a different account. 
-
-* The severity or impact is listed for each notification type. Depending on the notification, you might see severity 1 listed for an unplanned incident notification and high impact that is listed for a planned maintenance notification. 
-
-* You can use the search field to locate a specific notification or filter by a notification type. 
-
-* Navigate to a specific notification by using the unique URL that is associated with each notification. You can save and share the URL with users in the account. 
-
-* You can access the Notifications page with the applied filters to view only applicable notifications. Make sure to save the URL to view the Notifications page with the applied filters. 
-
-* If you want to receive future updates about a specific type of notification, click the **Email** icon next to each notification item in the list. 
+   * The **Notifications** icon ![Notification icon "Notifications"](../icons/Notification.svg) on the {{site.data.keyword.Bluemix_notm}} console shows a red indicator that is only visible when a new notification is available. You can see the details and interact with new and archived notifications.
+   * The Notifications page is account scoped and shows only notifications for the account that is selected on the menu bar. You can switch accounts to view notifications that are affecting a different account. 
+   * The severity or impact is listed for each notification type. Depending on the notification, you might see severity 1 listed for an unplanned incident notification and high impact that is listed for a planned maintenance notification. 
+   * You can use the search field to locate a specific notification or filter by a notification type. 
+   * Navigate to a specific notification by using the unique URL that is associated with each notification. You can save and share the URL with users in the account. 
+   * You can access the Notifications page with the applied filters to view only applicable notifications. Make sure to save the URL to view the Notifications page with the applied filters. 
+   * If you want to receive future updates about a specific type of notification, click the **Email** icon next to each notification item in the list. 
  
 
 ## Notification types
