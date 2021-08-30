@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2021
 
-lastupdated: "2021-08-10"
+lastupdated: "2021-08-30"
 
 keywords: can't access docs, allowlisted docs
 
@@ -46,8 +46,8 @@ Access to documentation is granted by account rather than by user. The account t
 If you were previously able to access the content and you're a user in multiple {{site.data.keyword.cloud_notm}} accounts, check that you're in the correct account.
 {: tsResolve}
 
-   1. In the {{site.data.keyword.cloud_notm}} docs menu, click **Console** to open the {{site.data.keyword.cloud_notm}} console.
-   1. Verify that the correct account is selected in the {{site.data.keyword.cloud_notm}} console menu bar. If the account that's displayed in the console menu bar is not the account that has access, switch to the correct account by selecting the account from the drop-down menu.
-   1. Return to the {{site.data.keyword.cloud_notm}} docs page that you were trying to access, and reload the page.
+1. In the {{site.data.keyword.cloud_notm}} docs menu, click **Console** to open the {{site.data.keyword.cloud_notm}} console.
+1. Verify that the correct account is selected in the {{site.data.keyword.cloud_notm}} console menu bar. If the account that's displayed in the console menu bar is not the account that has access, switch to the correct account by selecting the account from the drop-down menu.
+1. Return to the {{site.data.keyword.cloud_notm}} docs page that you were trying to access, and reload the page.
 
 If you're still unable to access the docs, you might not be in an account that's on the allowlist. Contact your {{site.data.keyword.cloud_notm}} representative or go to the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external} for help.
