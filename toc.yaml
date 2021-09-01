@@ -1,0 +1,75 @@
+toc:
+  properties:
+    subcollection: get-support
+    category: platform_services
+    audience: platform
+    href: /docs/get-support
+    product-page: https://ibm.com/unifiedsupport/supportcenter
+    path: get-support
+    label: Getting support
+
+  entries: 
+    - navgroup: 
+        id: learn
+        topics:
+        - using-support-center.md
+        - support-plans.md
+
+    - navgroup: 
+        id: howto
+        topics:
+        - topicgroup: 
+            label: Opening a support case
+            topics: 
+            - create-case.md
+            - case-severity-response-times.md
+        - assign-user-access-cases.md
+        - manage-case.md    
+        - escalate-case.md
+        - topicgroup:
+            label: Monitoring notifications and status
+            topics:
+            - status-bps.md
+            - view_notifications.md
+            - ViewStatus.md
+            - status_search.md
+        - report-security.md
+        - /billing-usage/billing-usage-support
+
+    - navgroup:
+        id: reference
+        topics: 
+        - customer-incident-report.md
+        - bxnui.md
+        - link: 
+            label: API reference
+            href: https://{DomainName}/apidocs/case-management
+
+    - navgroup:
+        id: help
+        topics: 
+        - faq.md
+        - topicgroup: 
+            label: Troubleshooting the Support Center
+            topics: 
+            - ts_create-case.md
+            - ts_help-info-services.md
+            - ts_service-broker.md
+            - ts_view-archived-cases.md
+            - ts_view-case-details.md
+        - topicgroup: 
+            label: Troubleshooting the IBM Cloud docs
+            topics: 
+            - troubleshoot-docs.md
+            - troubleshoot-allowlist.md
+            - troubleshoot-library.md
+        - topicgroup: 
+            label: Known issues
+            topics: 
+            - data-center-closures-2021.md 
+        - link: 
+            label: Stack Overflow
+            href: http://stackoverflow.com/questions/tagged/ibm-bluemix
+        - link: 
+            label: IBM Public Cloud Community
+            href: https://community.ibm.com/community/user/publiccloud/home
