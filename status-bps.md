@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2021
 
-lastupdated: "2021-08-10"
+lastupdated: "2021-09-13"
 
 keywords: upcoming maintenance, stay up-to-date, monitor status
 
@@ -12,16 +12,12 @@ subcollection: get-support
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:external: target="_blank" .external}
+{{site.data.keyword.attribute-definition-list}}
 
 # Best practices for monitoring status
 {: #best-practices}
 
-To create a plan and stay informed, use the following best practices for monitoring the status of {{site.data.keyword.Bluemix}}. Ongoing incidents or planned maintenance windows that impact a finite set of accounts do not display on the Status page. The notifications for those events are published only to the customer [Notifications page](https://{DomainName}/notifications){: external}.
+To create a plan and stay informed, use the following best practices for monitoring the status of {{site.data.keyword.Bluemix}}. Ongoing incidents or planned maintenance windows that impact a finite set of accounts do not display on the Status page. The notifications for those events are published only to the customer [Notifications page](/notifications){: external}.
 {: shortdesc}
 
 
@@ -30,8 +26,8 @@ To create a plan and stay informed, use the following best practices for monitor
 
 Check for upcoming maintenance windows posted on the {{site.data.keyword.Bluemix_notm}} console Dashboard page, at least one time every 24 hours, by using one of the following options:
 
-   * Check out the Planned maintenance widget on the [Dashboard](https://{DomainName}){: external}, and click **View events** to view all planned maintenance.
-   * Go directly to the [Status - Planned maintenance page](https://{DomainName}/status?selected=maintenance){: external}.
+* Check out the Planned maintenance widget on the [Dashboard](https://{DomainName}){: external}, and click **View events** to view all planned maintenance.
+* Go directly to the [Status - Planned maintenance page](/status?selected=maintenance){: external}.
 
 
 ## Check for current maintenance windows or an incident in progress
@@ -54,6 +50,3 @@ You can check the status of your locations from the dashboard on the {{site.data
 {: #monbp-subscribing}
 
 As a Lite account owner, you can select whether to receive email notifications about {{site.data.keyword.Bluemix_notm}} platform unplanned events, such as outages, and planned events, such as maintenance. As a Pay-As-You-Go or Subscription account, you can choose whether to receive {{site.data.keyword.Bluemix_notm}} infrastructure email notifications about unplanned events, maintenance, and announcements. For more information, see [Setting email preferences](/docs/account?topic=account-email-prefs).
-
-
-

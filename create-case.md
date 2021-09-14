@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2021
 
-lastupdated: "2021-09-10"
+lastupdated: "2021-09-13"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -12,41 +12,20 @@ subcollection: get-support
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:important: .important}
-{:note: .note}
-{:external: target="_blank" .external}
-{:ui: .ph data-hd-interface='ui'}
-{:cli: .ph data-hd-interface='cli'}
-{:api: .ph data-hd-interface='api'}
-{:java: .ph data-hd-programlang='java'}
-{:ruby: .ph data-hd-programlang='ruby'}
-{:c#: .ph data-hd-programlang='c#'}
-{:objectc: .ph data-hd-programlang='Objective C'}
-{:python: .ph data-hd-programlang='python'}
-{:javascript: .ph data-hd-programlang='javascript'}
-{:php: .ph data-hd-programlang='PHP'}
-{:swift: .ph data-hd-programlang='swift'}
-{:curl: .ph data-hd-programlang='curl'}
-{:dotnet-standard: .ph data-hd-programlang='dotnet-standard'}
-{:go: .ph data-hd-programlang='go'}
-{:unity: .ph data-hd-programlang='unity'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Creating support cases 
 {: #open-case}
 
-If you experience problems with {{site.data.keyword.Bluemix}}, you can use the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external} to create a support case. Users with a Basic, Advanced, or Premium [support plan](/docs/get-support?topic=get-support-support-plans) can create a technical support case by attaching a specific resource or product to ensure that the case gets to the correct support engineer faster. This allows for a more efficient and effective resolution.  
-{:shortdesc}
+If you experience problems with {{site.data.keyword.Bluemix}}, you can use the [Support Center](/unifiedsupport/supportcenter){: external} to create a support case. Users with a Basic, Advanced, or Premium [support plan](/docs/get-support?topic=get-support-support-plans) can create a technical support case by attaching a specific resource or product to ensure that the case gets to the correct support engineer faster. This allows for a more efficient and effective resolution.  
+{: shortdesc}
 
 You can also create support cases for issues that are associated with access (IAM), billing & usage, account, and invoice or sales inquiries. The types of available support depend on the support level of the account. Your support plan also determines the severity level that you can assign to support cases. For more information, see [Case severity and response time](/docs/get-support?topic=get-support-support-case-severity).
 
-Users with a Lite account can also create support cases, but are limited to issues associated with access (IAM), billing & usage, account, and invoice or sales inquiries. Technical support for Lite accounts with free support is provided by the [{{site.data.keyword.Bluemix_notm}} docs](https://{DomainName}/docs){: external} and [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud?tab=Newest){: external}. 
+Users with a Lite account can also create support cases, but are limited to issues associated with access (IAM), billing & usage, account, and invoice or sales inquiries. Technical support for Lite accounts with free support is provided by the [{{site.data.keyword.Bluemix_notm}} docs](/docs){: external} and [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud?tab=Newest){: external}. 
 
 By default, account users don't have access to create, update, search, or view cases. The account owner must provide users access by assigning an Identity and Access Management (IAM) access policy. For more information, see [Assigning user access for working with support cases](/docs/get-support?topic=get-support-access#access).
-{:tip}
+{: tip}
 
 ## Creating a support case
 {: #creating-support-case}
@@ -77,7 +56,7 @@ After your support case is created, you can follow its progress on the [Manage c
 {: #create-case-api}
 {: api}
 
-You can programmatically open a support case by calling the Case Management API as shown in the following sample requests. For more information about the API, see [Case Management](https://{DomainName}/apidocs/case-management#casemanagement-createcase){: external}.
+You can programmatically open a support case by calling the Case Management API as shown in the following sample requests. For more information about the API, see [Case Management](/apidocs/case-management#casemanagement-createcase){: external}.
 
 ```curl
 curl --location --request POST 'support-center.cloud.ibm.com/case-management/v1/cases' --header 'Content-Type: application/json' --header 'Content-Type: text/plain' --data-raw '{ "type": "technical",
@@ -215,7 +194,7 @@ fmt.Println(string(b))
 {: #add-resource-api}
 {: api}
 
-You can programmatically add a resource to a support case by using the API as shown in the following sample request. For more information, see the [Case Management API reference](https://{DomainName}/apidocs/case-management#casemanagement-createcase){: external}.
+You can programmatically add a resource to a support case by using the API as shown in the following sample request. For more information, see the [Case Management API reference](/apidocs/case-management#casemanagement-createcase){: external}.
 
 ```curl
 curl -X PUT '/case-management/v1/cases/{case_number}/resources' -H 'Authorization: TOKEN' -d '{

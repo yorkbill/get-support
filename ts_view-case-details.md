@@ -4,7 +4,7 @@ copyright:
 
   years: 2020
 
-lastupdated: "2020-07-24"
+lastupdated: "2021-09-13"
 
 keywords: support center help, resolve issues on the support center, trouble support center, personalized help
 
@@ -14,21 +14,13 @@ content-type: troubleshoot
 
 ---
 
-{:tsSymptoms: .tsSymptoms}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:note: .note}
-{:external: target="_blank" .external}
+{{site.data.keyword.attribute-definition-list}}
 
 # Why can't I view all cases in the account?
 {: #ts_viewcasedetails}
 
 You can't view all of the cases in the account because you don't have access to view all users in the account. 
-{:shortdesc}
+{: shortdesc}
 
 When you try to view the support cases that are associated with the account, you can't see all open cases. You can view users that you invited to the account, users with which you share a Cloud Foundry org membership, and users who are in your classic infrastructure user hierarchy.  
 {: tsSymptoms}

@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2021
+  years: 2015, 2021 
 
-lastupdated: "2021-08-30"
+lastupdated: "2021-09-13"
 
 keywords: security, reporting, vulnerability
 
@@ -12,12 +12,7 @@ subcollection: get-support
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:note: .note}
-{:external: target="_blank" .external}
+{{site.data.keyword.attribute-definition-list}}
 
 # Reporting a potential security vulnerability
 {: #report-security-vulnerability}

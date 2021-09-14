@@ -4,7 +4,7 @@ copyright:
 
   years: 2020
 
-lastupdated: "2020-06-11"
+lastupdated: "2021-09-13"
 
 keywords: support center help, resolve issues on the support center, trouble support center, personalized help
 
@@ -14,21 +14,13 @@ content-type: troubleshoot
 
 ---
 
-{:tsSymptoms: .tsSymptoms}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:note: .note}
-{:external: target="_blank" .external}
+{{site.data.keyword.attribute-definition-list}}
 
 # Why can't I create a technical support case? 
 {: #ts_tech-support-case}
 
 You can't create a technical support case.
-{:shortdesc}
+{: shortdesc}
 
 You can create cases that are related to access management, accounts, and billing and usage only. 
 {: tsSymptoms}

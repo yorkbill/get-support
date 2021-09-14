@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2021
 
-lastupdated: "2021-08-30"
+lastupdated: "2021-09-13"
 
 keywords: access to cases, get access for cases, assign cases, assign access, access support center
 
@@ -12,19 +12,13 @@ subcollection: get-support
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:new_window: target="_blank"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Assigning user access for working with support cases
 {: #access}
 
 By default, users in your account don't have access to create, update, search, or view cases. The account owner must provide users access by assigning an Identity and Access Management (IAM) access policy. Use the Support Center account management service to assign users access to work with support cases. 
-{:shortdesc}
+{: shortdesc}
 
 When you create a case, you can give other users full access to that case by adding their email on the **Add another person to this case** field. Any added users have access to view, edit, and update only that case in the account. They also receive notifications when the case is updated. 
 

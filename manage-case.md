@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2021
 
-lastupdated: "2021-03-25"
+lastupdated: "2021-09-13"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -12,27 +12,7 @@ subcollection: get-support
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:note: .note}
-{:external: target="_blank" .external}
-{:ui: .ph data-hd-interface='ui'}
-{:cli: .ph data-hd-interface='cli'}
-{:api: .ph data-hd-interface='api'}
-{:java: .ph data-hd-programlang='java'}
-{:ruby: .ph data-hd-programlang='ruby'}
-{:c#: .ph data-hd-programlang='c#'}
-{:objectc: .ph data-hd-programlang='Objective C'}
-{:python: .ph data-hd-programlang='python'}
-{:javascript: .ph data-hd-programlang='javascript'}
-{:php: .ph data-hd-programlang='PHP'}
-{:swift: .ph data-hd-programlang='swift'}
-{:curl: .ph data-hd-programlang='curl'}
-{:dotnet-standard: .ph data-hd-programlang='dotnet-standard'}
-{:go: .ph data-hd-programlang='go'}
-{:unity: .ph data-hd-programlang='unity'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Managing your support cases
 {: #managing-support-cases}
@@ -40,7 +20,7 @@ subcollection: get-support
 Each support case is assigned a unique number and severity level based on the details in the case description. You can use the case number to track the progress of your reported issue, leave feedback, or update the support case. Updates and feedback are recorded in the case notes, which you can find by selecting the specific support case. You can also add users in your account to a list so they can receive alerts about a case. 
 {: shortdesc}
 
-To view and manage your support cases, go to the [Manage cases page](https://{DomainName}/unifiedsupport/cases). 
+To view and manage your support cases, go to the [Manage cases page](/unifiedsupport/cases). 
 
 If you're a classic infrastructure user, and you don't see a listing of a previous case, click **View classic infrastructure cases**. 
 {: tip}
@@ -57,10 +37,10 @@ See the following table for details about the search parameters:
 | Parameter | Option                                                                           | Rule                                                                         |
 |-----------|----------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | `number`    | target case number                                                               | This parameter can't be used with other parameters. When the `number` parameter is used, all of the other parameters and options ignored. The `number` parameter doesn't autofill the search. You must use the whole case number to execute the search. |
-| `sort`      | number<br>subject<br>severity<br>updatedAt                                       | Only one of the `sort` options can be used at one time. You can use the `~` prefix to reverse the sorting order. |
-| `status`    | new<br>inProgress<br>waitingOnClient<br>resolutionProvided<br>resolved<br>closed | Any number of options can be used. The available options can be entered as `status:new,inProgress` or as `status:new status:inProgress`. |
+| `sort`      | number  \n subject  \n severity  \n updatedAt                                       | Only one of the `sort` options can be used at one time. You can use the `~` prefix to reverse the sorting order. |
+| `status`    | new  \n inProgress  \n waitingOnClient  \n resolutionProvided  \n resolved  \n closed | Any number of options can be used. The available options can be entered as `status:new,inProgress` or as `status:new status:inProgress`. |
 | `page`      | target page to view                                                         | If you have several results from your search that spans multiple pages, you can view your results from any result page. For example, to view page 5 out of 10, use `page:5`. |
-| `pageSize`  | 10<br>25<br>50<br>100                                                         | The size of that page to be viewed. The page size refers to the number of results that you want to load. |
+| `pageSize`  | 10  \n 25  \n 50  \n 100                                                         | The size of that page to be viewed. The page size refers to the number of results that you want to load. |
 {: caption="Table 1. Search query parameters and options" caption-side="top"}
 
 If you enter a term without a parameter, the search results are shown for the support case number and the case subject. 
@@ -87,7 +67,7 @@ Enter the following query to view all resolved cases based on when they were las
 {: #viewing-case-api}
 {: api}
 
-You can programmatically view a support case by using the API as shown in the following sample request. For more information, see the [Case Management API](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
+You can programmatically view a support case by using the API as shown in the following sample request. For more information, see the [Case Management API](/apidocs/case-management#casemanagement-createcase){: external}.
 
 To view a case, see the following samples:
 
@@ -182,7 +162,7 @@ fmt.Println(string(b))
 {: #updating-case-api}
 {: api}
 
-The following sample request shows how to programmatically update a support case. For more information, see the [Case Management API](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
+The following sample request shows how to programmatically update a support case. For more information, see the [Case Management API](/apidocs/case-management#casemanagement-createcase){: external}.
 
 ```curl
 curl -X PUT '/case-management/v1/cases/{case_number}/status' -H 'Authorization: TOKEN' -d '{
@@ -279,7 +259,7 @@ fmt.Println(string(b))
 {: #comment-case-api}
 {: api}
 
-The following sample request shows how to programmatically add a comment to a support case. For more information, see the [Case Management API](https://cloud.ibm.com/apidocs/case-management#casemanagement-createcase){: external}.
+The following sample request shows how to programmatically add a comment to a support case. For more information, see the [Case Management API](/apidocs/case-management#casemanagement-createcase){: external}.
 
 ```curl
 curl -X PUT '/case-management/v1/cases/{case_number}/comments' -H 'Authorization: TOKEN' -d '{

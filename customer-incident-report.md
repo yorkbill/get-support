@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2021
 
-lastupdated: "2021-08-10"
+lastupdated: "2021-09-13"
 
 keywords: cir, impacting event, services, advanced customer support
 
@@ -12,18 +12,13 @@ subcollection: get-support
 
 ---
 
-
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Customer Incident Report
 {: #cir}
 
 {{site.data.keyword.Bluemix}} works hard to maintain high availability of infrastructure and cloud services. If you're impacted by any event that disrupts your service delivery, a Customer Incident Report (CIR) can be provided. A CIR provides information about how services are impacted and how an issue is getting resolved. 
-{:shortdesc}
+{: shortdesc}
 
 After you create a support case, you can view updates about your impacting event from the Manage cases page. For more information, see [Managing your support cases](/docs/get-support?topic=get-support-managing-support-cases). If the scope of an impacting event is of a larger enterprise-wide scope, a CIR is provided upon request. 
 {: note}
@@ -50,11 +45,11 @@ The following image shows the process for receiving a CIR.
 
 A CIR must be requested within 30 days of an impacting event by using one of the following methods: 
 
-   * Create a case that requests a CIR
-   * Request a CIR within the case description
-   * Update your case with a request for a CIR
+* Create a case that requests a CIR
+* Request a CIR within the case description
+* Update your case with a request for a CIR
 
-To create a case, go to [Create a case](https://{DomainName}/unifiedsupport/cases/add), or to update your case, go to the [Manage cases page](https://{DomainName}/unifiedsupport/cases).
+To create a case, go to [Create a case](/unifiedsupport/cases/add), or to update your case, go to the [Manage cases page](/unifiedsupport/cases).
 
 After the ACS team receives your request for a CIR, they will initiate the CIR process if the issue was caused by a CIE. When it's available, your CIR is provided with a PDF copy that is attached to your support case.
 
