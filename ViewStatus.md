@@ -4,9 +4,9 @@ copyright:
 
   years: 2015, 2021
 
-lastupdated: "2021-08-30"
+lastupdated: "2021-09-22"
 
-keywords: cloud status, view cloud status, planned maintenance, RSS feed, unfied notifications, iaas notifications, classic infrastructure notifications
+keywords: cloud status, view cloud status, planned maintenance, RSS feed, unfied notifications, iaas notifications, classic infrastructure notifications, incident reports
 
 subcollection: get-support
 
@@ -58,4 +58,24 @@ To subscribe to the RSS feed, complete the following steps:
    * Right-click the RSS icon, select **Copy link address**, and paste the URL into your RSS reader.
 
 For more information, see your reader's **Help** section.
+
+## Checking incident reports
+{: #status-incident-report}
+
+The {{site.data.keyword.Bluemix_notm}} [Incident reports page](/status/incident-reports){: external} provides a way for you to review technical details of major outages for {{site.data.keyword.Bluemix_notm}} services. These Customer Incident Reports (CIR) provide Root Cause Analysis (RCA), which is a problem-solving process that is used for identifying the root causes of an incident and describing the problem. They are publicly available for all major outages.
+
+You can view and download the incident reports from the service health dashboard about any events that affect {{site.data.keyword.Bluemix_notm}} availability. 
+
+The downloadable reports are in PDF file formats. These reports are available for 5 years starting from the date when the event occurred.
+{: note}
+
+The dashboard shows 365 days of history of major past incidents including time-stamped status updates. These events can be region-specific, global, or they might have an unspecified location. 
+
+To view the Incident reports page and check RCAs, complete the following steps:
+
+1. In the {{site.data.keyword.Bluemix_notm}} console, click the **Notifications** icon ![Notifications icon "Notifications"](../icons/Notification.svg) in the menu bar.
+1. Click **View cloud status**. 
+1. Select **Incident reports** from the side navigation menu.
+1. See the table for the incident reports and click the **Download** icon ![Download icon](../icons/download.svg "Download") to download each report. 
+
 
