@@ -32,9 +32,9 @@
     "view_more": "/docs/overview?topic=overview-whatsnew",
     "tiles": [
       {
-          "date": "20 September 2021",
-          "title": "Checking the root cause of an incident",
-          "description": "You can now visit the IBM Cloud Incident reports page to review technical details of major outages for IBM Cloud services. You can find Customer Incident Reports (CIR) on the page, which provide Root Cause Analysis (RCA) for past major outages. You are able to view and download the incident reports from the page about any events that affect IBM Cloud availability. These reports are in PDF file formats and available for 5 years starting from the date when the event occurred."
+        "date": "20 September 2021",
+        "title": "Checking the root cause of an incident",
+        "description": "You can now visit the IBM Cloud Incident reports page to review technical details of major outages for IBM Cloud services. You can find Customer Incident Reports (CIR) on the page, which provide Root Cause Analysis (RCA) for past major outages. You are able to view and download the incident reports from the page about any events that affect IBM Cloud availability. These reports are in PDF file formats and available for 5 years starting from the date when the event occurred."
       },  
       {
         "date": "15 July 2021",
