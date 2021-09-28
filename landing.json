@@ -1,6 +1,6 @@
 {
   "title": "Getting support docs",
-  "lastupdated": "2021-07-19",
+  "lastupdated": "2021-09-28",
   "introduction": "Use the docs and API and SDK reference to learn about support plan options, how to use the Support Center for self-guided resolutions to your issues, and how to open and manage support cases when needed.",
   "section_devtools": {
     "api": "/apidocs/support-center/case-management" 
@@ -32,6 +32,11 @@
     "view_more": "/docs/overview?topic=overview-whatsnew",
     "tiles": [
       {
+          "date": "20 September 2021",
+          "title": "Checking the root cause of an incident",
+          "description": "You can now visit the IBM Cloud Incident reports page to review technical details of major outages for IBM Cloud services. You can find Customer Incident Reports (CIR) on the page, which provide Root Cause Analysis (RCA) for past major outages. You are able to view and download the incident reports from the page about any events that affect IBM Cloud availability. These reports are in PDF file formats and available for 5 years starting from the date when the event occurred."
+      },  
+      {
         "date": "15 July 2021",
         "title": "Scoping support cases",
         "description": "You now have options to narrow the subject of your case to a specific topic that's most closely related to the issue you're experiencing. As a result, you can ensure that your support case gets routed to the appropriate support engineer and resolved as efficiently as possible."
@@ -40,11 +45,6 @@
         "date": "28 October 2020",
         "title": "Enhanced Support Center",
         "description": "The updated Support Center provides an improved experience for creating and managing support cases. You can refine the scope of your cases by routing them to a specfic resource and provide feedback on your cases."
-      },
-      {
-        "date": "9 January 2020",
-        "title": "Improved Support Center",
-        "description": "The Support Center offers you a personlized experience from the landing page where you can easily view incidents that are specific to your account along with a list of your open cases."
       }
     ]
   }
