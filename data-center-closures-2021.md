@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2021
 
-lastupdated: "2021-09-13"
+lastupdated: "2021-09-30"
 
 keywords: data centers, data center support, datacenter, data center closure
 
@@ -74,5 +74,15 @@ The following table describes important dates that you need to be aware of if yo
 {: caption="Table 3. Timeline for data center migration" caption-side="top"}
 
 
+## Data centers closed in 2020
+{: #dc-closure}
 
+The following table shows the locations with the associated data centers and specific PODs that were closed by 30 November 2020. 
 
+| Location      | Data Center to Close | Migration Options |
+|---------------|----------------------|-------------------|
+| Dallas        | DAL07 | DAL10, DAL12, DAL13 | 
+| Melbourne     | MEL01 | SYD01, SYD04, SYD05 |
+| Seattle       | SEA01 | DAL10, DAL12, DAL13 |
+| Legacy Planet | D2 *(colocation in Dallas)*, D6 and D7 *(Dallas)*, H2 *(Houston)*  | DAL10, DAL12, DAL13 |
+{: caption="Table 4. Data centers that were closed in 2020" caption-side="top"}
