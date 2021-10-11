@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2021
 
-lastupdated: "2021-09-22"
+lastupdated: "2021-10-11"
 
 keywords: cloud status, view cloud status, planned maintenance, RSS feed, unfied notifications, iaas notifications, classic infrastructure notifications, incident reports
 
@@ -69,7 +69,7 @@ You can view and download the incident reports from the service health dashboard
 The downloadable reports are in PDF file formats. These reports are available for 5 years starting from the date when the event occurred.
 {: note}
 
-The dashboard shows 365 days of history of major past incidents including time-stamped status updates. These events can be region-specific, global, or they might have an unspecified location. 
+The events can be region-specific, global, or they might have an unspecified location. 
 
 To view the Incident reports page and check RCAs, complete the following steps:
 
