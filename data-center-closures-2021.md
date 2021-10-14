@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2021
 
-lastupdated: "2021-09-30"
+lastupdated: "2021-10-14"
 
 keywords: data centers, data center support, datacenter, data center closure
 
@@ -54,9 +54,10 @@ The following table shows the locations with the associated data centers and spe
 
 | Location      | Data Center to Close |  Migration Options  |
 |---------------|----------------------|---------------------|
-| Oslo          | OSL01                | FRA02, FRA04, FRA05 | 
-| Houston       | HOU02                | DAL10, DAL12, DAL13 | 
 | Dallas        | DAL05 – POD2 (other PODs in DAL05 are not impacted)  | DAL10, DAL12, DAL13  | 
+| Houston       | HOU02                | DAL10, DAL12, DAL13 | 
+| Melbourne     | MEL01 | SYD01, SYD04, SYD05 |
+| Oslo          | OSL01                | FRA02, FRA04, FRA05 | 
 | Washington DC | WDC01 – POD3 and POD4 (other PODs in WDC01 are not impacted) | WDC04, WDC06, WDC07 | 
 {: caption="Table 2. Data centers that are closing in September 2021" caption-side="top"}
 
@@ -67,6 +68,7 @@ The following table describes important dates that you need to be aware of if yo
 | 03 November 2020 | Official announcement for all impacted clients in the following data centers / PODs: HOU02, DAL05 – POD2, WDC01 – POD3 and POD4. |
 | 01 December 2020 | Official announcement for all impacted clients in OSL01 |
 | November 2020    | Business Partner available to help clients migrate to a new data center. |
+| March 2021 | MEL01 data center is closed; no longer available or supported. |
 | 01 July 2021     | The last date to create new deployments for IKS, COS, and Managed OpenShift services in OSL01. |
 | 01 August 2021   | ICD and COS services end service support. |
 | 30 August 2021    | IKS and Managed OpenShift services end service support. |
@@ -82,7 +84,6 @@ The following table shows the locations with the associated data centers and spe
 | Location      | Data Center to Close | Migration Options |
 |---------------|----------------------|-------------------|
 | Dallas        | DAL07 | DAL10, DAL12, DAL13 | 
-| Melbourne     | MEL01 | SYD01, SYD04, SYD05 |
 | Seattle       | SEA01 | DAL10, DAL12, DAL13 |
 | Legacy Planet | D2 *(colocation in Dallas)*, D6 and D7 *(Dallas)*, H2 *(Houston)*  | DAL10, DAL12, DAL13 |
 {: caption="Table 4. Data centers that were closed in 2020" caption-side="top"}
