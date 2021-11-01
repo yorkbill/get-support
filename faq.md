@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2021
 
-lastupdated: "2021-08-30"
+lastupdated: "2021-11-01"
 
 keywords: frequently asked question, faq, support cases, email preferences, access for cases, support faq 
 
@@ -14,15 +14,7 @@ content-type: faq
 
 ---
 
-
-{:tsSymptoms: .tsSymptoms}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:external: target="_blank" .external}
+{{site.data.keyword.attribute-definition-list}}
 
 # FAQs for getting support
 {: #get-supportfaq}
@@ -34,14 +26,14 @@ content-type: faq
 You can check for upcoming maintenance from your dashboard in the {{site.data.keyword.cloud}} console at least one time every 24 hours. Use one of the following options: 
 
 * Check out the Planned maintenance widget on the [Dashboard](https://{DomainName}){: external}, and click **View all**.
-* Go directly to the [Status - Planned maintenance page](https://{DomainName}/status?selected=maintenance){: external}.
+* Go directly to the [Status - Planned maintenance page](/status?selected=maintenance){: external}.
 
 
 ## How do I open a support case?
 {: #open-support-case}
 {: faq}
 
-Go to the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external} in the console, and click **Create a case** from the Contact Support section. After your support case is created, you can follow its progress on the [Manage cases](https://{DomainName}/unifiedsupport/cases/manage){: external} page. For more information about creating a case, see [Creating support cases](https://{DomainName}/docs/get-support?topic=get-support-open-case).
+Go to the [Support Center](/unifiedsupport/supportcenter){: external} in the console, and click **Create a case** from the Contact Support section. After your support case is created, you can follow its progress on the [Manage cases](/unifiedsupport/cases/manage){: external} page. For more information about creating a case, see [Creating support cases](/docs/get-support?topic=get-support-open-case).
 
 
 
@@ -54,11 +46,11 @@ As an {{site.data.keyword.cloud_notm}} customer, you can escalate support cases 
 To escalate a support case, complete the following steps: 
 1. Contact {{site.data.keyword.cloud_notm}} Support by phone or chat:
    * By phone at the following number: +1-866-403-7638.
-   * By chat from the [Support Center](https://{DomainName}/unifiedsupport/supportcenter){: external}. 
+   * By chat from the [Support Center](/unifiedsupport/supportcenter){: external}. 
 1. Provide your existing case number and a request to escalate the case. 
 1. Provide a justification for the escalation and explain the business impact of your problem or issue. 
 
-If your support inquiry requires a more immediate response, consider upgrading to the premium or advanced support plan so that you can open severity 1-4 support cases. To upgrade your support plan, contact a [{{site.data.keyword.Bluemix_notm}} Sales](https://{DomainName}//catalog?contactmodule){: external} representative.
+If your support inquiry requires a more immediate response, consider upgrading to the premium or advanced support plan so that you can open severity 1-4 support cases. To upgrade your support plan, contact a [{{site.data.keyword.Bluemix_notm}} Sales](/catalog?contactmodule){: external} representative.
 
 ## How do I change my email preferences for notifications? 
 {: #email_preferences_gs}
@@ -66,7 +58,7 @@ If your support inquiry requires a more immediate response, consider upgrading t
 
 You can change which email notifications you receive for planned events, unplanned events, and announcements in your profile settings. To change your email preferences, choose one of the following options: 
 
-* Go to [Notifications](https://{DomainName}/user/notifications) in your profile settings.
+* Go to [Notifications](/user/notifications) in your profile settings.
 * For `control.softlayer.com`, you can change your email preferences by going to **Account** > **Users** > **Email Preferences**. 
 
 
@@ -76,9 +68,9 @@ You can change which email notifications you receive for planned events, unplann
 
 Before you open a support case, explore the following resources: 
 
-* Review the [documentation](https://{DomainName}/docs). 
-* Review the [Featured FAQs](https://{DomainName}/unifiedsupport/supportcenter) on the Support Center. 
-* Go to the [FAQ library](https://{DomainName}/docs/faqs). 
+* Review the [documentation](/docs). 
+* Review the [Featured FAQs](/unifiedsupport/supportcenter) on the Support Center. 
+* Go to the [FAQ library](/docs/faqs). 
 * Go to [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} to ask technical questions about developing apps with the {{site.data.keyword.Bluemix_notm}} platform and services.
 
 
@@ -97,7 +89,7 @@ To view your support costs, you need an access policy with the Administrator rol
 {: #support-plan}
 {: faq}
 
-If you want to upgrade your support plan, contact a [{{site.data.keyword.Bluemix_notm}} Sales](https://{DomainName}//catalog?contactmodule){: external} representative. For more information on the different support plans, see [Basic, Advanced, and Premium Support plans](/docs/get-support?topic=get-support-support-plans).
+If you want to upgrade your support plan, contact a [{{site.data.keyword.Bluemix_notm}} Sales](/catalog?contactmodule){: external} representative. For more information on the different support plans, see [Basic, Advanced, and Premium Support plans](/docs/get-support?topic=get-support-support-plans).
 
 
 ## Why can't I see my support cases? 
@@ -123,3 +115,16 @@ Support for third-party services is provided by the service provider.
 {: faq}
 
 The [{{site.data.keyword.IBM_notm}} Academic Initiative](https://www.ibm.com/academic/home){: external} is an {{site.data.keyword.IBM_notm}} corporate program that provides access to the {{site.data.keyword.cloud_notm}} Platform for faculty, students, and researchers at accredited academic institutions. Acceptance decisions, length of participation, awarding of credits, and any possible extensions are made by the {{site.data.keyword.IBM_notm}} Academic Initiative Team and not {{site.data.keyword.cloud_notm}} Support. {{site.data.keyword.cloud_notm}} Support also does not provide technical support for accounts that are part of the {{site.data.keyword.IBM_notm}} Academic Initiative Program. For more information about the program, see the [{{site.data.keyword.IBM_notm}} Academic Initiative FAQ](https://www.ibm.com/academic/faqs/faqs){: external}.
+
+
+## How do I ensure that users in my account get updates for a support case?
+{: #watchlist}
+{: faq}
+
+As the account owner or as an administrator or editor on the Support Center service, you can add users in the account to the watchlist. Users on the watchlist can view and follow the support case's progress. For more information, see [Updating your support case's watchlist](/docs/get-support?topic=get-support-contact-watchlist).
+
+
+## Do watchlists apply account-wide or to a specific case?
+{: #watchlist-specific}
+
+Watchlists are specific to each case. You must manually add a user to each individual case. You can't configure an account to have a list of users that are added to the watchlist for all cases.

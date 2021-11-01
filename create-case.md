@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2021
 
-lastupdated: "2021-09-13"
+lastupdated: "2021-11-01"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -44,7 +44,7 @@ Complete the following steps to create a support case:
 
 1. Optional: 
    * Attach files and resources to provide more details about the issue you're experiencing.
-   * Add another user to the case if the user is in the account. For more information, see [Adding users to your case management access group](/docs/get-support?topic=get-support-access#add-user-access-group).
+   * If you'd like a user in you account to be updated about the case, add them by using the Contact watchlist. For more information about assigning users access to your account, see [Adding users to your case management access group](/docs/get-support?topic=get-support-access#add-user-access-group).
    * Select **Email me updates about this case** to receive support case notifications. 
 1. Click **Next**, review your case summary, and click **Submit case**. After you receive email verification for the case, follow the instructions for further communication on the issue. 
 
