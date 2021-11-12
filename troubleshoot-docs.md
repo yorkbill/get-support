@@ -37,7 +37,7 @@ You click a docs link, select a docs search result, or follow an existing bookma
 
 ```
 Sorry, this content isn't available.
-The information you're looking for might have moved. Try searching the {{site.data.keyword.cloud_notm}} Docs to find related content.
+The information you're looking for might have moved. Try searching the IBM Cloud Docs to find related content.
 ```
 {: screen}
 
