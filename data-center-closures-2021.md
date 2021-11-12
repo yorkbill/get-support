@@ -72,7 +72,7 @@ The following table shows the locations with the associated data centers and spe
 
 
 ## Data centers closed in 2020
-{: #dc-closure}
+{: #dc-closure-2020}
 
 The following table shows the locations with the associated data centers and specific PODs that were closed by 30 November 2020. 
 
