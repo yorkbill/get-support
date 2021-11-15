@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2021
 
-lastupdated: "2021-11-08"
+lastupdated: "2021-11-15"
 
 keywords: data centers, data center support, datacenter, data center closure
 
@@ -14,7 +14,7 @@ subcollection: get-support
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Data center closures in 2022
+# Data center closures
 {: #dc-closure}
 
 As part of the data center modernization strategy for {{site.data.keyword.cloud}}, several data centers and PODs are scheduled to consolidate on 28 October 2022.  

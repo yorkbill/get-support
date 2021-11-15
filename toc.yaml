@@ -67,7 +67,7 @@ toc:
         - topicgroup: 
             label: Known issues
             topics: 
-            - data-center-closures-2021.md 
+            - data-center-closures.md 
         - link: 
             label: Stack Overflow
             href: http://stackoverflow.com/questions/tagged/ibm-bluemix
