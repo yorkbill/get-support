@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2021
 
-lastupdated: "2021-08-30"
+lastupdated: "2021-11-18"
 
 keywords: no faq results, no tutorial results
 
@@ -14,15 +14,7 @@ content-type: troubleshoot
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:tsSymptoms: .tsSymptoms}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:troubleshoot: data-hd-content-type='troubleshoot'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Why don't I get results in the FAQ or tutorial library?
 {: #troubleshoot-library}
@@ -35,14 +27,16 @@ You filter for content in the {{site.data.keyword.cloud_notm}} docs [FAQ library
 {: tsSymptoms}
 
 In the FAQ library:
-```
+
+```text
 No FAQs found
 It seems we can't find what you're looking for. Try updating your filter selections.
 ```
 {: screen}
 
 In the tutorials library:
-```
+
+```text
 No tutorials found
 Sorry, there are no tutorials that match your criteria. Try updating your filter selections.
 ```

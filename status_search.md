@@ -4,7 +4,7 @@ copyright:
 
   years: 2018, 2021
 
-lastupdated: "2021-09-13"
+lastupdated: "2021-11-18"
 
 keywords: status page, status query, incident, maintenance, search query
 
@@ -31,7 +31,7 @@ The following list includes examples of URL search options:
 
 * Use unique notification identifiers as a search parameter to go directly to the details for the notification. For example, `query=INC1000001` targets items with the ID: `INC1000001`. In this example, `INC1000001` is the case number for a maintenance notification.
 
-### URL query filters:
+## URL query filters:
 {: #url-query}
 
 The following table provides information on URL query filters that you can use to search across all tabs on the status page. 
