@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2021
 
-lastupdated: "2021-11-15"
+lastupdated: "2021-11-19"
 
 keywords: data centers, data center support, datacenter, data center closure
 
@@ -55,30 +55,3 @@ The following table describes important dates that you need to be aware of if yo
 | 08 November 2021 | Business Partner available to help customers migrate to a new data center. |
 | 28 October 2022  | AMS01, DAL06, HKG02, SEO01, SJC01 - POD2, MON01 - POD2 data centers or PODs are closed; no longer available or supported. Other PODs in SJC01 and MON01 are not impacted. |
 {: caption="Table 2. Timeline for data center migration" caption-side="top"}
-
-## Data centers closed in 2021
-{: #withdrawal-support-data-centers-2021}
-
-The following table shows the locations with the associated data centers and specific PODs that were closed by 08 November 2021.
-
-| Location      | Data Center to Close |  Migration Options  |
-|---------------|----------------------|---------------------|
-| Dallas        | DAL05 – POD2 (other PODs in DAL05 not impacted)  | DAL10, DAL12, DAL13  | 
-| Houston       | HOU02                | DAL10, DAL12, DAL13 | 
-| Melbourne     | MEL01 | SYD01, SYD04, SYD05 |
-| Oslo          | OSL01                | FRA02, FRA04, FRA05 | 
-| Washington DC | WDC01 – POD3 and POD4 (other PODs in WDC01 not impacted) | WDC04, WDC06, WDC07 | 
-{: caption="Table 3. Data centers that were closed in 2021" caption-side="top"}
-
-
-## Data centers closed in 2020
-{: #dc-closure-2020}
-
-The following table shows the locations with the associated data centers and specific PODs that were closed by 30 November 2020. 
-
-| Location      | Data Center to Close | Migration Options |
-|---------------|----------------------|-------------------|
-| Dallas        | DAL07 | DAL10, DAL12, DAL13 | 
-| Seattle       | SEA01 | DAL10, DAL12, DAL13 |
-| Legacy Planet | D2 *(colocation in Dallas)*, D6 and D7 *(Dallas)*, H2 *(Houston)*  | DAL10, DAL12, DAL13 |
-{: caption="Table 4. Data centers that were closed in 2020" caption-side="top"}
