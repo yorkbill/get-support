@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2021
 
-lastupdated: "2021-11-01"
+lastupdated: "2021-12-01"
 
 keywords: frequently asked question, faq, support cases, email preferences, access for cases, support faq 
 
@@ -35,6 +35,17 @@ You can check for upcoming maintenance from your dashboard in the {{site.data.ke
 
 Go to the [Support Center](/unifiedsupport/supportcenter){: external} in the console, and click **Create a case** from the Contact Support section. After your support case is created, you can follow its progress on the [Manage cases](/unifiedsupport/cases/manage){: external} page. For more information about creating a case, see [Creating support cases](/docs/get-support?topic=get-support-open-case).
 
+
+## What are my options for contacting {{site.data.keyword.cloud_notm}} Support?
+{: #contactsupport}
+{: faq}
+
+In the {{site.data.keyword.Bluemix_notm}} console, go to **Support** from the console menu bar. The options that are available to you depend on your support plan. For more information, see [Getting support](/docs/get-support?topic=get-support-support-plans).  
+
+To contact support, you can use the following methods:
+* If you have a valid Pay-As-You-Go or Subscription account, you can click **Live chat with support** to chat with a support engineer.  
+* Pay-as-you-go or subscription accounts can also contact support by phone: +1-866-403-7638.
+* Lite and Trial account support is limited to non-technical support issues that are related to account access and billing. Users with Lite or Trial accounts can view the [{{site.data.keyword.Bluemix_notm}} documentation](/docs/get-support?topic=get-support-using-avatar), Chat with Watson, and use [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external}.
 
 
 ## How do I escalate support cases? 
