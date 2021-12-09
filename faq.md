@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2021
 
-lastupdated: "2021-12-01"
+lastupdated: "2021-12-08"
 
 keywords: frequently asked question, faq, support cases, email preferences, access for cases, support faq 
 
@@ -27,6 +27,18 @@ You can check for upcoming maintenance from your dashboard in the {{site.data.ke
 
 * Check out the Planned maintenance widget on the [Dashboard](https://{DomainName}){: external}, and click **View all**.
 * Go directly to the [Status - Planned maintenance page](/status?selected=maintenance){: external}.
+
+
+## What steps can I take before I open a support case? 
+{: #steps_before_opencase}
+{: faq}
+
+Before you open a support case, explore the following resources: 
+
+* Review the [documentation](/docs). 
+* Review the [Featured FAQs](/unifiedsupport/supportcenter) on the Support Center. 
+* Go to the [FAQ library](/docs/faqs). 
+* Go to [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} to ask technical questions about developing apps with the {{site.data.keyword.Bluemix_notm}} platform and services.
 
 
 ## How do I open a support case?
@@ -54,14 +66,8 @@ To contact support, you can use the following methods:
 
 As an {{site.data.keyword.cloud_notm}} customer, you can escalate support cases to surface critical issues. After a case is escalated, the {{site.data.keyword.cloud_notm}} Support team reviews the information and responds with updates. For information about case severity, see [Case severity and initial response times](/docs/get-support?topic=get-support-support-case-severity).
 
-To escalate a support case, complete the following steps: 
-1. Contact {{site.data.keyword.cloud_notm}} Support by phone or chat:
-   * By phone at the following number: +1-866-403-7638.
-   * By chat from the [Support Center](/unifiedsupport/supportcenter){: external}. 
-1. Provide your existing case number and a request to escalate the case. 
-1. Provide a justification for the escalation and explain the business impact of your problem or issue. 
-
 If your support inquiry requires a more immediate response, consider upgrading to the premium or advanced support plan so that you can open severity 1-4 support cases. To upgrade your support plan, contact a [{{site.data.keyword.Bluemix_notm}} Sales](/catalog?contactmodule){: external} representative.
+
 
 ## How do I change my email preferences for notifications? 
 {: #email_preferences_gs}
@@ -71,18 +77,6 @@ You can change which email notifications you receive for planned events, unplann
 
 * Go to [Notifications](/user/notifications) in your profile settings.
 * For `control.softlayer.com`, you can change your email preferences by going to **Account** > **Users** > **Email Preferences**. 
-
-
-## What steps can I take before I open a support case? 
-{: #steps_before_opencase}
-{: faq}
-
-Before you open a support case, explore the following resources: 
-
-* Review the [documentation](/docs). 
-* Review the [Featured FAQs](/unifiedsupport/supportcenter) on the Support Center. 
-* Go to the [FAQ library](/docs/faqs). 
-* Go to [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} to ask technical questions about developing apps with the {{site.data.keyword.Bluemix_notm}} platform and services.
 
 
 ## How am I charged for support? 
