@@ -20,7 +20,7 @@ subcollection: get-support
 The [Status page](/status) is the central place to find details about all incidents, planned maintenance, announcements, and security bulletins about key events that affect the {{site.data.keyword.Bluemix}} platform and services.
 {:shortdesc}
 
-To get notified about key events that are specifically affecting your account, go to the [Notifications](/notifications) page. You can easily update your preferences there.
+To get notified about key events that are specifically affecting your account, go to the [Notifications page](/notifications). You can easily update your preferences there.
 {: tip}
 
 To view the Status page, complete the following steps:
