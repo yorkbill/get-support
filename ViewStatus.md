@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2021
 
-lastupdated: "2021-10-11"
+lastupdated: "2021-12-10"
 
 keywords: cloud status, view cloud status, planned maintenance, RSS feed, unfied notifications, iaas notifications, classic infrastructure notifications, incident reports
 
@@ -12,20 +12,15 @@ subcollection: get-support
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tip: .tip}
-{:note: .note}
-{:external: target="_blank" .external}
+{{site.data.keyword.attribute-definition-list}}
 
 # Viewing cloud status
 {: #viewing-cloud-status}
 
-The Status page is the central place to find details about all incidents, planned maintenance, announcements, and security bulletins about key events that affect the {{site.data.keyword.Bluemix}} platform and services.
+The [Status page](/status) is the central place to find details about all incidents, planned maintenance, announcements, and security bulletins about key events that affect the {{site.data.keyword.Bluemix}} platform and services.
 {:shortdesc}
 
-To get notified about key events that are specifically affecting your account, go to the [Notifications](https://{DomainName}/user/notifications) page. You can easily update your preferences there.
+To get notified about key events that are specifically affecting your account, go to the [Notifications](/notifications) page. You can easily update your preferences there.
 {: tip}
 
 To view the Status page, complete the following steps:
