@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2021
 
-lastupdated: "2021-09-13"
+lastupdated: "2021-12-16"
 
 keywords: notifications, view notifications, set notifications, iaas notifications, notification icon, header bell, bell icon 
 
@@ -17,7 +17,7 @@ subcollection: get-support
 # Viewing notifications
 {: #viewing-notifications}
 
-The {{site.data.keyword.Bluemix_notm}} [Notifications page](/user/notifications){: external} is a centralized place to view and control all incidents, maintenance, announcements, and security bulletins. Events that are displayed on the Notifications page are ones that specificially impact users based on the preferences that the account owner or administrator sets.    
+The {{site.data.keyword.Bluemix_notm}} [Notifications page](/user/notifications){: external} is a centralized place to view and control all incidents, maintenance, announcements, and security bulletins. Events that are displayed on the Notifications page are ones that specificially impact users based on the preferences that the account owner or administrator sets.
 {: shortdesc}
 
 Pages specific to the {{site.data.keyword.Bluemix_notm}} classic infrastructure are deprecated. The new Notifications page hosts all classic infrastructure notifications. You can view classic infrastructure history for planned and unplanned incidents and announcements on the Notifications page. 
@@ -89,10 +89,23 @@ For IaaS offerings, {{site.data.keyword.Bluemix_notm}} provides advanced notice 
 
 The following table shows the advanced notice guidelines for each possibility of impact severity. 
 
-| Possibility of impact | Advanced Notice Guidelines | Pending Customer Impacting Event (CIE) Risk | 
-|-----------------------|----------------------------|---------------------------------------------|
-| High                  | a minimum of 30 days       | a minimum of 21 days                        | 
-| Medium                | a minimum of 21 days       | a minimum of 14 days                        | 
-| Low                   | offering-specific          | no notification guidelines                  | 
-| Emergency             | a minimum of 24 hours      | no notification guidelines                  | 
+| Possibility of impact | Advanced Notice Guidelines | 
+|-----------------------|----------------------------|
+| High                  | a minimum of 30 days       | 
+| Medium                | a minimum of 21 days       | 
+| Low                   | offering-specific          | 
+| Emergency             | a minimum of 24 hours      | 
 {: caption="Table 4. IaaS offerings advanced notice guidelines" caption-side="top"}
+
+<!--
+
+The following table shows the advanced notice guidelines for each possibility of impact severity for a pending CIE.
+
+| Possibility of impact | Pending Customer Impacting Event (CIE) Risk | 
+|-----------------------|---------------------------------------------|
+| High                  | a minimum of 21 days                        | 
+| Medium                | a minimum of 14 days                        | 
+| Low                   | no notification guidelines                  | 
+| Emergency             | no notification guidelines                  | 
+{: caption="Table 5. IaaS offerings advanced notice guidelines for a pending CIE" caption-side="top"}
+-->
