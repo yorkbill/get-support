@@ -19,7 +19,7 @@ toc:
     - navgroup: 
         id: howto
         topics:
-        - topicgroup: 
+        - topicgroup:
             label: Opening a support case
             topics: 
             - create-case.md

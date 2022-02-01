@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2020, 2021
+  years: 2020, 2022
 
-lastupdated: "2021-08-30"
+lastupdated: "2022-02-01"
 
 keywords: can't access docs, broken link, docs won't display
 
@@ -14,16 +14,7 @@ content-type: troubleshoot
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:tip: .tip}
-{:tsSymptoms: .tsSymptoms}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:troubleshoot: data-hd-content-type='troubleshoot'}
-
+{{site.data.keyword.attribute-definition-list}}
 
 # Why isn't an {{site.data.keyword.cloud_notm}} docs page available?
 {: #troubleshoot-docs}
@@ -35,7 +26,7 @@ If you go to an {{site.data.keyword.cloud}} docs page and the content doesn't di
 You click a docs link, select a docs search result, or follow an existing bookmark to the {{site.data.keyword.cloud_notm}} docs, and the following error is displayed.
 {: tsSymptoms}
 
-```
+```text
 Sorry, this content isn't available.
 The information you're looking for might have moved. Try searching the IBM Cloud Docs to find related content.
 ```

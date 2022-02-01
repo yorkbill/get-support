@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2021
+  years: 2015, 2022
 
-lastupdated: "2021-09-13"
+lastupdated: "2022-02-01"
 
 keywords: error messages, errors, platform errors, message ID
 
@@ -617,6 +617,8 @@ The container might be temporarily out of service.
 Try again later. If you see this message again, go to the [{{site.data.keyword.Bluemix_notm}} status page](/status?selected=status){: external} to check whether a service or component has an issue. If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](/unifiedsupport/supportcenter){: external}.
 
 ## BXNUI0088E
+{: #bxnui0088e}
+
 **Message**: The '{0}' container didn't restart.
 
 The container might be temporarily out of service.
@@ -882,7 +884,7 @@ To resolve this problem, go to [{{site.data.keyword.Bluemix_notm}} Support](/uni
 ## BXNUI0132E
 {: #bxnui0132e}
 
-**Message**: The __name__ information was not retrieved because a problem occurred contacting Cloud Foundry.
+**Message**: The `name` information was not retrieved because a problem occurred contacting Cloud Foundry.
 
 Try again later. If you see this message again, go to the [{{site.data.keyword.Bluemix_notm}} status page](/status?selected=status){: external} to check whether a service or component has an issue. If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](/unifiedsupport/supportcenter){: external}.
 

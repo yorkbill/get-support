@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2021
+  years: 2015, 2022
 
-lastupdated: "2021-12-10"
+lastupdated: "2022-02-01"
 
 keywords: cloud status, view cloud status, planned maintenance, RSS feed, unfied notifications, iaas notifications, classic infrastructure notifications, incident reports
 
@@ -18,7 +18,7 @@ subcollection: get-support
 {: #viewing-cloud-status}
 
 The [Status page](/status) is the central place to find details about all incidents, planned maintenance, announcements, and security bulletins about key events that affect the {{site.data.keyword.Bluemix}} platform and services.
-{:shortdesc}
+{: shortdesc}
 
 To get notified about key events that are specifically affecting your account, go to the [Notifications page](/notifications). You can easily update your preferences there.
 {: tip}
@@ -72,5 +72,3 @@ To view the Incident reports page and check RCAs, complete the following steps:
 1. Click **View cloud status**. 
 1. Select **Incident reports** from the side navigation menu.
 1. See the table for the incident reports and click the **Download** icon ![Download icon](../icons/download.svg "Download") to download each report. 
-
-
