@@ -14,7 +14,7 @@ subcollection: get-support
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Data center closures in 2022 and 2023
+# Data center consolidations
 {: #dc-closure}
 
 As part of the data center modernization strategy for {{site.data.keyword.cloud}}, several data centers and PODs are scheduled to consolidate in late 2022 and early 2023.  
