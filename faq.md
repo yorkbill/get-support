@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2019, 2021
+  years: 2019, 2022
 
-lastupdated: "2021-12-08"
+lastupdated: "2022-02-25"
 
 keywords: frequently asked question, faq, support cases, email preferences, access for cases, support faq 
 
@@ -55,7 +55,7 @@ Go to the [Support Center](/unifiedsupport/supportcenter){: external} in the con
 In the {{site.data.keyword.Bluemix_notm}} console, go to **Support** from the console menu bar. The options that are available to you depend on your support plan. For more information, see [Getting support](/docs/get-support?topic=get-support-support-plans).  
 
 To contact support, you can use the following methods:
-* If you have a valid Pay-As-You-Go or Subscription account, you can click **Live chat with support** to chat with a support engineer.  
+* If you have a valid Pay-As-You-Go or Subscription account, you can click **Chat with IBM** to connect with a support engineer.  
 * Pay-as-you-go or subscription accounts can also contact support by phone: +1-866-403-7638.
 * Lite and Trial account support is limited to non-technical support issues that are related to account access and billing. Users with Lite or Trial accounts can view the [{{site.data.keyword.Bluemix_notm}} documentation](/docs/get-support?topic=get-support-using-avatar), Chat with Watson, and use [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external}.
 
@@ -64,7 +64,7 @@ To contact support, you can use the following methods:
 {: #escalate_support}
 {: faq}
 
-As an {{site.data.keyword.cloud_notm}} customer, you can escalate support cases to surface critical issues. After a case is escalated, the {{site.data.keyword.cloud_notm}} Support team reviews the information and responds with updates. For information about case severity, see [Case severity and initial response times](/docs/get-support?topic=get-support-support-case-severity).
+As an {{site.data.keyword.cloud_notm}} customer, you can escalate support cases to surface critical issues. To escalate a case, contact IBM Cloud Support by phone or chat from the [Support Center](/unifiedsupport/supportcenter){: external}. After a case is escalated, the {{site.data.keyword.cloud_notm}} Support team reviews the information and responds with updates. For information about case severity, see [Case severity and initial response times](/docs/get-support?topic=get-support-support-case-severity).
 
 If your support inquiry requires a more immediate response, consider upgrading to the premium or advanced support plan so that you can open severity 1-4 support cases. To upgrade your support plan, contact a [{{site.data.keyword.Bluemix_notm}} Sales](/catalog?contactmodule){: external} representative.
 
