@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2022
 
-lastupdated: "2022-02-14"
+lastupdated: "2022-02-25"
 
 keywords: cloud status, view cloud status, planned maintenance, RSS feed, unfied notifications, iaas notifications, classic infrastructure notifications, incident reports
 
@@ -70,5 +70,5 @@ To view the Incident reports page and check RCAs, complete the following steps:
 
 1. In the {{site.data.keyword.Bluemix_notm}} console, click the **Notifications** icon ![Notifications icon "Notifications"](../icons/Notification.svg) in the menu bar.
 1. Click **View cloud status**. 
-1. Select **Incident reports** from the side navigation menu.
+1. Select **Incident reports**.
 1. See the table for the incident reports and click the **Download** icon ![Download icon](../icons/download.svg "Download") to download each report. 
