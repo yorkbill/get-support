@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2022
 
-lastupdated: "2022-02-25"
+lastupdated: "2022-03-01"
 
 keywords: cloud status, view cloud status, planned maintenance, RSS feed, unfied notifications, iaas notifications, classic infrastructure notifications, incident reports
 
@@ -31,8 +31,12 @@ To view the Status page, complete the following steps:
    * Click **Planned maintenance** to see any upcoming maintenance that's scheduled. 
    * Click **Security bulletins** to view a list of security bulletins that might affect various {{site.data.keyword.Bluemix_notm}} services or the platform.
    * Click **Announcements** to view a list of announcements that might be of general interest to you. 
-   * Click **History** to view a list of completed events from the last 30 days. 
-1. You can filter the lists by selecting specific locations, components, types of ongoing events, or by using keyword searches. Click each item to get more details about the changes and why, and how they impact your environment.
+   * Click **History** to view a list of completed events from the past year.
+
+    If any issue occurs when using the Status page, contact [{{site.data.keyword.cloud_notm}} Support](/unifiedsupport/supportcenter){: external}.
+    {: note}
+
+1. You can filter the lists by selecting specific components, locations, dates, types of ongoing events, or by using keyword searches. Click each item to get more details about the changes and why, and how they impact your environment.
 
 You can build URL search values by using query parameters from outside the console. For more information, see [Advanced status search](/docs/get-support?topic=get-support-adv-search).
 {: tip}
