@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2019, 2021
+  years: 2019, 2022
 
-lastupdated: "2021-12-16"
+lastupdated: "2022-03-01"
 
 keywords: notifications, view notifications, set notifications, iaas notifications, notification icon, header bell, bell icon 
 
@@ -34,13 +34,12 @@ The new notification experience provides enhancements to how users are notified 
 * Navigate to a specific notification by using the unique URL that is associated with each notification. You can save and share the URL with users in the account. 
 * You can access the Notifications page with the applied filters to view only applicable notifications. Make sure to save the URL to view the Notifications page with the applied filters. 
 * If you want to receive future updates about a specific type of notification, click the **Email** icon next to each notification item in the list. 
- 
+
 
 ## Notification types
 {: #notification-types}
 
 The following table describes the different types of notifications that are displayed. 
-
 
 | Notification Type | Description |
 |-------------------|-------------|
@@ -50,6 +49,7 @@ The following table describes the different types of notifications that are disp
 | Incidents | Unexpected impacting events that can cause an outage or restrict functionality. |
 | Account | Invitation email, or console notifications for inviting users to the {{site.data.keyword.Bluemix_notm}} platform.  |
 {: caption="Table 1. Notification types" caption-side="top"}
+
 
 ## Subscribing to email notifications
 {: #subscribe-email-notifications}
@@ -64,35 +64,18 @@ Users already present in {{site.data.keyword.Bluemix_notm}} receives an email an
 The invitations expire after 30 days. New users to {{site.data.keyword.cloud_notm}} can only accept an invitation by using the invitation link that they received through email.
 {: note}
 
+
 ## Getting advanced notice for disruptive maintenance
 {: #disruptive-maintenance}
 
 {{site.data.keyword.Bluemix_notm}} tries to limit disruptive, required maintenance for Platform as a Service (PaaS) and Infrastructure as a Service (IaaS) offerings. Most maintenance is done in a nondisruptive manner to avoid the impact to your business, but when disruptive maintenance is necessary, we provide as much advanced notice as possible. 
 
-The following table shows the required advanced notice for PaaS offerings. 
-
-| Type           | Advanced Notice Guidelines |
-|----------------|----------------------------|
-| Nondisruptive | no notification guidelines |                  
-| Disruptive     | 7 days                     | 
-| Emergency      | 24 hours                   | 
-{: caption="Table 2. Advanced notice guidelines for PaaS offerings" caption-side="top"}
-
 For IaaS offerings, {{site.data.keyword.Bluemix_notm}} provides advanced notice that's dependent on the severity of the impact. The following table defines the types and levels of the possibility of an impact. 
 
-| Possibility of impact | Definition |
-|-----------------------|------------|
-| High            | Certain, likely, or has the potential to cause an extended or brief service disruption. |
-| Medium          | Low to moderate possibility of a brief disruption. |
-| Low             | None to negligible chance of a disruption or routine change. No assumed risk or a disruption that is isolated to a single customer. |
-{: caption="Table 3. IaaS offerings impact possibility definitions" caption-side="top"}
-
-The following table shows the advanced notice guidelines for each possibility of impact severity. 
-
-| Possibility of impact | Advanced Notice Guidelines | 
-|-----------------------|----------------------------|
-| High                  | a minimum of 30 days       | 
-| Medium                | a minimum of 21 days       | 
-| Low                   | offering-specific          | 
-| Emergency             | a minimum of 24 hours      | 
-{: caption="Table 4. IaaS offerings advanced notice guidelines" caption-side="top"}
+| Possibility of impact | Definition | Advanced Notice Guidelines |
+|-----------------------|------------|----------------------------|
+| Emergency             | Customer Impacting Event (CIE) | a minimum of 24 hours |
+| High                  | Certain, likely, or has the potential to cause an extended or brief service disruption. | a minimum of 30 days |
+| Medium                | Low to moderate possibility of a brief disruption. | a minimum of 21 days |
+| Low                   | None to negligible chance of a disruption or routine change. No assumed risk or a disruption that is isolated to a single customer. | offering-specific | 
+{: caption="Table 2. IaaS offerings impact possibility definitions" caption-side="top"}
