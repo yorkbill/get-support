@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2021
+  years: 2015, 2022
 
-lastupdated: "2021-11-18"
+lastupdated: "2021-03-04"
 
 keywords: basic support, advanced support, premium support, support plans, free technical support, response time
 
@@ -91,3 +91,10 @@ Basic Support is provided for non-production environments or workloads that don'
 {: #support_level_enterprise}
 
 The level of support that is assigned to an [{{site.data.keyword.Bluemix_notm}} enterprise](/docs/account?topic=account-what-is-enterprise) defaults to the highest support plan within the enterprise. All child accounts within the enterprise also default to the highest support plan.
+
+## Technical support team
+{: #tech_support_team}
+
+{{site.data.keyword.cloud_notm}} supports our customers with a worldwide team of experts that are available 24 hours a day, seven days a week. These resources are at strategic IBM locations around the world. {{site.data.keyword.cloud_notm}} support resources, which are known as the Advanced Customer Support team, is made up of technical engineers that have specific domain knowledge to triage and troubleshoot problems quickly and effectively.
+
+The teams are organized by technology domains, which include compute, network, security, storage, VPC, Kubernetes service, Red Hat OpenShift on IBM Cloud, Satellite, databases, app development, and cognitive solutions. Our teams keep their skills and technical knowledge up-to-date through specialized training on cloud services throughout the year. Support engineers are equipped to go deep on issues and solve most without any additional support from our backend teams. Collaboration across cloud service teams ensures continuous knowledge transfer and skills development within the team to deliver the best possible service to our customers.
