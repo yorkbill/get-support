@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2022
 
-lastupdated: "2022-02-25"
+lastupdated: "2022-03-07"
 
 keywords: frequently asked question, faq, support cases, email preferences, access for cases, support faq 
 
@@ -127,6 +127,27 @@ The [{{site.data.keyword.IBM_notm}} Academic Initiative](https://www.ibm.com/aca
 {: faq}
 
 As the account owner or as an administrator or editor on the Support Center service, you can add users in the account to the watchlist. Users on the watchlist can view and follow the support case's progress. For more information, see [Updating your support case's watchlist](/docs/get-support?topic=get-support-contact-watchlist).
+
+## Can I find support cases that are created by specific users?
+{: #case_list_user}
+{: faq}
+
+You can download a list of created support cases and view the cases that are created by each user. 
+
+To download a list of created support cases, use the following steps:
+
+1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Support**.
+1. Click **View all** from the Recent support cases tile. 
+1. On the Manage cases page, click **Filter by status** and select the case status that you want to view. You can select more than one status.
+1. Click the **Download** icon ![Download icon](../icons/download.svg "Download").
+1. Sort, filter, or search in your spreadsheet to view the cases for a specific user.
+
+If your account has classic infrastructure cases, you can download a list of created support cases by using the following steps:
+
+1. From the [Manage cases](/unifiedsupport/cases){: external} page, click **View classic infrastructure cases**. 
+1. Click **Filter by status** and select the case status that you want to view. You can select more than one status. 
+1. Click the **Download** icon ![Download icon](../icons/download.svg "Download").
+1. Sort, filter, or search in your spreadsheet to view the cases for a specific user.
 
 
 ## Do watchlists apply account-wide or to a specific case?
