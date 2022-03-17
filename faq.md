@@ -152,5 +152,6 @@ If your account has classic infrastructure cases, you can download a list of cre
 
 ## Do watchlists apply account-wide or to a specific case?
 {: #watchlist-specific}
+{: faq}
 
 Watchlists are specific to each case. You must manually add a user to each individual case. You can't configure an account to have a list of users that are added to the watchlist for all cases.
