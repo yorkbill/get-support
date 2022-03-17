@@ -64,7 +64,15 @@ To contact support, you can use the following methods:
 {: #escalate_support}
 {: faq}
 
-As an {{site.data.keyword.cloud_notm}} customer, you can escalate support cases to surface critical issues. To escalate a case, contact IBM Cloud Support by phone or chat from the [Support Center](/unifiedsupport/supportcenter){: external}. After a case is escalated, the {{site.data.keyword.cloud_notm}} Support team reviews the information and responds with updates. For information about case severity, see [Case severity and initial response times](/docs/get-support?topic=get-support-support-case-severity).
+As an {{site.data.keyword.cloud_notm}} customer, you can escalate support cases to surface critical issues. After a case is escalated, the {{site.data.keyword.cloud_notm}} Support team reviews the information and responds with updates. For information about case severity, see [Case severity and initial response times](/docs/get-support?topic=get-support-support-case-severity).
+
+To escalate a case, complete the following steps:
+
+1. Contact {{site.data.keyword.Bluemix_notm}} Support by phone or chat:
+   * By phone at +1-866-403-7638 for the US and Canada.
+   * By chat from the [Support Center](/unifiedsupport/supportcenter){: external}. 
+1. Provide your existing case number and a request to escalate the case.
+1. Provide the justification an escalation and explain the business impact of your problem or issue. 
 
 If your support inquiry requires a more immediate response, consider upgrading to the premium or advanced support plan so that you can open severity 1-4 support cases. To upgrade your support plan, contact a [{{site.data.keyword.Bluemix_notm}} Sales](/catalog?contactmodule){: external} representative.
 
