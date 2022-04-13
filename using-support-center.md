@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2021 
+  years: 2015, 2022 
 
-lastupdated: "2021-09-13"
+lastupdated: "2022-04-13"
 
 keywords: support, support case, premium support, advanced support, basic support, support page, help
 
@@ -99,7 +99,7 @@ If the root cause analysis determines the issue is a defect in the beta service 
 
 Third-party services are provided by vendors outside of {{site.data.keyword.IBM_notm}}. These services are provided by individual software entities, {{site.data.keyword.IBM_notm}} Business Partners, or independent software vendors (ISV).
 
-Support for third-party services is provided by the service provider. If the root cause analysis determines that the issue is a defect in a third-party service, {{site.data.keyword.IBM_notm}} isn't required to provide a fix. However, {{site.data.keyword.IBM_notm}} shares analysis with the third-party service provider, if needed, and can work through Marketplace with the third-party service to help solve the issue.
+Support for third-party services is provided by the service provider. This includes third-party products that are deployed by using the {{site.data.keyword.terraform-provider_full_notm}}. If the root cause analysis determines that the issue is a defect in a third-party service, {{site.data.keyword.IBM_notm}} isn't required to provide a fix. However, {{site.data.keyword.IBM_notm}} shares analysis with the third-party service provider, if needed, and can work through Marketplace with the third-party service to help solve the issue.
 
 ### Bitnami helm charts
 {: #s-bitnami}
