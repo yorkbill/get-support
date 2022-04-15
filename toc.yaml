@@ -1,7 +1,6 @@
 toc:
   properties:
     subcollection: get-support
-    version: 2
     category: platform_services
     audience: platform
     href: /docs/get-support
@@ -19,7 +18,7 @@ toc:
     - navgroup: 
         id: howto
         topics:
-        - topicgroup:
+        - topicgroup: 
             label: Opening a support case
             topics: 
             - create-case.md
@@ -27,6 +26,7 @@ toc:
         - assign-user-access-cases.md
         - manage-case.md    
         - escalate-case.md
+        - watchlist.md
         - topicgroup:
             label: Monitoring notifications and status
             topics:
@@ -44,7 +44,7 @@ toc:
         - bxnui.md
         - link: 
             label: API reference
-            href: https://{DomainName}/apidocs/case-management
+            href: /apidocs/case-management
 
     - navgroup:
         id: help
