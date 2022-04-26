@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2022
 
-lastupdated: "2022-04-01"
+lastupdated: "2022-04-26"
 
 keywords: cloud status, view cloud status, planned maintenance, RSS feed, unfied notifications, iaas notifications, classic infrastructure notifications, incident reports
 
@@ -17,29 +17,35 @@ subcollection: get-support
 # Viewing cloud status
 {: #viewing-cloud-status}
 
-The {{site.data.keyword.Bluemix_notm}} [Status page](/status){: external} is the central place to find details about all incidents, planned maintenance, announcements, and security bulletins about key events that affect the {{site.data.keyword.Bluemix}} platform and services.
+The {{site.data.keyword.Bluemix_notm}} [Status page](/status){: external} is the central place to find details about all incidents, planned maintenance, announcements, release notes, and security bulletins about key events that affect the {{site.data.keyword.Bluemix}} platform and services.
 {: shortdesc}
 
-To get notified about key events that are specifically affecting your account, go to the [Notifications page](/notifications){: external}. You can easily update your preferences from there, by clicking **Manage email preferences**.
+To get notified about key events that are specifically affecting your account, go to the [Notifications page](/notifications){: external}. You can easily update your preferences by clicking **Manage email preferences**.
 {: tip}
 
 To view the Status page, complete the following steps:
 
-1. In the {{site.data.keyword.Bluemix_notm}} console, click the Notifications icon ![Notifications icon](../icons/Notification.svg) in the menu bar.
+1. In the {{site.data.keyword.Bluemix_notm}} console, click the **Notifications** icon ![Notifications icon "Notifications"](../icons/Notification.svg) in the menu bar.
 1. Click **View cloud status**.
-1. From the side navigation pane, you can select to view planned maintenance, security bulletins, announcements, and history.
-   * Click **Planned maintenance** to see any upcoming maintenance that's scheduled. 
+1. From the side navigation pane, you can select to view planned maintenance, security bulletins, announcements, release notes, and history.
+
+   To view planned maintenance and report outages for your account, you must be logged in to your authorized account.
+   {: note}
+
+   * Click **Planned maintenance** to see any upcoming scheduled maintenance. 
    * Click **Security bulletins** to view a list of security bulletins that might affect various {{site.data.keyword.Bluemix_notm}} services or the platform.
    * Click **Announcements** to view a list of announcements that might be of general interest to you. 
-   * Click **History** to view a list of completed events from the past year.
+   * Click **Release notes** to view release entries for the last year. 
+   * Click **History** to view a list of completed events from the past year. 
 
-    If any issue occurs when using the Status page, contact [{{site.data.keyword.cloud_notm}} Support](/unifiedsupport/supportcenter){: external}.
-    {: note}
+   If any issue occurs with the Status page, contact [{{site.data.keyword.cloud_notm}} Support](/unifiedsupport/supportcenter){: external}.
+   {: note}
 
 1. You can filter the lists by selecting specific components, locations, dates, types of ongoing events, or by using keyword searches. Click each item to get more details about the changes and why, and how they impact your environment.
 
 You can build URL search values by using query parameters from outside the console. For more information, see [Advanced status search](/docs/get-support?topic=get-support-adv-search).
 {: tip}
+
 
 ## Subscribing to an RSS feed
 {: #subscribing-rss-feed}
