@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2021
+  years: 2015, 2022
 
-lastupdated: "2021-09-13"
+lastupdated: "2022-04-26"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -32,35 +32,66 @@ If you're a classic infrastructure user, and you don't see a listing of a previo
 
 From the Manage cases page, you can search for all of your support cases by using query parameters in the search bar. You can use all parameters together and enter them in any order.
 
+`accountid` is no longer an active parameter.
+{: note}
+
 See the following table for details about the search parameters: 
  
-| Parameter | Option                                                                           | Rule                                                                         |
-|-----------|----------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| `number`    | target case number                                                               | This parameter can't be used with other parameters. When the `number` parameter is used, all of the other parameters and options ignored. The `number` parameter doesn't autofill the search. You must use the whole case number to execute the search. |
-| `sort`      | number  \n subject  \n severity  \n updatedAt                                       | Only one of the `sort` options can be used at one time. You can use the `~` prefix to reverse the sorting order. |
-| `status`    | new  \n inProgress  \n waitingOnClient  \n resolutionProvided  \n resolved  \n closed | Any number of options can be used. The available options can be entered as `status:new,inProgress` or as `status:new status:inProgress`. |
-| `page`      | target page to view                                                         | If you have several results from your search that spans multiple pages, you can view your results from any result page. For example, to view page 5 out of 10, use `page:5`. |
-| `pageSize`  | 10  \n 25  \n 50  \n 100                                                         | The size of that page to be viewed. The page size refers to the number of results that you want to load. |
+| Parameter | Option | Rule |
+|-----------|--------|------|
+| `number` | target case number | This parameter can't be used with other parameters. When the `number` parameter is used, all of the other parameters and options ignored. The `number` parameter doesn't autofill the search. You must use the whole case number to start the search. |
+| `sort` | number  \n subject  \n severity  \n updatedAt | Only one of the `sort` options can be used at one time. You can use the `~` prefix to reverse the sorting order. |
+| `status` | new  \n inProgress  \n waitingOnClient  \n resolutionProvided  \n resolved  \n closed | Any number of options can be used. The available options can be entered as `status:new,inProgress` or as `status:new status:inProgress`. |
+| `page` | target page to view | If you have several results from your search that spans multiple pages, you can view your results from any result page. For example, to view page 5 out of 10, use `page:5`. |
+| `pageSize`  | 10  \n 25  \n 50  \n 100  | The size of that page to be viewed. The page size refers to the number of results that you want to load. |
 {: caption="Table 1. Search query parameters and options" caption-side="top"}
 
 If you enter a term without a parameter, the search results are shown for the support case number and the case subject. 
 {: note}
 
-### Query examples
+### Query and URL examples
 {: #search-query-examples}
 {: ui}
 
-Enter the following query to search support cases by case number:
+You can enter search queries in the search bar by stating a parameter and option separated by a colon `:` or you can use parameters in a URL to go directly to a specific case or group of cases on the Manage cases page. 
 
-`number:CS1234567`
+To use parameters in the URL, add a question mark `?` to the end of the URL. Then, set your parameter equal to the option you select. You can also separate additional parameters with an ampersand `&`. 
 
-You might want to search for both new and in progress support cases, limit the results to 25 per page, and displayed by severity. You also know that the case you're looking for isn't going to be within the first couple of pages, so you want to start on page 5. Enter the following search query: 
+To search for a case by keyword, you can enter the word in the search bar without a parameter. To search for a keyword with the URL, use `search` as a parameter and set it equal to your keyword, for example, `search=server`. 
+{: tip}
 
-`status:new,inProgress page:5 pageSize:25 sort:severity`
+#### Searching by case number
+{: #search-case-number}
 
-Enter the following query to view all resolved cases based on when they were last updated: 
+Enter the following to search support cases by case number:
 
-`sort:~updatedAT status:resolved`
+Query
+:   `number:CS1234567`
+
+URL
+:   `https://cloud.ibm.com/unifiedsupport/cases?number=CS1234567`
+
+#### Searching with multiple parameters
+{: #search-mult-parameters}
+
+You might want to search for both new and in progress support cases, limit the results to 25 per page, and displayed by severity. You also know that the case that you're looking for isn't going to be within the first couple of pages, so you want to start on page 5. Enter the following search query: 
+
+Query
+:   `status:new,inProgress page:5 pageSize:25 sort:severity`
+
+URL
+:   `https://cloud.ibm.com/unifiedsupport/cases?status=new&status=inProgress&pageSize=25&sort=severity`
+
+### Searching for resolved cases
+{: #search-resolved}
+
+Enter the following query to view all of the resolved cases based on when they were last updated: 
+
+Query
+:   `sort:~updatedAT status:resolved`
+
+URL
+:   `https://cloud.ibm.com/unifiedsupport/cases?sort=~updatedAT&status=resolved`
 
 
 ## Viewing support cases by using the API
