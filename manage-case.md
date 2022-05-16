@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2022
 
-lastupdated: "2022-04-26"
+lastupdated: "2022-05-16"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -31,9 +31,6 @@ If you're a classic infrastructure user, and you don't see a listing of a previo
 {: ui}
 
 From the Manage cases page, you can search for all of your support cases by using query parameters in the search bar. You can use all parameters together and enter them in any order.
-
-`accountid` is no longer an active parameter.
-{: note}
 
 See the following table for details about the search parameters: 
  
