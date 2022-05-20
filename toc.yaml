@@ -70,7 +70,7 @@ toc:
             - data-center-closures.md 
         - link: 
             label: Stack Overflow
-            href: http://stackoverflow.com/questions/tagged/ibm-bluemix
+            href: http://stackoverflow.com/questions/tagged/ibm-cloud
         - link: 
             label: IBM Public Cloud Community
             href: https://community.ibm.com/community/user/publiccloud/home
