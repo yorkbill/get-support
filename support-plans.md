@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2022
 
-lastupdated: "2022-04-26"
+lastupdated: "2022-07-19"
 
 keywords: basic support, advanced support, premium support, support plans, free technical support, response time
 
@@ -36,7 +36,7 @@ The following table shows the support types available for Pay-As-You-Go, Pay as 
 | Pricing  | Included with cloud entitlement | Pay-As-You-Go and Subscription: Starting at USD 200 per month or 10% of consumption if it exceeds the monthly starting price  \n Pay as you go with Committed Use: 10% of consumption | Pay-As-You-Go and Subscription: Starting at USD 10,000 per month or 10% of consumption if it exceeds the monthly starting price  \n Pay as you go with Committed Use: 10% of consumption|
 {: caption="Table 1. Support plans" caption-side="top"}
 
-If you want to upgrade your support plan, contact a [{{site.data.keyword.Bluemix_notm}} Sales](/catalog?contactmodule){: external} representative.
+If you want to upgrade your support plan, contact a [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} representative.
 
 Initial response Service Level Objectives (SLO) do not apply to any billing, invoice, or sales related inquiry or cases.
 {: important}

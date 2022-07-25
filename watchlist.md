@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2021
+  years: 2015, 2022
 
-lastupdated: "2021-10-28"
+lastupdated: "2022-07-19"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -26,7 +26,7 @@ To ensure that users are notified about updates to an existing support case that
 
 1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Support** from the console menu bar.
 1. Select the support case from the Recent support cases tile.
-1. From the Watchlist section, click the **Settings** icon ![Settings icon "Settings"](../icons/settings.svg).
+1. From the Watchlist section, click the **Settings** icon ![Settings icon](../icons/settings.svg "Settings").
 1. Select users that are in the account to add to the watchlist. 
 
    Users that are added to the watchlist must be a member of the account in which the case was created. For more information about assigning users access to your account, see [Adding users to your case management access group](/docs/get-support?topic=get-support-access#add-user-access-group).

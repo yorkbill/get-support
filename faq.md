@@ -4,7 +4,7 @@ copyright:
 
   years: 2019, 2022
 
-lastupdated: "2022-03-17"
+lastupdated: "2022-07-19"
 
 keywords: frequently asked question, faq, support cases, email preferences, access for cases, support faq 
 
@@ -74,7 +74,7 @@ To escalate a case, complete the following steps:
 1. Provide your existing case number and a request to escalate the case.
 1. Provide the justification an escalation and explain the business impact of your problem or issue.
 
-If your support inquiry requires a more immediate response, consider upgrading to the premium or advanced support plan so that you can open severity 1-4 support cases. To upgrade your support plan, contact a [{{site.data.keyword.Bluemix_notm}} Sales](/catalog?contactmodule){: external} representative.
+If your support inquiry requires a more immediate response, consider upgrading to the premium or advanced support plan so that you can open severity 1-4 support cases. To upgrade your support plan, contact a [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} representative.
 
 
 ## How do I change my email preferences for notifications? 
@@ -102,16 +102,16 @@ To view your support costs, you need an access policy with the Administrator rol
 {: #support-plan}
 {: faq}
 
-If you want to upgrade your support plan, contact a [{{site.data.keyword.Bluemix_notm}} Sales](/catalog?contactmodule){: external} representative. For more information on the different support plans, see [Basic, Advanced, and Premium Support plans](/docs/get-support?topic=get-support-support-plans).
+If you want to upgrade your support plan, contact a [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} representative. For more information on the different support plans, see [Basic, Advanced, and Premium Support plans](/docs/get-support?topic=get-support-support-plans).
 
 
-## Why can't I see my support cases? 
+## Why can't I see my support cases? 
 {: #view-support-cases}
 {: faq}
 
-To access your support cases, in the {{site.data.keyword.cloud_notm}} console, go to **Support** > **Manage cases**. If you're unable to view your cases, try clicking **View classic infrastructure cases**. 
+To access your support cases, in the {{site.data.keyword.cloud_notm}} console, go to **Support** > **Manage cases**. If you're unable to view your cases, try clicking **View classic infrastructure cases**. 
 
-If you still can't view them, you might not have the required permission. Ask your account owner to add you to the support case access group. For more information, see [SoftLayer account permissions](/docs/account?topic=account-migrated_permissions). 
+If you still can't view them, you might not have the required permission. Ask your account owner to add you to the support case access group. For more information, see [SoftLayer account permissions](/docs/account?topic=account-migrated_permissions). 
 
 
 ## How do I get support for non-{{site.data.keyword.Bluemix_notm}} products?

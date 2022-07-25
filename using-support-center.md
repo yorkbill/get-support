@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2022 
+  years: 2015, 2022
 
-lastupdated: "2022-04-13"
+lastupdated: "2022-07-19"
 
 keywords: support, support case, premium support, advanced support, basic support, support page, help
 
@@ -23,7 +23,7 @@ If you experience problems with {{site.data.keyword.Bluemix}}, you have several 
 As a classic infrastructure user, you might be familiar with support tickets. Tickets are now called cases in {{site.data.keyword.Bluemix_notm}}. 
 {: note} 
 
-Three different types of support plan are offered. For more information, see [Basic, Advanced, and Premium Support plans](/docs/get-support?topic=get-support-support-plans). You can change your current support plan at any time by contacting a [{{site.data.keyword.Bluemix_notm}} Sales](/catalog?contactmodule){: external} representative.
+Three different types of support plan are offered. For more information, see [Basic, Advanced, and Premium Support plans](/docs/get-support?topic=get-support-support-plans). You can change your current support plan at any time by contacting a [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} representative.
 
 
 ## Getting support
@@ -48,7 +48,7 @@ The following are the methods that you can find in the Contact support section i
 
 The Stack Overflow forum provides a wide variety of searchable answers for your {{site.data.keyword.Bluemix_notm}} questions. If you don't find an existing answer, ask a new question. Go to [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} to ask technical questions about developing apps with the {{site.data.keyword.Bluemix_notm}} platform and services. 
 
-{{site.data.keyword.Bluemix_notm}} development and support teams actively monitor Stack Overflow and follow the questions that are tagged with **ibm-cloud**. When you create a question, add the **ibm-cloud** tag to your question to ensure that it's seen by the {{site.data.keyword.Bluemix_notm}} development and support teams.
+{{site.data.keyword.Bluemix_notm}} development and support teams actively monitor Stack Overflow and follow the questions that are tagged with `ibm-cloud`. When you create a question, add the `ibm-cloud` tag to your question to ensure that it's seen by the {{site.data.keyword.Bluemix_notm}} development and support teams.
 
 
 ## Getting support for {{site.data.keyword.Bluemix_dedicated_notm}} or {{site.data.keyword.Bluemix_local_notm}}
@@ -82,7 +82,7 @@ Enabling the EU Support setting for your account applies to all future cases tha
 
 Support is provided for problems that are determined to be a defect for services or container images that are generally available (GA) and provided by {{site.data.keyword.IBM_notm}}. The case is addressed based on the severity that you assign. For more information, see [Case severity and initial response times](/docs/get-support?topic=get-support-support-case-severity). 
 
-You can change your current support plan at any time by contacting a [{{site.data.keyword.Bluemix_notm}} Sales](/catalog?contactmodule){: external} representative.
+You can change your current support plan at any time by contacting a [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} representative.
 {: tip}
 
 
