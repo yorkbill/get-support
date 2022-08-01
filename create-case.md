@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2021
+  years: 2015, 2022
 
-lastupdated: "2021-11-18"
+lastupdated: "2022-07-21"
 
 keywords: create case, manage case, open case, start case, ticket
 
@@ -19,6 +19,9 @@ subcollection: get-support
 
 If you experience problems with {{site.data.keyword.Bluemix}}, you can use the [Support Center](/unifiedsupport/supportcenter){: external} to create a support case. Users with a Basic, Advanced, or Premium [support plan](/docs/get-support?topic=get-support-support-plans) can create a technical support case by attaching a specific resource or product to ensure that the case gets to the correct support engineer faster. This allows for a more efficient and effective resolution.  
 {: shortdesc}
+
+If your account is deactivated or if you don't have access to your account, you can create a support case by completing the [Create an Account, Login or Billing Request](https://watson.service-now.com/x_ibmwc_open_case_app.do#!/create) form.
+{: tip}
 
 You can also create support cases for issues that are associated with access (IAM), billing & usage, account, and invoice or sales inquiries. The types of available support depend on the support level of the account. Your support plan also determines the severity level that you can assign to support cases. For more information, see [Case severity and response time](/docs/get-support?topic=get-support-support-case-severity).
 
