@@ -59,12 +59,6 @@ toc:
             - ts_view-archived-cases.md
             - ts_view-case-details.md
         - topicgroup: 
-            label: Troubleshooting the IBM Cloud docs
-            topics: 
-            - troubleshoot-docs.md
-            - troubleshoot-allowlist.md
-            - troubleshoot-library.md
-        - topicgroup: 
             label: Known issues
             topics: 
             - data-center-closures.md 
