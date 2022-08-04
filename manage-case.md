@@ -50,9 +50,9 @@ If you enter a term without a parameter, the search results are shown for the su
 {: #search-query-examples}
 {: ui}
 
-You can enter search queries in the search bar by stating a parameter and option separated by a colon `:` or you can use parameters in a URL to go directly to a specific case or group of cases on the Manage cases page. 
+You can enter search queries in the search bar by stating a parameter and option separated by a colon (:) or you can use parameters in a URL to go directly to a specific case or group of cases on the Manage cases page. 
 
-To use parameters in the URL, add a question mark `?` to the end of the URL. Then, set your parameter equal to the option you select. You can also separate additional parameters with an ampersand `&`. 
+To use parameters in the URL, add a question mark (?) to the end of the URL. Then, set your parameter equal to the option you select. You can also separate additional parameters with an ampersand (&). 
 
 To search for a case by keyword, you can enter the word in the search bar without a parameter. To search for a keyword with the URL, use `search` as a parameter and set it equal to your keyword, for example, `search=server`. 
 {: tip}
