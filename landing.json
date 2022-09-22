@@ -32,14 +32,14 @@
       "view_more": "/docs/overview?topic=overview-whatsnew",
       "tiles": [
         {
-          "date": "21 July 2021",
+          "date": "22 September 2022",
           "title": "Getting help in the console",
-          "description": "You can now find the documentation and Support Center help options from a single menu item in the IBM Cloud console menu bar. Check out the new **Help** option from the menu bar that now includes your links for Docs, the Support Center, and available guided tours."
+          "description": "You can now find the documentation and Support Center help options from a single menu item in the IBM Cloud console menu bar. Check out the new Help option from the menu bar that now includes your links for Docs, the Support Center, and available guided tours."
         },
         {
           "date": "28 February 2022",
           "title": "365 days of status history is now available",
-          "description": "You can now easily view events that were completed in the past year on the {{site.data.keyword.cloud_notm}} Status page. Previously, you could view only the history of completed events from the past month."
+          "description": "You can now easily view events that were completed in the past year on the IBM Cloud Status page. Previously, you could view only the history of completed events from the past month."
         },
         {
           "date": "20 September 2021",
