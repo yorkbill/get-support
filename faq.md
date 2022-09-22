@@ -4,11 +4,11 @@ copyright:
 
   years: 2019, 2022
 
-lastupdated: "2022-07-21"
+lastupdated: "2022-09-21"
 
-keywords: frequently asked question, faq, support cases, email preferences, access for cases, support faq 
+keywords: frequently asked question, faq, support cases, email preferences, access for cases, support faq
 
-subcollection: get-support 
+subcollection: get-support
 
 content-type: faq
 
@@ -23,21 +23,21 @@ content-type: faq
 {: #planned_maintenance_gs}
 {: faq}
 
-You can check for upcoming maintenance from your dashboard in the {{site.data.keyword.cloud}} console at least one time every 24 hours. Use one of the following options: 
+You can check for upcoming maintenance from your dashboard in the {{site.data.keyword.cloud}} console at least one time every 24 hours. Use one of the following options:
 
 * Check out the Planned maintenance widget on the [Dashboard](https://{DomainName}){: external}, and click **View all**.
 * Go directly to the [Status - Planned maintenance page](/status?selected=maintenance){: external}.
 
 
-## What steps can I take before I open a support case? 
+## What steps can I take before I open a support case?
 {: #steps_before_opencase}
 {: faq}
 
-Before you open a support case, explore the following resources: 
+Before you open a support case, explore the following resources:
 
-* Review the [documentation](/docs). 
-* Review the [Featured FAQs](/unifiedsupport/supportcenter) on the Support Center. 
-* Go to the [FAQ library](/docs/faqs). 
+* Review the [documentation](/docs).
+* Review the [Featured FAQs](/unifiedsupport/supportcenter) on the Support Center.
+* Go to the [FAQ library](/docs/faqs).
 * Go to [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} to ask technical questions about developing apps with the {{site.data.keyword.Bluemix_notm}} platform and services.
 
 
@@ -52,15 +52,15 @@ Go to the [Support Center](/unifiedsupport/supportcenter){: external} in the con
 {: #contactsupport}
 {: faq}
 
-In the {{site.data.keyword.Bluemix_notm}} console, go to **Support** from the console menu bar. The options that are available to you depend on your support plan. For more information, see [Getting support](/docs/get-support?topic=get-support-support-plans).  
+From the {{site.data.keyword.cloud_notm}} console menu bar, click the **Help** icon ![Help icon](../icons/help.svg "Help") > **Support center**. The options that are available to you depend on your support plan. For more information, see [Getting support](/docs/get-support?topic=get-support-support-plans).
 
 To contact support, you can use the following methods:
-* If you have a valid Pay-As-You-Go or Subscription account, you can click **Chat with IBM** to connect with a support engineer.  
+* If you have a valid Pay-As-You-Go or Subscription account, you can click **Chat with IBM** to connect with a support engineer.
 * Pay-as-you-go or subscription accounts can also contact support by phone: +1-866-403-7638.
 * Lite and Trial account support is limited to non-technical support issues that are related to account access and billing. Users with Lite or Trial accounts can view the [{{site.data.keyword.Bluemix_notm}} documentation](/docs/get-support?topic=get-support-using-avatar), Chat with Watson, and use [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external}.
 
 
-## How do I escalate support cases? 
+## How do I escalate support cases?
 {: #escalate_support}
 {: faq}
 
@@ -77,28 +77,28 @@ To escalate a case, complete the following steps:
 If your support inquiry requires a more immediate response, consider upgrading to the premium or advanced support plan so that you can open severity 1-4 support cases. To upgrade your support plan, contact a [{{site.data.keyword.Bluemix_notm}} Sales](https://www.ibm.com/cloud?contactmodule){: external} representative.
 
 
-## How do I change my email preferences for notifications? 
+## How do I change my email preferences for notifications?
 {: #email_preferences_gs}
 {: faq}
 
-You can change which email notifications you receive for planned events, unplanned events, and announcements in your profile settings. To change your email preferences, choose one of the following options: 
+You can change which email notifications you receive for planned events, unplanned events, and announcements in your profile settings. To change your email preferences, choose one of the following options:
 
 * Go to [Notifications](/user/notifications) in your profile settings.
-* For `control.softlayer.com`, you can change your email preferences by going to **Account** > **Users** > **Email Preferences**. 
+* For `control.softlayer.com`, you can change your email preferences by going to **Account** > **Users** > **Email Preferences**.
 
 
-## How am I charged for support? 
+## How am I charged for support?
 {: #support-costs}
 {: faq}
 
-If you have Advanced or Premium support, you can track your monthly support costs. In the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Support costs**. Each support plan has a minimum monthly support price for your cloud workload at the stated service level. Beyond this starting price, any additional costs for support are based on your resource usage. The higher your resource usage, the higher your total support cost. 
+If you have Advanced or Premium support, you can track your monthly support costs. In the {{site.data.keyword.cloud_notm}} console, go to **Manage** > **Billing and usage**, and select **Support costs**. Each support plan has a minimum monthly support price for your cloud workload at the stated service level. Beyond this starting price, any additional costs for support are based on your resource usage. The higher your resource usage, the higher your total support cost.
 
-Charges for support of third-party services are not included in the Advanced or Premium Support charge calculations. These non-IBM programs are licensed directly by their providers. 
+Charges for support of third-party services are not included in the Advanced or Premium Support charge calculations. These non-IBM programs are licensed directly by their providers.
 
 To view your support costs, you need an access policy with the Administrator role on the Billing account management service. For more information about access roles, see [IAM access](/docs/account?topic=account-userroles).
 
 
-## How can I upgrade my support plan? 
+## How can I upgrade my support plan?
 {: #support-plan}
 {: faq}
 
@@ -109,7 +109,7 @@ If you want to upgrade your support plan, contact a [{{site.data.keyword.Bluemix
 {: #view-support-cases}
 {: faq}
 
-To access your support cases, in the {{site.data.keyword.cloud_notm}} console, go to **Support** > **Manage cases**. If you're unable to view your cases, try clicking **View classic infrastructure cases**. 
+To access your support cases, from the {{site.data.keyword.cloud_notm}} console menu bar, click the **Help** icon ![Help icon](../icons/help.svg "Help") > **Support center**, and click **Manage cases**. If you're unable to view your cases, try clicking **View classic infrastructure cases**.
 
 If you still can't view them, you might not have the required permission. Ask your account owner to add you to the support case access group. For more information, see [SoftLayer account permissions](/docs/account?topic=account-migrated_permissions). 
 
@@ -140,20 +140,20 @@ As the account owner or as an administrator or editor on the Support Center serv
 {: #case_list_user}
 {: faq}
 
-You can download a list of created support cases and view the cases that are created by each user. 
+You can download a list of created support cases and view the cases that are created by each user.
 
 To download a list of created support cases, use the following steps:
 
-1. In the {{site.data.keyword.Bluemix_notm}} console, go to **Support**.
-1. Click **View all** from the Recent support cases tile. 
+1. From the {{site.data.keyword.cloud_notm}} console menu bar, click the **Help** icon ![Help icon](../icons/help.svg "Help") > **Support center**.
+1. Click **View all** from the Recent support cases tile.
 1. On the Manage cases page, click **Filter by status** and select the case status that you want to view. You can select more than one status.
 1. Click the **Download** icon ![Download icon](../icons/download.svg "Download").
 1. Sort, filter, or search in your spreadsheet to view the cases for a specific user.
 
 If your account has classic infrastructure cases, you can download a list of created support cases by using the following steps:
 
-1. From the [Manage cases](/unifiedsupport/cases){: external} page, click **View classic infrastructure cases**. 
-1. Click **Filter by status** and select the case status that you want to view. You can select more than one status. 
+1. From the [Manage cases](/unifiedsupport/cases){: external} page, click **View classic infrastructure cases**.
+1. Click **Filter by status** and select the case status that you want to view. You can select more than one status.
 1. Click the **Download** icon ![Download icon](../icons/download.svg "Download").
 1. Sort, filter, or search in your spreadsheet to view the cases for a specific user.
 
@@ -161,7 +161,7 @@ If your account has classic infrastructure cases, you can download a list of cre
 {: #support-case-deactivated}
 {: faq}
 
-If your account is deactivated, you have 30 days to log in to the console and [create a support case](/docs/get-support?topic=get-support-open-case&interface=ui). If you can't access your account, you can create a support case by completing the [Create an Account, Login or Billing Request](https://watson.service-now.com/x_ibmwc_open_case_app.do#!/create) form. 
+If your account is deactivated, you have 30 days to log in to the console and [create a support case](/docs/get-support?topic=get-support-open-case&interface=ui). If you can't access your account, you can create a support case by completing the [Create an Account, Login or Billing Request](https://watson.service-now.com/x_ibmwc_open_case_app.do#!/create) form.
 
 ## Do watchlists apply account-wide or to a specific case?
 {: #watchlist-specific}
