@@ -4,7 +4,7 @@ copyright:
 
   years: 2015, 2022
 
-lastupdated: "2022-02-01"
+lastupdated: "2022-10-04"
 
 keywords: error messages, errors, platform errors, message ID
 
@@ -114,7 +114,7 @@ Try again later. If you see this message again, go to the [{{site.data.keyword.B
 
 **Message**: The apps and services weren't retrieved because a {{site.data.keyword.Bluemix_notm}} page didn't load.
 
-For instructions to fix this problem, see the [Why do I encounter console pages that don't load?](/docs/account?topic=account-ts_err) troubleshooting 
+For instructions to fix this problem, see the [Why do I encounter console pages that don't load?](/docs/account?topic=account-ts_err) troubleshooting
 
 
 ## BXNUI0017E
@@ -448,7 +448,7 @@ Try again later. If you see this message again, go to the [{{site.data.keyword.B
 ## BXNUI0063E
 {: #bxnui0063e}
 
-**Message**: The operation timed out. 
+**Message**: The operation timed out.
 
 Try again later.
 
@@ -910,7 +910,7 @@ Try again later. If the problem continues, go to [{{site.data.keyword.Bluemix_no
 
 **Message**: The routes for the space weren't retrieved because of an internal error.
 
-Try again later. If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](/unifiedsupport/supportcenter){: external}. 
+Try again later. If the problem continues, go to [{{site.data.keyword.Bluemix_notm}} Support](/unifiedsupport/supportcenter){: external}.
 
 
 ## BXNUI0202E
@@ -1004,7 +1004,7 @@ Enter a different name.
 ## BXNUI0502E
 {: #bxnui0502e}
 
-**Message**: The container wasn't created.  
+**Message**: The container wasn't created.
 
 Either your user role doesn't have the required authority in this space, or you're not a member of the space.
 
@@ -1112,7 +1112,7 @@ Try to select another org or create a space, or request the developer role from 
 
 **Message**: The spaces in the org weren't retrieved. Either a network connection problem occurred, or your current organization does not have a space that is associated with it.
 
-Try again later. If you see this message again, go to the [{{site.data.keyword.Bluemix_notm}} status page](/status?selected=status){: external} to check whether a service or component has an issue. 
+Try again later. If you see this message again, go to the [{{site.data.keyword.Bluemix_notm}} status page](/status?selected=status){: external} to check whether a service or component has an issue.
 
 
 ## BXNUI0516E
@@ -1770,7 +1770,7 @@ Go to [{{site.data.keyword.Bluemix_notm}} Support](/unifiedsupport/supportcenter
 ## BXNUI2067E
 {: #bxnui2067e}
 
-**A service broker with the ID of "{1}" wasn't created or updated because an invalid URL, "{0}", was detected.
+**Message**: A service broker with the ID of "{1}" wasn't created or updated because an invalid URL, "{0}", was detected.
 
 Go to [{{site.data.keyword.Bluemix_notm}} Support](/unifiedsupport/supportcenter){: external}.
 
@@ -2051,7 +2051,7 @@ Go to [{{site.data.keyword.Bluemix_notm}} Support](/unifiedsupport/supportcenter
 
 **Message**: The service broker wasn't created or updated because your user ID ("{0}") is not assigned the org manager role in the org.
 
-You must be an org manager in organization "{1}", as specified for owningOrganization in the JSON input file, to create or update this service broker.  
+You must be an org manager in organization "{1}", as specified for owningOrganization in the JSON input file, to create or update this service broker.
 
 Verify that you entered the correct owning organization or request that role from the account owner or an org manager.
 
