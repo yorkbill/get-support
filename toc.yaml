@@ -41,7 +41,7 @@ toc:
         - bxnui.md
         - link:
             label: API reference
-            href: apidocs/support-center/case-management
+            href: https://{DomainName}/apidocs/support-center/case-management
 
     - navgroup:
         id: help
