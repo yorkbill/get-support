@@ -4,7 +4,7 @@ copyright:
 
   years: 2020, 2022
 
-lastupdated: "2022-01-31"
+lastupdated: "2022-10-12"
 
 keywords: data centers, data center support, datacenter, data center closure
 
@@ -45,5 +45,8 @@ The following table describes important dates that you need to be aware of if yo
 | 08 November 2021 | Business Partner available to help customers migrate to a new data center. |
 | 01 February 2022 | Official announcement for all impacted customers in the  MEX01 data center. |
 | 28 October 2022  | AMS01, DAL06, HKG02, SEO01, SJC01 - POD2, MON01 - POD2 data centers or PODs are closed; no longer available or supported. Other PODs in SJC01 and MON01 are not impacted. |
+| 31 October 2022 | Last day to migrate data for {{site.data.keyword.containerlong_notm}} and {{site.data.keyword.openshiftlong_notm}} clusters in MEX01.  |
+| 1 November 2022 | Remaining {{site.data.keyword.containerlong_notm}} and {{site.data.keyword.openshiftlong_notm}} clusters is deleted in MEX01.  |
+| 4 January 2023 | Network maintenance Mexico City (MEX01): 10:00 AM US Eastern Time (14:00 GMT).  |
 | 31 January 2023 | MEX01 is closed; no longer available or supported.  |
 {: caption="Table 2. Timeline for data center migration" caption-side="top"}
